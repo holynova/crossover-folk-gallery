@@ -1,22 +1,65 @@
-// Crossover & Folk Art Gallery Application
+// ==========================================================================
+// Emil Kowalski Design Engineering Gallery Application
+// Multi-Variant Prototyping (Grid / Spotlight / Inspect) + Anti-AI-Slop Architecture
+// ==========================================================================
+
 document.addEventListener("DOMContentLoaded", () => {
   const data = window.ARTWORKS_DATA || [];
-  
-  // State
+
+  // Core State
   let currentCategory = "all";
   let currentSubcategory = "all";
   let searchQuery = "";
   let filteredItems = [...data];
   let currentModalIndex = 0;
 
-  // DOM Elements
-  const gridEl = document.getElementById("galleryGrid");
+  // Prototype Variant State ('grid' | 'spotlight' | 'inspect')
+  let currentVariant = "grid";
+  let spotlightIndex = 0;
+  let inspectIndex = 0;
+
+  // DOM Elements - General
   const resultCountEl = document.getElementById("resultCount");
   const filterDescEl = document.getElementById("filterDesc");
   const searchInput = document.getElementById("searchInput");
   const subcategoryPillsEl = document.getElementById("subcategoryPills");
-  
-  // Modal Elements
+  const categoryTabBtns = document.querySelectorAll(".segmented-tab-btn");
+
+  // Surfaces
+  const surfaceGrid = document.getElementById("viewGrid");
+  const surfaceSpotlight = document.getElementById("viewSpotlight");
+  const surfaceInspect = document.getElementById("viewInspect");
+  const gridEl = document.getElementById("galleryGrid");
+
+  // Spotlight Elements
+  const spotlightImg = document.getElementById("spotlightImg");
+  const spotlightKicker = document.getElementById("spotlightKicker");
+  const spotlightTitle = document.getElementById("spotlightTitle");
+  const spotlightQuote = document.getElementById("spotlightQuote");
+  const spotlightQuoteBox = document.getElementById("spotlightQuoteBox");
+  const spotlightDesc = document.getElementById("spotlightDesc");
+  const spotlightHeroClass = document.getElementById("spotlightHeroClass");
+  const spotlightBadge = document.getElementById("spotlightBadge");
+  const spotlightAnimeRole = document.getElementById("spotlightAnimeRole");
+  const spotlightResolution = document.getElementById("spotlightResolution");
+  const spotlightDlBtn = document.getElementById("spotlightDlBtn");
+  const spotlightFilmstrip = document.getElementById("spotlightFilmstrip");
+
+  // Inspect Elements
+  const inspectImg = document.getElementById("inspectImg");
+  const inspectHeroAnchor = document.getElementById("inspectHeroAnchor");
+  const inspectFusionAnchor = document.getElementById("inspectFusionAnchor");
+  const inspectVfxAnchor = document.getElementById("inspectVfxAnchor");
+  const inspectDlLink = document.getElementById("inspectDlLink");
+  const inspectSelectorStrip = document.getElementById("inspectSelectorStrip");
+
+  // Proto-Picker (Emil Kowalski spec)
+  const protoPicker = document.querySelector(".proto-picker");
+  const protoHighlight = document.querySelector(".proto-picker-highlight");
+  const protoItems = document.querySelectorAll(".proto-picker-item[data-variant]");
+  const protoReplayBtn = document.getElementById("protoReplayBtn");
+
+  // Lightbox Modal
   const modal = document.getElementById("lightboxModal");
   const modalImg = document.getElementById("modalImg");
   const modalTitle = document.getElementById("modalTitle");
@@ -33,70 +76,148 @@ document.addEventListener("DOMContentLoaded", () => {
   const modalNextBtn = document.getElementById("modalNextBtn");
   const modalCloseBtn = document.getElementById("modalCloseBtn");
 
-  // Dynamic Pack Modal Elements
+  // Dynamic Pack Modal
   const packModal = document.getElementById("packProgressModal");
   const packTitle = document.getElementById("packTitle");
   const packStatus = document.getElementById("packStatus");
   const packProgressBar = document.getElementById("packProgressBar");
-  const packDynamicBtn = document.getElementById("btnPackCurrent");
+  const btnPackCurrent = document.getElementById("btnPackCurrent");
 
-  // Scroll to Top
-  const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-  // Category Configuration
+  // Subcategories Configuration (No emoji spam, clean editorial naming)
   const SUBCATEGORIES = {
     all: [
-      { id: "all", label: "全部所有 (101)" },
-      { id: "fusion_skins", label: "💎 英雄深度联动 (42/45)" },
-      { id: "v2_test_skins", label: "✨ 真机画风首测 (6)" },
-      { id: "folk_national_day", label: "🇨🇳 国庆盛典特辑 (3)" },
-      { id: "folk_daily", label: "🌾 水乡日常民俗 (5)" },
-      { id: "01_demon_slayer", label: "🔥 鬼灭之刃 (20)" },
-      { id: "02_jujutsu_kaisen", label: "👁️ 咒术回战 (5)" },
-      { id: "03_attack_on_titan", label: "⚔️ 进击的巨人 (5)" },
-      { id: "04_naruto", label: "🍥 火影忍者 (5)" },
-      { id: "05_one_piece", label: "🏴‍☠️ 海贼王 (5)" },
-      { id: "06_bleach", label: "🗡️ 死神 BLEACH (5)" }
+      { id: "all", label: "全部所有" },
+      { id: "fusion_skins", label: "💎 英雄深度联动 (44/45)" },
+      { id: "v2_test_skins", label: "真机首测" },
+      { id: "folk_national_day", label: "国庆篇" },
+      { id: "folk_daily", label: "水乡日常" },
+      { id: "01_demon_slayer", label: "鬼灭之刃" },
+      { id: "02_jujutsu_kaisen", label: "咒术回战" },
+      { id: "03_attack_on_titan", label: "进击的巨人" },
+      { id: "04_naruto", label: "火影忍者" },
+      { id: "05_one_piece", label: "海贼王" },
+      { id: "06_bleach", label: "死神 BLEACH" }
     ],
     fusion_skins: [
-      { id: "all", label: "全部深度联动 (42/45)" },
+      { id: "all", label: "全部深度联动 (44/45)" },
       { id: "fusion_demon_slayer", label: "🔥 鬼灭之刃 (20/20)" },
       { id: "fusion_jujutsu_kaisen", label: "👁️ 咒术回战 (5/5)" },
       { id: "fusion_attack_on_titan", label: "⚔️ 进击的巨人 (5/5)" },
       { id: "fusion_naruto", label: "🍥 火影忍者 (5/5)" },
-      { id: "fusion_one_piece", label: "🏴‍☠️ 海贼王 (2/5)" },
+      { id: "fusion_one_piece", label: "🏴‍☠️ 海贼王 (4/5)" },
       { id: "fusion_bleach", label: "🗡️ 死神 BLEACH (5/5)" }
     ],
     v2_test_skins: [
-      { id: "all", label: "全部首测 (6)" },
-      { id: "v2_demon_slayer", label: "🔥 鬼灭之刃" },
-      { id: "v2_jujutsu_kaisen", label: "👁️ 咒术回战" },
-      { id: "v2_attack_on_titan", label: "⚔️ 进击的巨人" },
-      { id: "v2_naruto", label: "🍥 火影忍者" },
-      { id: "v2_one_piece", label: "🏴‍☠️ 海贼王" },
-      { id: "v2_bleach", label: "🗡️ 死神 BLEACH" }
+      { id: "all", label: "全部首测" },
+      { id: "v2_demon_slayer", label: "鬼灭之刃" },
+      { id: "v2_jujutsu_kaisen", label: "咒术回战" },
+      { id: "v2_attack_on_titan", label: "进击的巨人" },
+      { id: "v2_naruto", label: "火影忍者" },
+      { id: "v2_one_piece", label: "海贼王" },
+      { id: "v2_bleach", label: "死神 BLEACH" }
     ],
     folk_art: [
-      { id: "all", label: "全部农民画 (8)" },
-      { id: "folk_national_day", label: "🇨🇳 盛世国庆篇 (3)" },
-      { id: "folk_daily", label: "🌾 水乡岁月日常篇 (5)" }
+      { id: "all", label: "全部农民画" },
+      { id: "folk_national_day", label: "盛世华诞篇" },
+      { id: "folk_daily", label: "水乡岁月篇" }
     ],
     wzry_skins: [
-      { id: "all", label: "全部联名皮肤 (45)" },
-      { id: "01_demon_slayer", label: "🔥 鬼灭之刃 (20)" },
-      { id: "02_jujutsu_kaisen", label: "👁️ 咒术回战 (5)" },
-      { id: "03_attack_on_titan", label: "⚔️ 进击的巨人 (5)" },
-      { id: "04_naruto", label: "🍥 火影忍者 (5)" },
-      { id: "05_one_piece", label: "🏴‍☠️ 海贼王 (5)" },
-      { id: "06_bleach", label: "🗡️ 死神 BLEACH (5)" }
+      { id: "all", label: "全部初版立绘" },
+      { id: "01_demon_slayer", label: "鬼灭之刃" },
+      { id: "02_jujutsu_kaisen", label: "咒术回战" },
+      { id: "03_attack_on_titan", label: "进击的巨人" },
+      { id: "04_naruto", label: "火影忍者" },
+      { id: "05_one_piece", label: "海贼王" },
+      { id: "06_bleach", label: "死神 BLEACH" }
     ]
   };
 
-  // Render Subcategory Pills
+  // ------------------------------------------------------------------------
+  // Emil Kowalski Proto-Picker Controller
+  // ------------------------------------------------------------------------
+  function updatePickerHighlight(activeItem) {
+    if (!activeItem || !protoHighlight || !protoPicker) return;
+    const itemRect = activeItem.getBoundingClientRect();
+    const pickerRect = protoPicker.getBoundingClientRect();
+    const leftOffset = itemRect.left - pickerRect.left;
+    protoHighlight.style.width = `${itemRect.width}px`;
+    protoHighlight.style.transform = `translateX(${leftOffset}px)`;
+  }
+
+  function setVariant(variantName) {
+    currentVariant = variantName;
+
+    // Update buttons
+    protoItems.forEach(item => {
+      if (item.getAttribute("data-variant") === variantName) {
+        item.setAttribute("data-active", "");
+        item.setAttribute("aria-current", "true");
+        updatePickerHighlight(item);
+      } else {
+        item.removeAttribute("data-active");
+        item.removeAttribute("aria-current");
+      }
+    });
+
+    // Update surfaces
+    surfaceGrid.classList.toggle("active", variantName === "grid");
+    surfaceSpotlight.classList.toggle("active", variantName === "spotlight");
+    surfaceInspect.classList.toggle("active", variantName === "inspect");
+
+    if (variantName === "spotlight") {
+      renderSpotlight();
+    } else if (variantName === "inspect") {
+      renderInspect();
+    } else {
+      renderGrid();
+    }
+  }
+
+  // Init picker position
+  const initialActive = protoPicker ? protoPicker.querySelector(".proto-picker-item[data-active]") : null;
+  if (initialActive) {
+    updatePickerHighlight(initialActive);
+    // Enable slide transition after first paint
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        if (protoPicker) protoPicker.setAttribute("data-ready", "");
+      }, 50);
+    });
+  }
+
+  // Picker item click
+  protoItems.forEach(item => {
+    item.addEventListener("click", () => {
+      const variant = item.getAttribute("data-variant");
+      setVariant(variant);
+    });
+  });
+
+  // Replay entrance transition
+  if (protoReplayBtn) {
+    protoReplayBtn.addEventListener("click", () => {
+      const activeSurface = document.querySelector(".view-surface.active");
+      if (activeSurface) {
+        activeSurface.classList.remove("active");
+        void activeSurface.offsetWidth; // trigger reflow
+        activeSurface.classList.add("active");
+      }
+    });
+  }
+
+  // Window resize updates highlight
+  window.addEventListener("resize", () => {
+    const active = protoPicker ? protoPicker.querySelector(".proto-picker-item[data-active]") : null;
+    if (active) updatePickerHighlight(active);
+  });
+
+  // ------------------------------------------------------------------------
+  // Filtering & Search
+  // ------------------------------------------------------------------------
   function renderSubcategoryPills() {
     const list = SUBCATEGORIES[currentCategory] || SUBCATEGORIES.all;
     subcategoryPillsEl.innerHTML = list.map(sub => `
-      <button class="pill-btn ${currentSubcategory === sub.id ? 'active' : ''}" data-sub="${sub.id}">
+      <button type="button" class="pill-btn ${currentSubcategory === sub.id ? 'active' : ''}" data-sub="${sub.id}">
         ${sub.label}
       </button>
     `).join("");
@@ -110,57 +231,77 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Filter Logic
   function filterAndRender() {
     filteredItems = data.filter(item => {
-      // 1. Primary Category
-      if (currentCategory !== "all" && item.category !== currentCategory) {
-        return false;
+      // Category match
+      let matchCat = false;
+      if (currentCategory === "all") {
+        matchCat = true;
+      } else if (currentCategory === item.category) {
+        matchCat = true;
       }
 
-      // 2. Subcategory
-      if (currentSubcategory !== "all") {
-        if (item.subcategory !== currentSubcategory) {
-          return false;
-        }
+      // Subcategory match
+      let matchSub = false;
+      if (currentSubcategory === "all") {
+        matchSub = true;
+      } else if (item.subcategory === currentSubcategory || item.category === currentSubcategory) {
+        matchSub = true;
       }
 
-      // 3. Search Query
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase().trim();
-        const titleMatch = (item.title || "").toLowerCase().includes(q);
-        const heroMatch = (item.hero || "").toLowerCase().includes(q);
-        const roleMatch = (item.anime_role || "").toLowerCase().includes(q);
-        const descMatch = (item.desc || "").toLowerCase().includes(q);
-        const subNameMatch = (item.subcategory_name || "").toLowerCase().includes(q);
-        const tagsMatch = (item.tags || []).some(t => t.toLowerCase().includes(q));
-        if (!titleMatch && !heroMatch && !roleMatch && !descMatch && !subNameMatch && !tagsMatch) {
-          return false;
-        }
+      // Search match
+      let matchSearch = true;
+      if (searchQuery.trim() !== "") {
+        const q = searchQuery.toLowerCase();
+        const str = [
+          item.title,
+          item.hero,
+          item.anime_role,
+          item.desc,
+          item.quote,
+          item.subcategory_name,
+          ...(item.tags || [])
+        ].filter(Boolean).join(" ").toLowerCase();
+        matchSearch = str.includes(q);
       }
 
-      return true;
+      return matchCat && matchSub && matchSearch;
     });
 
-    // Update Result Info
+    // Update count & descriptions
     resultCountEl.innerText = filteredItems.length;
     let desc = "全部作品";
-    if (currentCategory === "folk_art") desc = "民间风俗农民画";
-    if (currentCategory === "wzry_skins") desc = "王者荣耀联名皮肤";
-    if (searchQuery) desc += `（搜索关键词："${searchQuery}"）`;
+    if (currentCategory === "fusion_skins") desc = "英雄深度联动全集";
+    else if (currentCategory === "v2_test_skins") desc = "真机画风首测";
+    else if (currentCategory === "folk_art") desc = "民间农民画";
+    else if (currentCategory === "wzry_skins") desc = "初版立绘存档";
+
+    if (currentSubcategory !== "all") {
+      const activePill = subcategoryPillsEl.querySelector(".pill-btn.active");
+      if (activePill) desc += ` · ${activePill.innerText}`;
+    }
+    if (searchQuery) desc += ` (检索: "${searchQuery}")`;
     filterDescEl.innerText = desc;
 
-    renderGrid();
+    // Reset indices if out of bounds
+    if (spotlightIndex >= filteredItems.length) spotlightIndex = 0;
+    if (inspectIndex >= filteredItems.length) inspectIndex = 0;
+
+    // Render active surface
+    if (currentVariant === "grid") renderGrid();
+    else if (currentVariant === "spotlight") renderSpotlight();
+    else if (currentVariant === "inspect") renderInspect();
   }
 
-  // Render Grid Cards
+  // ------------------------------------------------------------------------
+  // Variant 1: Editorial Grid
+  // ------------------------------------------------------------------------
   function renderGrid() {
     if (filteredItems.length === 0) {
       gridEl.innerHTML = `
-        <div style="grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-muted);">
-          <div style="font-size: 40px; margin-bottom: 12px;">🔍</div>
-          <h3 style="color: #fff; margin-bottom: 8px;">未找到匹配的作品</h3>
-          <p>尝试切换分类或清空搜索关键词查看全部 53 幅原作。</p>
+        <div style="grid-column: 1 / -1; text-align: center; padding: 64px 20px; color: var(--text-tertiary);">
+          <div style="font-size: 14px; margin-bottom: 6px; color: var(--text-secondary);">未找到匹配作品</div>
+          <p style="font-size: 13px;">请尝试切换分类或清空检索关键词</p>
         </div>
       `;
       return;
@@ -168,48 +309,145 @@ document.addEventListener("DOMContentLoaded", () => {
 
     gridEl.innerHTML = filteredItems.map((item, idx) => {
       const isPortrait = item.category === "folk_art";
-      let badgeClass = "badge-limited";
-      if ((item.badge || "").includes("典藏")) badgeClass = "badge-glorious";
-      if (item.subcategory === "folk_national_day") badgeClass = "badge-folk-nd";
-      if (item.subcategory === "folk_daily") badgeClass = "badge-folk-daily";
-
-      const tagsHtml = (item.tags || []).slice(0, 3).map(t => `<span class="tag-item">#${t}</span>`).join("");
+      const isGlorious = (item.badge || "").includes("典藏");
 
       return `
-        <div class="art-card ${isPortrait ? 'portrait' : ''}" data-index="${idx}">
+        <article class="art-card ${isPortrait ? 'portrait' : ''}" data-index="${idx}">
           <div class="art-card-img-wrapper" onclick="openLightbox(${idx})">
-            <span class="card-badge ${badgeClass}">${item.badge || '精作'}</span>
+            <span class="card-badge ${isGlorious ? 'badge-glorious' : ''}">${item.badge || '限定'}</span>
             <img class="art-card-img" src="${item.rel_thumb}" loading="lazy" alt="${item.title}" />
             <div class="card-quick-actions" onclick="event.stopPropagation()">
-              <button class="btn-card-action" title="放大预览" onclick="openLightbox(${idx})">🔍</button>
-              <a class="btn-card-action" href="${item.rel_img}" download="${item.title}.png" title="下载原图">⬇️</a>
+              <button type="button" class="btn-card-action" title="全屏预览" onclick="openLightbox(${idx})">↗</button>
+              <a class="btn-card-action" href="${item.rel_img}" download="${item.title}.png" title="下载原图">↓</a>
             </div>
           </div>
           <div class="art-card-body">
             <div class="card-title-row">
-              <div class="card-title">${item.title}</div>
-              <span class="card-category-tag">${item.subcategory_name}</span>
+              <h4 class="card-title">${item.title}</h4>
+              <span class="card-category-tag">${item.subcategory_name || ''}</span>
             </div>
             ${item.quote ? `<div class="card-quote">“${item.quote}”</div>` : ''}
-            <div class="card-desc">${item.desc}</div>
-            <div class="card-tags">
-              ${item.hero ? `<span class="tag-item">英雄: ${item.hero}</span>` : ''}
-              ${item.anime_role ? `<span class="tag-item">原型: ${item.anime_role}</span>` : ''}
-              ${tagsHtml}
-            </div>
+            <p class="card-desc">${item.desc || ''}</p>
             <div class="card-footer">
-              <span>高清原图 · ${item.file_size_formatted || '3.5MB'}</span>
-              <a class="btn-card-download" href="${item.rel_img}" download="${item.title}.png">
-                ⬇️ 下载原图
-              </a>
+              <span>${item.file_size_formatted || '2.6 MB'} · 16:9 原图</span>
+              <a class="btn-card-download" href="${item.rel_img}" download="${item.title}.png">下载原图</a>
             </div>
           </div>
-        </div>
+        </article>
       `;
     }).join("");
   }
 
+  // ------------------------------------------------------------------------
+  // Variant 2: Theater Spotlight
+  // ------------------------------------------------------------------------
+  function renderSpotlight() {
+    if (filteredItems.length === 0) return;
+    const item = filteredItems[spotlightIndex] || filteredItems[0];
+    if (!item) return;
+
+    spotlightImg.src = item.rel_img;
+    spotlightImg.alt = item.title;
+    spotlightKicker.innerText = `${item.category_name || 'Crossover'} · ${item.subcategory_name || ''}`;
+    spotlightTitle.innerText = item.title;
+
+    if (item.quote) {
+      spotlightQuoteBox.style.display = "block";
+      spotlightQuote.innerText = `“${item.quote}”`;
+    } else {
+      spotlightQuoteBox.style.display = "none";
+    }
+
+    spotlightDesc.innerText = item.desc || "暂无描述";
+    spotlightHeroClass.innerText = item.hero_class || (item.category === "folk_art" ? "民间画" : "全能");
+    spotlightBadge.innerText = item.badge || "精作";
+    spotlightAnimeRole.innerText = item.anime_role || (item.category === "folk_art" ? "非遗工笔" : item.title);
+    spotlightResolution.innerText = `${item.file_size_formatted || '2.6 MB'} · 无损超清`;
+    spotlightDlBtn.href = item.rel_img;
+    spotlightDlBtn.download = `${item.title}.png`;
+
+    // Filmstrip
+    spotlightFilmstrip.innerHTML = filteredItems.map((it, idx) => `
+      <div class="filmstrip-item ${idx === spotlightIndex ? 'active' : ''}" onclick="selectSpotlight(${idx})">
+        <img src="${it.rel_thumb}" loading="lazy" alt="${it.title}" />
+      </div>
+    `).join("");
+
+    // Auto-scroll filmstrip to active item
+    const activeThumb = spotlightFilmstrip.querySelector(".filmstrip-item.active");
+    if (activeThumb) {
+      activeThumb.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
+  }
+
+  window.selectSpotlight = function(idx) {
+    spotlightIndex = idx;
+    renderSpotlight();
+  };
+
+  window.openLightboxFromSpotlight = function() {
+    openLightbox(spotlightIndex);
+  };
+
+  // ------------------------------------------------------------------------
+  // Variant 3: Blueprint Inspect
+  // ------------------------------------------------------------------------
+  function renderInspect() {
+    if (filteredItems.length === 0) return;
+    const item = filteredItems[inspectIndex] || filteredItems[0];
+    if (!item) return;
+
+    inspectImg.src = item.rel_img;
+    inspectImg.alt = item.title;
+    inspectDlLink.href = item.rel_img;
+    inspectDlLink.download = `${item.title}.png`;
+
+    // Parse design components from description
+    const desc = item.desc || "";
+    let heroPart = "保留王者荣耀英雄专属成熟面容、高大体格与标志性核心武器。";
+    let fusionPart = "将动漫核心技能、战袍羽织与视觉符号深度熔铸于英雄武具之中。";
+
+    if (desc.includes("【英雄本尊×动漫深度融合】：")) {
+      const parts = desc.replace("【英雄本尊×动漫深度融合】：", "").split("！");
+      if (parts.length >= 2) {
+        heroPart = parts[0] + "！";
+        fusionPart = parts.slice(1).join("！");
+      } else {
+        fusionPart = desc;
+      }
+    } else {
+      fusionPart = desc;
+    }
+
+    inspectHeroAnchor.innerText = heroPart;
+    inspectFusionAnchor.innerText = fusionPart;
+    inspectVfxAnchor.innerText = item.vfx || "专属全套水流、烈焰、重力光环与背景深度空间留白。";
+
+    // Selector strip
+    inspectSelectorStrip.innerHTML = filteredItems.map((it, idx) => `
+      <button type="button" class="pill-btn ${idx === inspectIndex ? 'active' : ''}" onclick="selectInspect(${idx})">
+        ${it.hero ? `${it.hero} × ${it.anime_role}` : it.title}
+      </button>
+    `).join("");
+
+    const activeBtn = inspectSelectorStrip.querySelector(".pill-btn.active");
+    if (activeBtn) {
+      activeBtn.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
+  }
+
+  window.selectInspect = function(idx) {
+    inspectIndex = idx;
+    renderInspect();
+  };
+
+  window.openLightboxFromInspect = function() {
+    openLightbox(inspectIndex);
+  };
+
+  // ------------------------------------------------------------------------
   // Lightbox Modal Functions
+  // ------------------------------------------------------------------------
   window.openLightbox = function(index) {
     currentModalIndex = index;
     updateModalContent();
@@ -230,9 +468,9 @@ document.addEventListener("DOMContentLoaded", () => {
     modalImg.alt = item.title;
     modalTitle.innerText = item.title;
     
-    let subInfo = item.category_name + " · " + item.subcategory_name;
+    let subInfo = (item.category_name || '') + " · " + (item.subcategory_name || '');
     if (item.hero && item.anime_role) {
-      subInfo += `（${item.hero} × ${item.anime_role}）`;
+      subInfo += ` (${item.hero} × ${item.anime_role})`;
     }
     modalSubtitle.innerText = subInfo;
 
@@ -252,51 +490,18 @@ document.addEventListener("DOMContentLoaded", () => {
       modalVfxContainer.style.display = "none";
     }
 
-    if (item.tags && item.tags.length > 0) {
-      modalTags.innerHTML = item.tags.map(t => `<span class="tag-item">#${t}</span>`).join(" ");
-    } else if (item.hero) {
-      modalTags.innerHTML = `<span class="tag-item">英雄: ${item.hero}</span> <span class="tag-item">定位: ${item.hero_class || '联动'}</span>`;
-    } else {
-      modalTags.innerHTML = "";
-    }
-
-    modalFileSize.innerText = item.file_size_formatted || "3.5 MB";
+    modalTags.innerHTML = (item.tags || []).map(t => `<span class="tag-item">#${t}</span>`).join("");
+    modalFileSize.innerText = `${item.file_size_formatted || '2.6 MB'} · 原始无损 PNG`;
     modalDownloadBtn.href = item.rel_img;
-    modalDownloadBtn.setAttribute("download", `${item.title}.png`);
+    modalDownloadBtn.download = `${item.title}.png`;
   }
 
-  function prevImage() {
-    if (filteredItems.length === 0) return;
-    currentModalIndex = (currentModalIndex - 1 + filteredItems.length) % filteredItems.length;
-    updateModalContent();
-  }
-
-  function nextImage() {
-    if (filteredItems.length === 0) return;
-    currentModalIndex = (currentModalIndex + 1) % filteredItems.length;
-    updateModalContent();
-  }
-
-  // Event Listeners for Modal
-  modalCloseBtn.addEventListener("click", closeLightbox);
-  modalPrevBtn.addEventListener("click", prevImage);
-  modalNextBtn.addEventListener("click", nextImage);
-
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) closeLightbox();
-  });
-
-  document.addEventListener("keydown", (e) => {
-    if (!modal.classList.contains("active")) return;
-    if (e.key === "Escape") closeLightbox();
-    if (e.key === "ArrowLeft") prevImage();
-    if (e.key === "ArrowRight") nextImage();
-  });
-
-  // Category Tab Switching
-  document.querySelectorAll(".tab-btn").forEach(btn => {
+  // ------------------------------------------------------------------------
+  // Category Segmented Tabs
+  // ------------------------------------------------------------------------
+  categoryTabBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      categoryTabBtns.forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       currentCategory = btn.getAttribute("data-cat");
       currentSubcategory = "all";
@@ -306,105 +511,139 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Search Input
-  let searchTimeout = null;
   searchInput.addEventListener("input", (e) => {
-    clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => {
-      searchQuery = e.target.value;
-      filterAndRender();
-    }, 150);
+    searchQuery = e.target.value;
+    filterAndRender();
   });
 
-  // Dynamic JSZip Packaging Feature
-  if (packDynamicBtn) {
-    packDynamicBtn.addEventListener("click", async () => {
-      if (!window.JSZip) {
-        alert("JSZip 库未就绪，请使用右侧预打包下载通道。");
+  // Keyboard Shortcuts
+  document.addEventListener("keydown", (e) => {
+    // Esc to close modal
+    if (e.key === "Escape") {
+      if (modal.classList.contains("active")) closeLightbox();
+      if (packModal.classList.contains("active")) packModal.classList.remove("active");
+      return;
+    }
+
+    // Modal navigation
+    if (modal.classList.contains("active")) {
+      if (e.key === "ArrowLeft") {
+        currentModalIndex = (currentModalIndex - 1 + filteredItems.length) % filteredItems.length;
+        updateModalContent();
+      } else if (e.key === "ArrowRight") {
+        currentModalIndex = (currentModalIndex + 1) % filteredItems.length;
+        updateModalContent();
+      }
+      return;
+    }
+
+    // Don't trigger shortcuts when typing in search
+    if (document.activeElement === searchInput) return;
+
+    // Search focus on '/'
+    if (e.key === "/") {
+      e.preventDefault();
+      searchInput.focus();
+      return;
+    }
+
+    // Variant switching: '1' -> grid, '2' -> spotlight, '3' -> inspect
+    if (e.key === "1") setVariant("grid");
+    else if (e.key === "2") setVariant("spotlight");
+    else if (e.key === "3") setVariant("inspect");
+
+    // Replay entrance: 'r' or 'R'
+    if (e.key === "r" || e.key === "R") {
+      if (protoReplayBtn) protoReplayBtn.click();
+    }
+
+    // In spotlight mode, Left/Right keys navigate filmstrip
+    if (currentVariant === "spotlight") {
+      if (e.key === "ArrowLeft") {
+        spotlightIndex = (spotlightIndex - 1 + filteredItems.length) % filteredItems.length;
+        renderSpotlight();
+      } else if (e.key === "ArrowRight") {
+        spotlightIndex = (spotlightIndex + 1) % filteredItems.length;
+        renderSpotlight();
+      }
+    }
+  });
+
+  // Modal Buttons
+  modalCloseBtn.addEventListener("click", closeLightbox);
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) closeLightbox();
+  });
+  modalPrevBtn.addEventListener("click", () => {
+    currentModalIndex = (currentModalIndex - 1 + filteredItems.length) % filteredItems.length;
+    updateModalContent();
+  });
+  modalNextBtn.addEventListener("click", () => {
+    currentModalIndex = (currentModalIndex + 1) % filteredItems.length;
+    updateModalContent();
+  });
+
+  // ------------------------------------------------------------------------
+  // Client-Side Dynamic ZIP Packaging (JSZip)
+  // ------------------------------------------------------------------------
+  if (btnPackCurrent) {
+    btnPackCurrent.addEventListener("click", async () => {
+      if (filteredItems.length === 0) {
+        alert("当前没有可打包的作品。");
         return;
       }
 
-      const itemsToPack = filteredItems;
-      if (itemsToPack.length === 0) {
-        alert("当前分类下没有图片可打包。");
-        return;
-      }
-
-      // Show Progress Dialog
       packModal.classList.add("active");
-      packTitle.innerText = `正在打包当前分类原图 (${itemsToPack.length} 张)`;
-      packStatus.innerText = "准备下载资源...";
+      packTitle.innerText = `正在打包 ${filteredItems.length} 张高清原图`;
       packProgressBar.style.width = "0%";
-
-      const zip = new JSZip();
-      let downloadedCount = 0;
+      packStatus.innerText = "0%";
 
       try {
-        for (let i = 0; i < itemsToPack.length; i++) {
-          const item = itemsToPack[i];
-          packStatus.innerText = `[${i + 1}/${itemsToPack.length}] 正在抓取: ${item.title}...`;
-          
-          const response = await fetch(item.rel_img);
-          if (!response.ok) throw new Error(`HTTP ${response.status} on ${item.rel_img}`);
-          const blob = await response.blob();
-          
-          const cleanFileName = `${String(i + 1).padStart(2, '0')}_${item.title.replace(/[\/\\?%*:|"<>]/g, '_')}.png`;
-          zip.file(cleanFileName, blob);
+        const zip = new JSZip();
+        let loaded = 0;
 
-          downloadedCount++;
-          const percent = Math.round((downloadedCount / itemsToPack.length) * 80);
-          packProgressBar.style.width = `${percent}%`;
+        for (const item of filteredItems) {
+          try {
+            const resp = await fetch(item.rel_img);
+            if (!resp.ok) throw new Error("fetch failed");
+            const blob = await resp.blob();
+            const filename = `${item.title.replace(/[\/\\:*?"<>|]/g, "_")}.png`;
+            zip.file(filename, blob);
+          } catch (err) {
+            console.warn("Failed to fetch image for zip:", item.rel_img, err);
+          }
+
+          loaded++;
+          const pct = Math.round((loaded / filteredItems.length) * 100);
+          packProgressBar.style.width = `${pct}%`;
+          packStatus.innerText = `${pct}%`;
         }
 
-        packStatus.innerText = "正在压缩生成 ZIP 压缩包 (这可能需要数秒)...";
-        packProgressBar.style.width = "85%";
-
-        const zipBlob = await zip.generateAsync({ type: "blob" }, (metadata) => {
-          const p = 85 + Math.round(metadata.percent * 0.15);
-          packProgressBar.style.width = `${p}%`;
+        packTitle.innerText = "正在压缩生成 ZIP...";
+        const content = await zip.generateAsync({ type: "blob" }, (metadata) => {
+          packStatus.innerText = `${Math.round(metadata.percent)}%`;
         });
 
-        packStatus.innerText = "压缩完成！即将唤起浏览器下载...";
-        packProgressBar.style.width = "100%";
-
-        // Trigger Download
-        const downloadUrl = URL.createObjectURL(zipBlob);
+        // Trigger download
         const a = document.createElement("a");
-        a.href = downloadUrl;
-        const zipName = `AI_Artwork_Pack_${currentCategory}_${itemsToPack.length}files.zip`;
-        a.download = zipName;
-        document.body.appendChild(a);
+        const catName = currentCategory === "all" ? "全套大作" : (currentCategory === "fusion_skins" ? "英雄深度联动" : currentCategory);
+        a.download = `王者荣耀联动原图_${catName}_${filteredItems.length}张.zip`;
+        a.href = URL.createObjectURL(content);
         a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(downloadUrl);
+        URL.revokeObjectURL(a.href);
 
         setTimeout(() => {
           packModal.classList.remove("active");
-        }, 1200);
-
+        }, 1000);
       } catch (err) {
-        console.error("Packaging error:", err);
-        packStatus.innerText = `打包失败: ${err.message}。建议直接点击右侧预打包下载通道。`;
-        setTimeout(() => {
-          packModal.classList.remove("active");
-        }, 3000);
+        console.error("Zip packing error:", err);
+        alert("打包失败，请尝试直接点击预置离线包下载。");
+        packModal.classList.remove("active");
       }
     });
   }
 
-  // Scroll to Top Listener
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 400) {
-      scrollTopBtn.classList.add("visible");
-    } else {
-      scrollTopBtn.classList.remove("visible");
-    }
-  });
-
-  scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-
-  // Initialize
+  // Initial render
   renderSubcategoryPills();
   filterAndRender();
 });

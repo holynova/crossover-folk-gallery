@@ -910,6 +910,58 @@ window.ARTWORKS_DATA = [
     "file_size_formatted": "2.41 MB"
   },
   {
+    "id": "fusion-36",
+    "category": "fusion_skins",
+    "subcategory": "fusion_one_piece",
+    "category_name": "英雄深度联动·全集",
+    "subcategory_name": "海贼王",
+    "title": "达摩 · 蒙奇·D·路飞（五档太阳神尼卡·解放之拳）",
+    "hero": "达摩",
+    "anime_role": "蒙奇·D·路飞",
+    "hero_class": "战士",
+    "badge": "深度联动·限定",
+    "price": 1788,
+    "quote": "这就是我的最高峰！解放之鼓，我是要成为海贼王的男人！",
+    "desc": "王者荣耀武僧「达摩」古铜色肌肉与刚猛拳势；面容洋溢解放神性大笑，纯白如翻滚烈焰云霞的发髻与双肩环绕的纯白神明蒸气披肩，双拳缠绕金色流樱霸气与红色霸王色电弧，身姿威严喜悦。",
+    "vfx": "纯白蒸气飘带半透明辉光、金色流樱霸气赤红黑闪电弧、鬼岛巨月苍穹夜景",
+    "tags": [
+      "英雄深度联动",
+      "太阳神尼卡白焰拳",
+      "五档解放之鼓",
+      "官方UI对齐",
+      "海贼王"
+    ],
+    "rel_img": "images/fusion_skins/36_海贼王_达摩_蒙奇D路飞.png",
+    "rel_thumb": "thumbnails/fusion_skins/36_海贼王_达摩_蒙奇D路飞.jpg",
+    "file_size_formatted": "2.57 MB"
+  },
+  {
+    "id": "fusion-37",
+    "category": "fusion_skins",
+    "subcategory": "fusion_one_piece",
+    "category_name": "英雄深度联动·全集",
+    "subcategory_name": "海贼王",
+    "title": "宫本武藏 · 罗罗诺亚·索隆（三刀流阎魔·九山八海鬼气）",
+    "hero": "宫本武藏",
+    "anime_role": "罗罗诺亚·索隆",
+    "hero_class": "战士",
+    "badge": "深度联动·限定",
+    "price": 1788,
+    "quote": "三刀流奥义——一大·三千·大千·世界！背后的伤痕是剑士的耻辱。",
+    "desc": "王者荣耀双刀流剑圣「宫本武藏」成熟冷峻剑客面庞、短胡茬与高大伟岸体魄；绿色剑士风衣与墨绿头巾，左眼伤疤；双手各持「阎魔」与「天羽羽斩」，嘴中横咬纯白「和道一文字」，三柄名刀缠绕紫色霸王色鬼气流光。",
+    "vfx": "三刀流紫黑阎魔霸气火焰、阿修罗九刀流虚影、和之国花之都樱花屋顶",
+    "tags": [
+      "英雄深度联动",
+      "阎魔三刀流",
+      "霸王色缠绕",
+      "官方UI对齐",
+      "海贼王"
+    ],
+    "rel_img": "images/fusion_skins/37_海贼王_宫本武藏_罗罗诺亚索隆.png",
+    "rel_thumb": "thumbnails/fusion_skins/37_海贼王_宫本武藏_罗罗诺亚索隆.jpg",
+    "file_size_formatted": "2.58 MB"
+  },
+  {
     "id": "fusion-39",
     "category": "fusion_skins",
     "subcategory": "fusion_one_piece",
