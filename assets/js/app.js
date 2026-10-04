@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Category Configuration
   const SUBCATEGORIES = {
     all: [
-      { id: "all", label: "全部所有 (84)" },
-      { id: "fusion_skins", label: "💎 英雄深度联动 (25/45)" },
+      { id: "all", label: "全部所有 (101)" },
+      { id: "fusion_skins", label: "💎 英雄深度联动 (42/45)" },
       { id: "v2_test_skins", label: "✨ 真机画风首测 (6)" },
       { id: "folk_national_day", label: "🇨🇳 国庆盛典特辑 (3)" },
       { id: "folk_daily", label: "🌾 水乡日常民俗 (5)" },
@@ -59,13 +59,13 @@ document.addEventListener("DOMContentLoaded", () => {
       { id: "06_bleach", label: "🗡️ 死神 BLEACH (5)" }
     ],
     fusion_skins: [
-      { id: "all", label: "全部深度联动 (25/45)" },
+      { id: "all", label: "全部深度联动 (42/45)" },
       { id: "fusion_demon_slayer", label: "🔥 鬼灭之刃 (20/20)" },
-      { id: "fusion_jujutsu_kaisen", label: "👁️ 咒术回战 (3/5)" },
-      { id: "fusion_attack_on_titan", label: "⚔️ 进击的巨人 (1/5)" },
-      { id: "fusion_naruto", label: "🍥 火影忍者 (0/5)" },
-      { id: "fusion_one_piece", label: "🏴‍☠️ 海贼王 (0/5)" },
-      { id: "fusion_bleach", label: "🗡️ 死神 BLEACH (1/5)" }
+      { id: "fusion_jujutsu_kaisen", label: "👁️ 咒术回战 (5/5)" },
+      { id: "fusion_attack_on_titan", label: "⚔️ 进击的巨人 (5/5)" },
+      { id: "fusion_naruto", label: "🍥 火影忍者 (5/5)" },
+      { id: "fusion_one_piece", label: "🏴‍☠️ 海贼王 (2/5)" },
+      { id: "fusion_bleach", label: "🗡️ 死神 BLEACH (5/5)" }
     ],
     v2_test_skins: [
       { id: "all", label: "全部首测 (6)" },
