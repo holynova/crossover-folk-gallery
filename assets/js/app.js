@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Category Configuration
   const SUBCATEGORIES = {
     all: [
-      { id: "all", label: "全部所有 (59)" },
+      { id: "all", label: "全部所有 (63)" },
+      { id: "v3_fusion_skins", label: "💎 英雄深度联动 (4)" },
       { id: "v2_test_skins", label: "✨ 真机画风首测 (6)" },
       { id: "folk_national_day", label: "🇨🇳 国庆盛典特辑 (3)" },
       { id: "folk_daily", label: "🌾 水乡日常民俗 (5)" },
@@ -56,6 +57,13 @@ document.addEventListener("DOMContentLoaded", () => {
       { id: "04_naruto", label: "🍥 火影忍者 (5)" },
       { id: "05_one_piece", label: "🏴‍☠️ 海贼王 (5)" },
       { id: "06_bleach", label: "🗡️ 死神 BLEACH (5)" }
+    ],
+    v3_fusion_skins: [
+      { id: "all", label: "全部深度联动 (4)" },
+      { id: "v3_demon_slayer", label: "🔥 宫本武藏 × 炭治郎" },
+      { id: "v3_jujutsu_kaisen", label: "👁️ 诸葛亮 × 五条悟" },
+      { id: "v3_attack_on_titan", label: "⚔️ 韩信 × 利威尔" },
+      { id: "v3_bleach", label: "🗡️ 李信 × 黑崎一护" }
     ],
     v2_test_skins: [
       { id: "all", label: "全部首测 (6)" },
