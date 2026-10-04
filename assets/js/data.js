@@ -962,6 +962,32 @@ window.ARTWORKS_DATA = [
     "file_size_formatted": "2.58 MB"
   },
   {
+    "id": "fusion-38",
+    "category": "fusion_skins",
+    "subcategory": "fusion_one_piece",
+    "category_name": "英雄深度联动·全集",
+    "subcategory_name": "海贼王",
+    "title": "曹操 · 香克斯（四皇神避·霸王色缠绕独臂名剑）",
+    "hero": "曹操",
+    "anime_role": "香克斯",
+    "hero_class": "战士",
+    "badge": "深度联动·限定",
+    "price": 1788,
+    "quote": "给老子一个面子，战争就到此为止吧！——神避！",
+    "desc": "王者荣耀乱世枭雄「曹操」霸气威严面容与髭须胡渣，红发与左眼三道标志性剑痕；挥舞西洋名刀「格里芬」，剑身喷涌横贯天地的黑红霸王色闪电「神避」，黑色四皇大披风随风猎猎狂舞。",
+    "vfx": "神避横扫黑红霸王色闪电雷霆、四皇霸王色风暴震裂大地、艾尔巴夫巨树海域",
+    "tags": [
+      "英雄深度联动",
+      "四皇神避独臂名剑",
+      "红发霸气枭雄",
+      "官方UI对齐",
+      "海贼王"
+    ],
+    "rel_img": "images/fusion_skins/38_海贼王_曹操_香克斯.png",
+    "rel_thumb": "thumbnails/fusion_skins/38_海贼王_曹操_香克斯.jpg",
+    "file_size_formatted": "2.80 MB"
+  },
+  {
     "id": "fusion-39",
     "category": "fusion_skins",
     "subcategory": "fusion_one_piece",
