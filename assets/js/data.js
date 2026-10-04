@@ -494,6 +494,32 @@ window.ARTWORKS_DATA = [
     "file_size_formatted": "2.72 MB"
   },
   {
+    "id": "fusion-20",
+    "category": "fusion_skins",
+    "subcategory": "fusion_demon_slayer",
+    "category_name": "英雄深度联动·全集",
+    "subcategory_name": "鬼灭之刃",
+    "title": "苏烈 · 悲鸣屿行冥（岩之呼吸·锁链阔斧巨柱）",
+    "hero": "苏烈",
+    "anime_role": "悲鸣屿行冥",
+    "hero_class": "坦克",
+    "badge": "深度联动·限定",
+    "price": 1788,
+    "quote": "阿弥陀佛，贫僧为这世间的悲苦而落泪。岩之呼吸·天面碎！",
+    "desc": "王者荣耀巍峨猛男「苏烈」魁梧巨汉身材与豪迈面容，双目纯白、双手合十默念佛偈；肩扛攻城巨木重构为巨大的「岩之呼吸·粗黑铁链连接的开山阔斧与带刺流星铁锤」，身披南无阿弥陀佛绿僧袍。",
+    "vfx": "岩之呼吸碎石崩云震地冲击、流星锤巨链环绕、清幽深山石窟瀑布",
+    "tags": [
+      "英雄深度联动",
+      "岩呼流星巨斧",
+      "岩之呼吸",
+      "官方UI对齐",
+      "鬼灭之刃"
+    ],
+    "rel_img": "images/fusion_skins/20_鬼灭之刃_苏烈_悲鸣屿行冥.png",
+    "rel_thumb": "thumbnails/fusion_skins/20_鬼灭之刃_苏烈_悲鸣屿行冥.jpg",
+    "file_size_formatted": "2.82 MB"
+  },
+  {
     "id": "fusion-21",
     "category": "fusion_skins",
     "subcategory": "fusion_jujutsu_kaisen",
@@ -518,6 +544,58 @@ window.ARTWORKS_DATA = [
     "rel_img": "images/fusion_skins/21_咒术回战_诸葛亮_五条悟.png",
     "rel_thumb": "thumbnails/fusion_skins/21_咒术回战_诸葛亮_五条悟.jpg",
     "file_size_formatted": "2.56 MB"
+  },
+  {
+    "id": "fusion-22",
+    "category": "fusion_skins",
+    "subcategory": "fusion_jujutsu_kaisen",
+    "category_name": "英雄深度联动·全集",
+    "subcategory_name": "咒术回战",
+    "title": "裴擒虎 · 虎杖悠仁（黑闪格斗拳·咒灵猛虎双形）",
+    "hero": "裴擒虎",
+    "anime_role": "虎杖悠仁",
+    "hero_class": "刺客",
+    "badge": "深度联动·限定",
+    "price": 1788,
+    "quote": "在拯救所有人之前，我是绝对不会倒下的——黑闪！",
+    "desc": "王者荣耀格斗家「裴擒虎」热血桀骜青年容貌与精悍体魄；穿高专深蓝连帽制服与红色帽兜，人形态双拳缠绕空间扭曲的黑红火花「黑闪」；虎形态化身为浮现黑色咒纹与四目的凶煞咒灵猛虎。",
+    "vfx": "空间扭曲黑闪黑红暴击电浆、宿傩黑纹猛虎咆哮幻影、涉谷雨夜十字路口",
+    "tags": [
+      "英雄深度联动",
+      "黑闪格斗拳",
+      "咒灵猛虎双形",
+      "官方UI对齐",
+      "咒术回战"
+    ],
+    "rel_img": "images/fusion_skins/22_咒术回战_裴擒虎_虎杖悠仁.png",
+    "rel_thumb": "thumbnails/fusion_skins/22_咒术回战_裴擒虎_虎杖悠仁.jpg",
+    "file_size_formatted": "2.62 MB"
+  },
+  {
+    "id": "fusion-23",
+    "category": "fusion_skins",
+    "subcategory": "fusion_jujutsu_kaisen",
+    "category_name": "英雄深度联动·全集",
+    "subcategory_name": "咒术回战",
+    "title": "百里玄策 · 伏黑惠（十种影法术·玉犬双暗钩）",
+    "hero": "百里玄策",
+    "anime_role": "伏黑惠",
+    "hero_class": "刺客",
+    "badge": "深度联动·限定",
+    "price": 1788,
+    "quote": "式神召唤——玉犬！哪怕赌上性命，我也要救我认可的人！",
+    "desc": "王者荣耀敏捷刺客「百里玄策」标志性跳脱少年容貌、狼耳与刺客身姿；深黑高专制服与海胆短发，双持钩镰重构成召唤暗影式神的十种影法术锁链，末端连着一黑一白「玉犬」锋利利爪与骨牙。",
+    "vfx": "影子式神玉犬暗影水泊、黑白暗影双钩流光、高专古朴鸟居庭院",
+    "tags": [
+      "英雄深度联动",
+      "玉犬双暗钩",
+      "十种影法术",
+      "官方UI对齐",
+      "咒术回战"
+    ],
+    "rel_img": "images/fusion_skins/23_咒术回战_百里玄策_伏黑惠.png",
+    "rel_thumb": "thumbnails/fusion_skins/23_咒术回战_百里玄策_伏黑惠.jpg",
+    "file_size_formatted": "2.44 MB"
   },
   {
     "id": "fusion-26",
