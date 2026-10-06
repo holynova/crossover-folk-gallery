@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const SUBCATEGORIES = {
     all: [
       { id: "all", label: "全部所有" },
-      { id: "fusion_skins", label: "💎 英雄深度联动 (44/45)" },
+      { id: "fusion_skins", label: `💎 英雄深度联动 (${data.filter(item => item.category === "fusion_skins").length}/45)` },
       { id: "v2_test_skins", label: "真机首测" },
       { id: "folk_national_day", label: "国庆篇" },
       { id: "folk_daily", label: "水乡日常" },
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
       { id: "06_bleach", label: "死神 BLEACH" }
     ],
     fusion_skins: [
-      { id: "all", label: "全部深度联动 (44/45)" },
+      { id: "all", label: `全部深度联动 (${data.filter(item => item.category === "fusion_skins").length}/45)` },
       { id: "fusion_demon_slayer", label: "🔥 鬼灭之刃 (20/20)" },
       { id: "fusion_jujutsu_kaisen", label: "👁️ 咒术回战 (5/5)" },
       { id: "fusion_attack_on_titan", label: "⚔️ 进击的巨人 (5/5)" },
