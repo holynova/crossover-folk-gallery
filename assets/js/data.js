@@ -22,6 +22,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/01_鬼灭之刃_宫本武藏_灶门炭治郎.png",
+    "rel_detail": "details/fusion_skins/01_鬼灭之刃_宫本武藏_灶门炭治郎.webp",
     "rel_thumb": "thumbnails/fusion_skins/01_鬼灭之刃_宫本武藏_灶门炭治郎.jpg",
     "file_size_formatted": "2.60 MB"
   },
@@ -48,6 +49,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/02_鬼灭之刃_铠_炼狱杏寿郎.png",
+    "rel_detail": "details/fusion_skins/02_鬼灭之刃_铠_炼狱杏寿郎.webp",
     "rel_thumb": "thumbnails/fusion_skins/02_鬼灭之刃_铠_炼狱杏寿郎.jpg",
     "file_size_formatted": "2.63 MB"
   },
@@ -74,6 +76,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/03_鬼灭之刃_李白_冨冈义勇.png",
+    "rel_detail": "details/fusion_skins/03_鬼灭之刃_李白_冨冈义勇.webp",
     "rel_thumb": "thumbnails/fusion_skins/03_鬼灭之刃_李白_冨冈义勇.jpg",
     "file_size_formatted": "2.63 MB"
   },
@@ -100,6 +103,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/04_鬼灭之刃_不知火舞_灶门祢豆子.png",
+    "rel_detail": "details/fusion_skins/04_鬼灭之刃_不知火舞_灶门祢豆子.webp",
     "rel_thumb": "thumbnails/fusion_skins/04_鬼灭之刃_不知火舞_灶门祢豆子.jpg",
     "file_size_formatted": "2.54 MB"
   },
@@ -126,6 +130,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/05_鬼灭之刃_百里玄策_嘴平伊之助.png",
+    "rel_detail": "details/fusion_skins/05_鬼灭之刃_百里玄策_嘴平伊之助.webp",
     "rel_thumb": "thumbnails/fusion_skins/05_鬼灭之刃_百里玄策_嘴平伊之助.jpg",
     "file_size_formatted": "2.62 MB"
   },
@@ -152,6 +157,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/06_鬼灭之刃_诸葛亮_鬼舞辻无惨.png",
+    "rel_detail": "details/fusion_skins/06_鬼灭之刃_诸葛亮_鬼舞辻无惨.webp",
     "rel_thumb": "thumbnails/fusion_skins/06_鬼灭之刃_诸葛亮_鬼舞辻无惨.jpg",
     "file_size_formatted": "2.44 MB"
   },
@@ -178,6 +184,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/07_鬼灭之刃_貂蝉_蝴蝶忍.png",
+    "rel_detail": "details/fusion_skins/07_鬼灭之刃_貂蝉_蝴蝶忍.webp",
     "rel_thumb": "thumbnails/fusion_skins/07_鬼灭之刃_蝴蝶忍.jpg",
     "file_size_formatted": "2.47 MB"
   },
@@ -204,6 +211,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/08_鬼灭之刃_曜_时透无一郎.png",
+    "rel_detail": "details/fusion_skins/08_鬼灭之刃_曜_时透无一郎.webp",
     "rel_thumb": "thumbnails/fusion_skins/08_鬼灭之刃_曜_时透无一郎.jpg",
     "file_size_formatted": "2.30 MB"
   },
@@ -230,6 +238,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/09_鬼灭之刃_澜_伊黑小芭内.png",
+    "rel_detail": "details/fusion_skins/09_鬼灭之刃_澜_伊黑小芭内.webp",
     "rel_thumb": "thumbnails/fusion_skins/09_鬼灭之刃_澜_伊黑小芭内.jpg",
     "file_size_formatted": "2.50 MB"
   },
@@ -256,6 +265,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/10_鬼灭之刃_关羽_继国缘一.png",
+    "rel_detail": "details/fusion_skins/10_鬼灭之刃_关羽_继国缘一.webp",
     "rel_thumb": "thumbnails/fusion_skins/10_鬼灭之刃_关羽_继国缘一.jpg",
     "file_size_formatted": "2.51 MB"
   },
@@ -282,6 +292,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/11_鬼灭之刃_达摩_猗窝座.png",
+    "rel_detail": "details/fusion_skins/11_鬼灭之刃_达摩_猗窝座.webp",
     "rel_thumb": "thumbnails/fusion_skins/11_鬼灭之刃_达摩_猗窝座.jpg",
     "file_size_formatted": "2.39 MB"
   },
@@ -308,6 +319,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/12_鬼灭之刃_王昭君_童磨.png",
+    "rel_detail": "details/fusion_skins/12_鬼灭之刃_王昭君_童磨.webp",
     "rel_thumb": "thumbnails/fusion_skins/12_鬼灭之刃_王昭君_童磨.jpg",
     "file_size_formatted": "2.80 MB"
   },
@@ -334,6 +346,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/13_鬼灭之刃_李信_黑死牟.png",
+    "rel_detail": "details/fusion_skins/13_鬼灭之刃_李信_黑死牟.webp",
     "rel_thumb": "thumbnails/fusion_skins/13_鬼灭之刃_李信_黑死牟.jpg",
     "file_size_formatted": "2.64 MB"
   },
@@ -360,6 +373,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/14_鬼灭之刃_公孙离_堕姬.png",
+    "rel_detail": "details/fusion_skins/14_鬼灭之刃_公孙离_堕姬.webp",
     "rel_thumb": "thumbnails/fusion_skins/14_鬼灭之刃_公孙离_堕姬.jpg",
     "file_size_formatted": "2.53 MB"
   },
@@ -386,6 +400,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/15_鬼灭之刃_裴擒虎_狯岳.png",
+    "rel_detail": "details/fusion_skins/15_鬼灭之刃_裴擒虎_狯岳.webp",
     "rel_thumb": "thumbnails/fusion_skins/15_鬼灭之刃_裴擒虎_狯岳.jpg",
     "file_size_formatted": "2.73 MB"
   },
@@ -412,6 +427,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/16_鬼灭之刃_花木兰_蝴蝶香奈惠.png",
+    "rel_detail": "details/fusion_skins/16_鬼灭之刃_花木兰_蝴蝶香奈惠.webp",
     "rel_thumb": "thumbnails/fusion_skins/16_鬼灭之刃_花木兰_蝴蝶香奈惠.jpg",
     "file_size_formatted": "2.65 MB"
   },
@@ -438,6 +454,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/17_鬼灭之刃_百里守约_愈史郎.png",
+    "rel_detail": "details/fusion_skins/17_鬼灭之刃_百里守约_愈史郎.webp",
     "rel_thumb": "thumbnails/fusion_skins/17_鬼灭之刃_百里守约_愈史郎.jpg",
     "file_size_formatted": "2.25 MB"
   },
@@ -464,6 +481,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/18_鬼灭之刃_典韦_妓夫太郎.png",
+    "rel_detail": "details/fusion_skins/18_鬼灭之刃_典韦_妓夫太郎.webp",
     "rel_thumb": "thumbnails/fusion_skins/18_鬼灭之刃_典韦_妓夫太郎.jpg",
     "file_size_formatted": "2.55 MB"
   },
@@ -490,6 +508,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/19_鬼灭之刃_赵云_灶门炭治郎神乐.png",
+    "rel_detail": "details/fusion_skins/19_鬼灭之刃_赵云_灶门炭治郎神乐.webp",
     "rel_thumb": "thumbnails/fusion_skins/19_鬼灭之刃_赵云_灶门炭治郎神乐.jpg",
     "file_size_formatted": "2.72 MB"
   },
@@ -516,6 +535,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/fusion_skins/20_鬼灭之刃_苏烈_悲鸣屿行冥.png",
+    "rel_detail": "details/fusion_skins/20_鬼灭之刃_苏烈_悲鸣屿行冥.webp",
     "rel_thumb": "thumbnails/fusion_skins/20_鬼灭之刃_苏烈_悲鸣屿行冥.jpg",
     "file_size_formatted": "2.82 MB"
   },
@@ -542,6 +562,7 @@ window.ARTWORKS_DATA = [
       "咒术回战"
     ],
     "rel_img": "images/fusion_skins/21_咒术回战_诸葛亮_五条悟.png",
+    "rel_detail": "details/fusion_skins/21_咒术回战_诸葛亮_五条悟.webp",
     "rel_thumb": "thumbnails/fusion_skins/21_咒术回战_诸葛亮_五条悟.jpg",
     "file_size_formatted": "2.56 MB"
   },
@@ -568,6 +589,7 @@ window.ARTWORKS_DATA = [
       "咒术回战"
     ],
     "rel_img": "images/fusion_skins/22_咒术回战_裴擒虎_虎杖悠仁.png",
+    "rel_detail": "details/fusion_skins/22_咒术回战_裴擒虎_虎杖悠仁.webp",
     "rel_thumb": "thumbnails/fusion_skins/22_咒术回战_裴擒虎_虎杖悠仁.jpg",
     "file_size_formatted": "2.62 MB"
   },
@@ -594,6 +616,7 @@ window.ARTWORKS_DATA = [
       "咒术回战"
     ],
     "rel_img": "images/fusion_skins/23_咒术回战_百里玄策_伏黑惠.png",
+    "rel_detail": "details/fusion_skins/23_咒术回战_百里玄策_伏黑惠.webp",
     "rel_thumb": "thumbnails/fusion_skins/23_咒术回战_百里玄策_伏黑惠.jpg",
     "file_size_formatted": "2.44 MB"
   },
@@ -620,6 +643,7 @@ window.ARTWORKS_DATA = [
       "咒术回战"
     ],
     "rel_img": "images/fusion_skins/24_咒术回战_铠_两面宿傩.png",
+    "rel_detail": "details/fusion_skins/24_咒术回战_铠_两面宿傩.webp",
     "rel_thumb": "thumbnails/fusion_skins/24_咒术回战_铠_两面宿傩.jpg",
     "file_size_formatted": "2.82 MB"
   },
@@ -646,6 +670,7 @@ window.ARTWORKS_DATA = [
       "咒术回战"
     ],
     "rel_img": "images/fusion_skins/25_咒术回战_曜_乙骨忧太.png",
+    "rel_detail": "details/fusion_skins/25_咒术回战_曜_乙骨忧太.webp",
     "rel_thumb": "thumbnails/fusion_skins/25_咒术回战_曜_乙骨忧太.jpg",
     "file_size_formatted": "2.63 MB"
   },
@@ -672,6 +697,7 @@ window.ARTWORKS_DATA = [
       "进击的巨人"
     ],
     "rel_img": "images/fusion_skins/26_进击的巨人_韩信_利威尔.png",
+    "rel_detail": "details/fusion_skins/26_进击的巨人_韩信_利威尔.webp",
     "rel_thumb": "thumbnails/fusion_skins/26_进击的巨人_韩信_利威尔.jpg",
     "file_size_formatted": "2.50 MB"
   },
@@ -698,6 +724,7 @@ window.ARTWORKS_DATA = [
       "进击的巨人"
     ],
     "rel_img": "images/fusion_skins/27_进击的巨人_苏烈_艾伦耶格尔.png",
+    "rel_detail": "details/fusion_skins/27_进击的巨人_苏烈_艾伦耶格尔.webp",
     "rel_thumb": "thumbnails/fusion_skins/27_进击的巨人_苏烈_艾伦耶格尔.jpg",
     "file_size_formatted": "2.60 MB"
   },
@@ -724,6 +751,7 @@ window.ARTWORKS_DATA = [
       "进击的巨人"
     ],
     "rel_img": "images/fusion_skins/28_进击的巨人_镜_三笠阿克曼.png",
+    "rel_detail": "details/fusion_skins/28_进击的巨人_镜_三笠阿克曼.webp",
     "rel_thumb": "thumbnails/fusion_skins/28_进击的巨人_镜_三笠阿克曼.jpg",
     "file_size_formatted": "2.41 MB"
   },
@@ -750,6 +778,7 @@ window.ARTWORKS_DATA = [
       "进击的巨人"
     ],
     "rel_img": "images/fusion_skins/29_进击的巨人_廉颇_莱纳布朗.png",
+    "rel_detail": "details/fusion_skins/29_进击的巨人_廉颇_莱纳布朗.webp",
     "rel_thumb": "thumbnails/fusion_skins/29_进击的巨人_廉颇_莱纳布朗.jpg",
     "file_size_formatted": "2.55 MB"
   },
@@ -776,6 +805,7 @@ window.ARTWORKS_DATA = [
       "进击的巨人"
     ],
     "rel_img": "images/fusion_skins/30_进击的巨人_沈梦溪_阿尔敏阿诺德.png",
+    "rel_detail": "details/fusion_skins/30_进击的巨人_沈梦溪_阿尔敏阿诺德.webp",
     "rel_thumb": "thumbnails/fusion_skins/30_进击的巨人_沈梦溪_阿尔敏阿诺德.jpg",
     "file_size_formatted": "2.64 MB"
   },
@@ -802,6 +832,7 @@ window.ARTWORKS_DATA = [
       "火影忍者"
     ],
     "rel_img": "images/fusion_skins/31_火影忍者_宫本武藏_宇智波佐助.png",
+    "rel_detail": "details/fusion_skins/31_火影忍者_宫本武藏_宇智波佐助.webp",
     "rel_thumb": "thumbnails/fusion_skins/31_火影忍者_宫本武藏_宇智波佐助.jpg",
     "file_size_formatted": "2.72 MB"
   },
@@ -828,6 +859,7 @@ window.ARTWORKS_DATA = [
       "火影忍者"
     ],
     "rel_img": "images/fusion_skins/32_火影忍者_赵云_漩涡鸣人.png",
+    "rel_detail": "details/fusion_skins/32_火影忍者_赵云_漩涡鸣人.webp",
     "rel_thumb": "thumbnails/fusion_skins/32_火影忍者_赵云_漩涡鸣人.jpg",
     "file_size_formatted": "2.51 MB"
   },
@@ -854,6 +886,7 @@ window.ARTWORKS_DATA = [
       "火影忍者"
     ],
     "rel_img": "images/fusion_skins/33_火影忍者_兰陵王_旗木卡卡西.png",
+    "rel_detail": "details/fusion_skins/33_火影忍者_兰陵王_旗木卡卡西.webp",
     "rel_thumb": "thumbnails/fusion_skins/33_火影忍者_兰陵王_旗木卡卡西.jpg",
     "file_size_formatted": "2.31 MB"
   },
@@ -880,6 +913,7 @@ window.ARTWORKS_DATA = [
       "火影忍者"
     ],
     "rel_img": "images/fusion_skins/34_火影忍者_诸葛亮_宇智波鼬.png",
+    "rel_detail": "details/fusion_skins/34_火影忍者_诸葛亮_宇智波鼬.webp",
     "rel_thumb": "thumbnails/fusion_skins/34_火影忍者_诸葛亮_宇智波鼬.jpg",
     "file_size_formatted": "2.51 MB"
   },
@@ -906,6 +940,7 @@ window.ARTWORKS_DATA = [
       "火影忍者"
     ],
     "rel_img": "images/fusion_skins/35_火影忍者_韩信_波风水门.png",
+    "rel_detail": "details/fusion_skins/35_火影忍者_韩信_波风水门.webp",
     "rel_thumb": "thumbnails/fusion_skins/35_火影忍者_韩信_波风水门.jpg",
     "file_size_formatted": "2.41 MB"
   },
@@ -932,6 +967,7 @@ window.ARTWORKS_DATA = [
       "海贼王"
     ],
     "rel_img": "images/fusion_skins/36_海贼王_达摩_蒙奇D路飞.png",
+    "rel_detail": "details/fusion_skins/36_海贼王_达摩_蒙奇D路飞.webp",
     "rel_thumb": "thumbnails/fusion_skins/36_海贼王_达摩_蒙奇D路飞.jpg",
     "file_size_formatted": "2.57 MB"
   },
@@ -958,6 +994,7 @@ window.ARTWORKS_DATA = [
       "海贼王"
     ],
     "rel_img": "images/fusion_skins/37_海贼王_宫本武藏_罗罗诺亚索隆.png",
+    "rel_detail": "details/fusion_skins/37_海贼王_宫本武藏_罗罗诺亚索隆.webp",
     "rel_thumb": "thumbnails/fusion_skins/37_海贼王_宫本武藏_罗罗诺亚索隆.jpg",
     "file_size_formatted": "2.58 MB"
   },
@@ -984,6 +1021,7 @@ window.ARTWORKS_DATA = [
       "海贼王"
     ],
     "rel_img": "images/fusion_skins/38_海贼王_曹操_香克斯.png",
+    "rel_detail": "details/fusion_skins/38_海贼王_曹操_香克斯.webp",
     "rel_thumb": "thumbnails/fusion_skins/38_海贼王_曹操_香克斯.jpg",
     "file_size_formatted": "2.80 MB"
   },
@@ -1010,6 +1048,7 @@ window.ARTWORKS_DATA = [
       "海贼王"
     ],
     "rel_img": "images/fusion_skins/39_海贼王_貂蝉_波雅汉库克.png",
+    "rel_detail": "details/fusion_skins/39_海贼王_貂蝉_波雅汉库克.webp",
     "rel_thumb": "thumbnails/fusion_skins/39_海贼王_貂蝉_波雅汉库克.jpg",
     "file_size_formatted": "2.61 MB"
   },
@@ -1036,6 +1075,7 @@ window.ARTWORKS_DATA = [
       "海贼王"
     ],
     "rel_img": "images/fusion_skins/40_海贼王_马可波罗_文斯莫克山治.png",
+    "rel_detail": "details/fusion_skins/40_海贼王_马可波罗_文斯莫克山治.webp",
     "rel_thumb": "thumbnails/fusion_skins/40_海贼王_马可波罗_文斯莫克山治.jpg",
     "file_size_formatted": "2.45 MB"
   },
@@ -1062,6 +1102,7 @@ window.ARTWORKS_DATA = [
       "死神BLEACH"
     ],
     "rel_img": "images/fusion_skins/41_死神BLEACH_李信_黑崎一护.png",
+    "rel_detail": "details/fusion_skins/41_死神BLEACH_李信_黑崎一护.webp",
     "rel_thumb": "thumbnails/fusion_skins/41_死神BLEACH_李信_黑崎一护.jpg",
     "file_size_formatted": "2.63 MB"
   },
@@ -1088,6 +1129,7 @@ window.ARTWORKS_DATA = [
       "死神BLEACH"
     ],
     "rel_img": "images/fusion_skins/42_死神BLEACH_嬴政_朽木白哉.png",
+    "rel_detail": "details/fusion_skins/42_死神BLEACH_嬴政_朽木白哉.webp",
     "rel_thumb": "thumbnails/fusion_skins/42_死神BLEACH_嬴政_朽木白哉.jpg",
     "file_size_formatted": "2.59 MB"
   },
@@ -1114,6 +1156,7 @@ window.ARTWORKS_DATA = [
       "死神BLEACH"
     ],
     "rel_img": "images/fusion_skins/43_死神BLEACH_王昭君_日番谷冬狮郎.png",
+    "rel_detail": "details/fusion_skins/43_死神BLEACH_王昭君_日番谷冬狮郎.webp",
     "rel_thumb": "thumbnails/fusion_skins/43_死神BLEACH_日番谷冬狮郎.jpg",
     "file_size_formatted": "2.72 MB"
   },
@@ -1140,6 +1183,7 @@ window.ARTWORKS_DATA = [
       "死神BLEACH"
     ],
     "rel_img": "images/fusion_skins/44_死神BLEACH_司空震_蓝染惣右介.png",
+    "rel_detail": "details/fusion_skins/44_死神BLEACH_司空震_蓝染惣右介.webp",
     "rel_thumb": "thumbnails/fusion_skins/44_死神BLEACH_蓝染惣右介.jpg",
     "file_size_formatted": "2.47 MB"
   },
@@ -1166,6 +1210,7 @@ window.ARTWORKS_DATA = [
       "死神BLEACH"
     ],
     "rel_img": "images/fusion_skins/45_死神BLEACH_兰陵王_乌尔奇奥拉.png",
+    "rel_detail": "details/fusion_skins/45_死神BLEACH_兰陵王_乌尔奇奥拉.webp",
     "rel_thumb": "thumbnails/fusion_skins/45_死神BLEACH_乌尔奇奥拉.jpg",
     "file_size_formatted": "2.54 MB"
   },
@@ -1192,6 +1237,7 @@ window.ARTWORKS_DATA = [
       "鬼灭之刃"
     ],
     "rel_img": "images/test_v2/01_鬼灭之刃_宫本武藏_灶门炭治郎.png",
+    "rel_detail": "details/test_v2/01_鬼灭之刃_宫本武藏_灶门炭治郎.webp",
     "rel_thumb": "thumbnails/test_v2/01_鬼灭之刃_宫本武藏_灶门炭治郎.jpg",
     "file_size_formatted": "2.41 MB"
   },
@@ -1218,6 +1264,7 @@ window.ARTWORKS_DATA = [
       "咒术回战"
     ],
     "rel_img": "images/test_v2/02_咒术回战_诸葛亮_五条悟.png",
+    "rel_detail": "details/test_v2/02_咒术回战_诸葛亮_五条悟.webp",
     "rel_thumb": "thumbnails/test_v2/02_咒术回战_诸葛亮_五条悟.jpg",
     "file_size_formatted": "2.52 MB"
   },
@@ -1244,6 +1291,7 @@ window.ARTWORKS_DATA = [
       "进击的巨人"
     ],
     "rel_img": "images/test_v2/03_进击的巨人_韩信_利威尔.png",
+    "rel_detail": "details/test_v2/03_进击的巨人_韩信_利威尔.webp",
     "rel_thumb": "thumbnails/test_v2/03_进击的巨人_韩信_利威尔.jpg",
     "file_size_formatted": "2.22 MB"
   },
@@ -1270,6 +1318,7 @@ window.ARTWORKS_DATA = [
       "火影忍者"
     ],
     "rel_img": "images/test_v2/04_火影忍者_宫本武藏_宇智波佐助.png",
+    "rel_detail": "details/test_v2/04_火影忍者_宫本武藏_宇智波佐助.webp",
     "rel_thumb": "thumbnails/test_v2/04_火影忍者_宫本武藏_宇智波佐助.jpg",
     "file_size_formatted": "2.33 MB"
   },
@@ -1296,6 +1345,7 @@ window.ARTWORKS_DATA = [
       "海贼王"
     ],
     "rel_img": "images/test_v2/05_海贼王_达摩_蒙奇D路飞.png",
+    "rel_detail": "details/test_v2/05_海贼王_达摩_蒙奇D路飞.webp",
     "rel_thumb": "thumbnails/test_v2/05_海贼王_达摩_蒙奇D路飞.jpg",
     "file_size_formatted": "2.44 MB"
   },
@@ -1322,6 +1372,7 @@ window.ARTWORKS_DATA = [
       "死神BLEACH"
     ],
     "rel_img": "images/test_v2/06_死神BLEACH_李信_黑崎一护.png",
+    "rel_detail": "details/test_v2/06_死神BLEACH_李信_黑崎一护.webp",
     "rel_thumb": "thumbnails/test_v2/06_死神BLEACH_李信_黑崎一护.jpg",
     "file_size_formatted": "2.32 MB"
   },
@@ -1343,6 +1394,7 @@ window.ARTWORKS_DATA = [
     "quote": "盛世华诞金秋庆，欢歌笑语绕水乡。",
     "desc": "散点透视俯瞰全景，展现江南农村大院与广场热烈欢度十月国庆盛景。广场上红灯笼与彩旗猎猎，金红双狮欢腾跃动，腰鼓秧歌队红绸飞舞；白墙贴满大红剪纸福字与“国泰民安”对联，扎大红绸花的红色手扶拖拉机与插旗二八大杠停驻，河道彩旗摇橹船巡游，满屏洋溢着纯真豪迈的盛世丰年喜悦。",
     "rel_img": "images/folk_art/01_水乡欢歌_喜迎国庆.png",
+    "rel_detail": "details/folk_art/01_水乡欢歌_喜迎国庆.webp",
     "rel_thumb": "thumbnails/folk_art/01_水乡欢歌_喜迎国庆.jpg",
     "file_size_bytes": 3818529,
     "file_size_formatted": "3.64 MB"
@@ -1365,6 +1417,7 @@ window.ARTWORKS_DATA = [
     "quote": "百米长街摆佳宴，举杯共贺盛世平。",
     "desc": "沿江南水乡古运河青石板老街摆开数十米红漆八仙桌“国庆长街宴”。大蒸笼水乡八大碗、澄黄大闸蟹热气腾腾白雾缭绕；全村老少团坐举杯同庆，妇女端蒸盘穿梭席间，孩童手挥七彩风车嬉戏追逐，两岸排满大红灯笼与大幅蓝印花布，石拱桥上看客如织。",
     "rel_img": "images/folk_art/02_长街百家宴_盛世欢聚.png",
+    "rel_detail": "details/folk_art/02_长街百家宴_盛世欢聚.webp",
     "rel_thumb": "thumbnails/folk_art/02_长街百家宴_盛世欢聚.jpg",
     "file_size_bytes": 3633048,
     "file_size_formatted": "3.46 MB"
@@ -1387,6 +1440,7 @@ window.ARTWORKS_DATA = [
     "quote": "火树银花漫天落，星雨飞溅醉江南。",
     "desc": "墨玉深蓝夜空下，水乡运河畔国庆之夜盛大烟火晚会与非遗打铁花绝技。高密度细碎点彩烟花在夜空如火树银花怒放；河埠头民间艺人击打出千万点金红星雨铁花瀑布凌空飞溅；水乡古戏台越剧好戏连台，石拱桥与民居檐角万家灯火通明，孩童骑在大人肩头欢呼雀跃。",
     "rel_img": "images/folk_art/03_火树银花_水乡国庆之夜.png",
+    "rel_detail": "details/folk_art/03_火树银花_水乡国庆之夜.webp",
     "rel_thumb": "thumbnails/folk_art/03_火树银花_水乡国庆之夜.jpg",
     "file_size_bytes": 3889400,
     "file_size_formatted": "3.71 MB"
@@ -1409,6 +1463,7 @@ window.ARTWORKS_DATA = [
     "quote": "粮仓满溢秋光好，农家大院笑声浓。",
     "desc": "江南白墙黛瓦农家大院秋收翻晒粮食的壮丽全景。院坝铺满金黄玉米、火红辣椒串与稻谷竹簸箕；门楼紫藤繁花如粉紫瀑布垂挂，墙边晾晒靛蓝蓝印花布；村民忙碌翻晒，孩童欢笑追赶白鹅小狗，二楼阳台老人抱孙笑看丰收。",
     "rel_img": "images/folk_art/04_水乡晒秋_丰收大院.png",
+    "rel_detail": "details/folk_art/04_水乡晒秋_丰收大院.webp",
     "rel_thumb": "thumbnails/folk_art/04_水乡晒秋_丰收大院.jpg",
     "file_size_bytes": 3611182,
     "file_size_formatted": "3.44 MB"
@@ -1431,6 +1486,7 @@ window.ARTWORKS_DATA = [
     "quote": "嫩芽初摘春山绿，铁锅翻炒溢清香。",
     "desc": "清明谷雨时节，江南茶山脚下的白墙青瓦大院，茶农齐聚炒制新茶。茶山层叠碧绿，大铁锅生火，茶农双手翻炒新茶升起细碎蒸气；姑娘们在竹匾前分拣鲜嫩茶芽，长木桌摆放粗陶大茶壶与瓷碗，茶香飘满水乡。",
     "rel_img": "images/folk_art/05_春山采茶_炒茶欢歌.png",
+    "rel_detail": "details/folk_art/05_春山采茶_炒茶欢歌.webp",
     "rel_thumb": "thumbnails/folk_art/05_春山采茶_炒茶欢歌.jpg",
     "file_size_bytes": 3795986,
     "file_size_formatted": "3.62 MB"
@@ -1453,6 +1509,7 @@ window.ARTWORKS_DATA = [
     "quote": "鼓声阵阵龙舟跃，青粽飘香古运河。",
     "desc": "青石板河埠头与水乡两岸，端午节彩绘木龙舟破浪前行击鼓飞溅点彩白浪；河埠头石阶上妇女们淘米洗粽叶包裹长条青粽，门楣高悬艾草菖蒲；两岸石阶与石拱桥上挤满看热闹的乡亲。",
     "rel_img": "images/folk_art/06_古河埠头_端午龙舟.png",
+    "rel_detail": "details/folk_art/06_古河埠头_端午龙舟.webp",
     "rel_thumb": "thumbnails/folk_art/06_古河埠头_端午龙舟.jpg",
     "file_size_bytes": 3648912,
     "file_size_formatted": "3.48 MB"
@@ -1475,6 +1532,7 @@ window.ARTWORKS_DATA = [
     "quote": "喜船靠岸锣鼓喧，佳偶天成美名传。",
     "desc": "水乡石拱桥与临水大宅门前，一场热烈的水路传统迎亲盛景。披红挂彩的摇橹花船靠岸，新郎戴红花、新娘撑红伞穿红碎花嫁衣踏上石桥；唢呐铜锣震天，白墙贴满大红双喜字，院落流水席八仙桌红火开宴，孩童捂耳点爆竹。",
     "rel_img": "images/folk_art/07_喜气临门_水乡迎亲.png",
+    "rel_detail": "details/folk_art/07_喜气临门_水乡迎亲.webp",
     "rel_thumb": "thumbnails/folk_art/07_喜气临门_水乡迎亲.jpg",
     "file_size_bytes": 4157304,
     "file_size_formatted": "3.96 MB"
@@ -1497,6 +1555,7 @@ window.ARTWORKS_DATA = [
     "quote": "银幕高悬夏夜凉，竹椅摇扇话家常。",
     "desc": "夏夜打谷场上拉起白色大银幕，老式放映机打出明亮光束穿透夜空；男女老少竹椅马扎齐聚，孩子们爬在麦秸垛或坐在拖拉机车斗里看戏，妇女摇蒲扇纳凉切红西瓜；深蓝点彩星空倒映在池塘中，承载难忘夏夜乡愁。",
     "rel_img": "images/folk_art/08_夏夜清风_露天电影.png",
+    "rel_detail": "details/folk_art/08_夏夜清风_露天电影.webp",
     "rel_thumb": "thumbnails/folk_art/08_夏夜清风_露天电影.jpg",
     "file_size_bytes": 3907872,
     "file_size_formatted": "3.73 MB"
@@ -1517,6 +1576,7 @@ window.ARTWORKS_DATA = [
     "desc": "宫本武藏身着炭治郎绿色黑格羽织与鬼杀队服，双手持日轮刀，水龙咆哮流转",
     "vfx": "水之呼吸与日之呼吸双形态刀光特效，水龙咆哮与炽热火炎交织",
     "rel_img": "images/skins/01_demon_slayer/01_宫本武藏_灶门炭治郎.png",
+    "rel_detail": "details/skins/01_demon_slayer/01_宫本武藏_灶门炭治郎.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/01_宫本武藏_灶门炭治郎.jpg",
     "file_size_bytes": 2844693,
     "file_size_formatted": "2.71 MB"
@@ -1537,6 +1597,7 @@ window.ARTWORKS_DATA = [
     "desc": "铠身着炎柱火焰羽织，手持炽红日轮刀，烈火焚天，雄浑霸气",
     "vfx": "全身炎之呼吸·玖之型·炼狱烈焰升腾，火焰披风猎猎作响，炽热火龙咆哮环绕",
     "rel_img": "images/skins/01_demon_slayer/02_铠_炼狱杏寿郎.png",
+    "rel_detail": "details/skins/01_demon_slayer/02_铠_炼狱杏寿郎.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/02_铠_炼狱杏寿郎.jpg",
     "file_size_bytes": 2660909,
     "file_size_formatted": "2.54 MB"
@@ -1557,6 +1618,7 @@ window.ARTWORKS_DATA = [
     "desc": "李白身披义勇双拼色羽织，腰挎深蓝日轮刀，长发半扎，冷峻清澈",
     "vfx": "二技能神来之笔化为水墨静水领域，大招青蓝水之巨龙穿梭，生生流转破浪飞瀑",
     "rel_img": "images/skins/01_demon_slayer/03_李白_冨冈义勇.png",
+    "rel_detail": "details/skins/01_demon_slayer/03_李白_冨冈义勇.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/03_李白_冨冈义勇.jpg",
     "file_size_bytes": 2776063,
     "file_size_formatted": "2.65 MB"
@@ -1577,6 +1639,7 @@ window.ARTWORKS_DATA = [
     "desc": "不知火舞化身鬼化祢豆子，粉红和服飘带，踢技凌厉，粉色爆血烈焰环绕周身",
     "vfx": "飞踢带出粉红樱粉色爆血烈焰，鬼化狂暴形态鬼角与柳叶妖纹，粉色火海翻腾",
     "rel_img": "images/skins/01_demon_slayer/04_不知火舞_灶门祢豆子.png",
+    "rel_detail": "details/skins/01_demon_slayer/04_不知火舞_灶门祢豆子.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/04_不知火舞_灶门祢豆子.jpg",
     "file_size_bytes": 2485500,
     "file_size_formatted": "2.37 MB"
@@ -1597,6 +1660,7 @@ window.ARTWORKS_DATA = [
     "desc": "百里玄策头戴灰色野猪头套，裸露精壮上半身，手持双锯齿日轮刀与狂舞锁链",
     "vfx": "双持缺口锯齿日轮刀与狂暴骨链飞钩，兽之呼吸狂风撕裂，暴击地面碎石飞溅",
     "rel_img": "images/skins/01_demon_slayer/05_百里玄策_嘴平伊之助.png",
+    "rel_detail": "details/skins/01_demon_slayer/05_百里玄策_嘴平伊之助.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/05_百里玄策_嘴平伊之助.jpg",
     "file_size_bytes": 2527172,
     "file_size_formatted": "2.41 MB"
@@ -1617,6 +1681,7 @@ window.ARTWORKS_DATA = [
     "desc": "诸葛亮化身无惨西装礼帽贵族形态，猩红双瞳，周身无限城木质飞檐倒错浮空",
     "vfx": "无限城交错和室倒影，被动法球化为血红刺棘与暗影触手，元气弹聚成湮灭黑血核心",
     "rel_img": "images/skins/01_demon_slayer/06_诸葛亮_鬼舞辻无惨.png",
+    "rel_detail": "details/skins/01_demon_slayer/06_诸葛亮_鬼舞辻无惨.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/06_诸葛亮_鬼舞辻无惨.jpg",
     "file_size_bytes": 2698990,
     "file_size_formatted": "2.57 MB"
@@ -1637,6 +1702,7 @@ window.ARTWORKS_DATA = [
     "desc": "貂蝉身着彩蝶纹样羽织，手持细长刺突刀，步步生蝶，紫藤花瓣缭绕绝美飘逸",
     "vfx": "位移伴随紫藤花雨与夜光幻蝶，大招绽放巨大梦幻紫藤花毒雾法阵与万千荧蝶",
     "rel_img": "images/skins/01_demon_slayer/07_貂蝉_蝴蝶忍.png",
+    "rel_detail": "details/skins/01_demon_slayer/07_貂蝉_蝴蝶忍.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/07_貂蝉_蝴蝶忍.jpg",
     "file_size_bytes": 2677093,
     "file_size_formatted": "2.55 MB"
@@ -1657,6 +1723,7 @@ window.ARTWORKS_DATA = [
     "desc": "曜化身天才剑士无一郎，黑色长发与青绿发尾，松垮深青队服，霞光剑气森然",
     "vfx": "剑步幻影被层层薄荷绿浓雾白霞笼罩，七星剑阵化作霞雾剑气爆散破空",
     "rel_img": "images/skins/01_demon_slayer/08_曜_时透无一郎.png",
+    "rel_detail": "details/skins/01_demon_slayer/08_曜_时透无一郎.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/08_曜_时透无一郎.jpg",
     "file_size_bytes": 2560792,
     "file_size_formatted": "2.44 MB"
@@ -1677,6 +1744,7 @@ window.ARTWORKS_DATA = [
     "desc": "澜口缠绷带，身披黑白条纹羽织，异色双瞳，肩缠白蛇镝丸，双握波浪形蛇刃",
     "vfx": "下潜技能化作白蛇地底蜿蜒游动，破水跃起双波浪蛇形刃斩出白紫巨蟒撕咬",
     "rel_img": "images/skins/01_demon_slayer/09_澜_伊黑小芭内.png",
+    "rel_detail": "details/skins/01_demon_slayer/09_澜_伊黑小芭内.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/09_澜_伊黑小芭内.jpg",
     "file_size_bytes": 2817615,
     "file_size_formatted": "2.69 MB"
@@ -1697,6 +1765,7 @@ window.ARTWORKS_DATA = [
     "desc": "关羽身披深红羽织，长发高马尾，手持至尊赤红日轮赫刀，日晕神辉笼罩天地",
     "vfx": "战马化作赤炎神驹，冲锋挥刀斩出毁天灭地的六道耀斑日冕，赤红赫刀焚尽虚空",
     "rel_img": "images/skins/01_demon_slayer/10_关羽_继国缘一.png",
+    "rel_detail": "details/skins/01_demon_slayer/10_关羽_继国缘一.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/10_关羽_继国缘一.jpg",
     "file_size_bytes": 2885036,
     "file_size_formatted": "2.75 MB"
@@ -1717,6 +1786,7 @@ window.ARTWORKS_DATA = [
     "desc": "达摩化身上弦之三，苍白皮肤布满靛蓝武道刺青，粉短发，金黄双瞳，拳风破空",
     "vfx": "脚下展开十二角冰蓝雪花罗针阵，大招一拳打出破坏杀·灭式与乱式粉蓝拳波",
     "rel_img": "images/skins/01_demon_slayer/11_达摩_猗窝座.png",
+    "rel_detail": "details/skins/01_demon_slayer/11_达摩_猗窝座.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/11_达摩_猗窝座.jpg",
     "file_size_bytes": 2730848,
     "file_size_formatted": "2.60 MB"
@@ -1737,6 +1807,7 @@ window.ARTWORKS_DATA = [
     "desc": "王昭君身着万世极乐教教主金黑长袍，手持金色铁扇，彩虹色瞳孔，冰莲盛放",
     "vfx": "大招自九天降下金色对扇寒风，地面结成无数血鬼冰睡莲与巨型结晶冰菩萨",
     "rel_img": "images/skins/01_demon_slayer/12_王昭君_童磨.png",
+    "rel_detail": "details/skins/01_demon_slayer/12_王昭君_童磨.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/12_王昭君_童磨.jpg",
     "file_size_bytes": 2915711,
     "file_size_formatted": "2.78 MB"
@@ -1757,6 +1828,7 @@ window.ARTWORKS_DATA = [
     "desc": "李信化面上六目、手持血肉眼球异形长刀的上弦之一黑死牟，月华与血煞同在",
     "vfx": "光信形态神圣弦月剑气，狂信形态多目血肉鬼刃虚哭神去斩出狂暴血色弦月",
     "rel_img": "images/skins/01_demon_slayer/13_李信_黑死牟.png",
+    "rel_detail": "details/skins/01_demon_slayer/13_李信_黑死牟.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/13_李信_黑死牟.jpg",
     "file_size_bytes": 2925366,
     "file_size_formatted": "2.79 MB"
@@ -1777,6 +1849,7 @@ window.ARTWORKS_DATA = [
     "desc": "公孙离化身吉原花魁堕姬，银发翠绿挑染，八重樱发簪，飘动杀人缎带",
     "vfx": "手中骨伞化作粉黑交织八重绸缎伞，枫叶变为飞舞花魁缎带与锐利带刃",
     "rel_img": "images/skins/01_demon_slayer/14_公孙离_堕姬.png",
+    "rel_detail": "details/skins/01_demon_slayer/14_公孙离_堕姬.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/14_公孙离_堕姬.jpg",
     "file_size_bytes": 2792841,
     "file_size_formatted": "2.66 MB"
@@ -1797,6 +1870,7 @@ window.ARTWORKS_DATA = [
     "desc": "裴擒虎化身新上弦之六狯岳，勾玉项链，黑雷日轮刀，人虎双形黑雷咆哮",
     "vfx": "人形态拔刀劈出漆黑雷电刀光，虎形态化作浑身缠绕黑红雷光的狰狞雷兽",
     "rel_img": "images/skins/01_demon_slayer/15_裴擒虎_狯岳.png",
+    "rel_detail": "details/skins/01_demon_slayer/15_裴擒虎_狯岳.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/15_裴擒虎_狯岳.jpg",
     "file_size_bytes": 2708696,
     "file_size_formatted": "2.58 MB"
@@ -1817,6 +1891,7 @@ window.ARTWORKS_DATA = [
     "desc": "花木兰身着粉绿双色蝴蝶羽织，双持花纹日轮轻短刀与华美重剑，温柔与英烈并存",
     "vfx": "轻剑快速穿梭带出缤纷落樱残影，重剑蓄力如巨型粉白重瓣蔷薇震撼绽放",
     "rel_img": "images/skins/01_demon_slayer/16_花木兰_蝴蝶香奈惠.png",
+    "rel_detail": "details/skins/01_demon_slayer/16_花木兰_蝴蝶香奈惠.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/16_花木兰_蝴蝶香奈惠.jpg",
     "file_size_bytes": 2767498,
     "file_size_formatted": "2.64 MB"
@@ -1837,6 +1912,7 @@ window.ARTWORKS_DATA = [
     "desc": "百里守约化身愈史郎，深绿军服短发，贴着血眼符咒的长枪，冷静果决",
     "vfx": "靠墙伪装显现血鬼视界隐身符咒，狙击瞄准线化为血红视之符文，远距离破魔弹",
     "rel_img": "images/skins/01_demon_slayer/17_百里守约_愈史郎.png",
+    "rel_detail": "details/skins/01_demon_slayer/17_百里守约_愈史郎.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/17_百里守约_愈史郎.jpg",
     "file_size_bytes": 2442869,
     "file_size_formatted": "2.33 MB"
@@ -1857,6 +1933,7 @@ window.ARTWORKS_DATA = [
     "desc": "典韦化身枯瘦精悍的妓夫太郎，双持深红剧毒骨镰，背生血刺，狂意滔天",
     "vfx": "双持血刃狂骨镰刀狂暴挥砍，大招跃起劈击引发地裂血毒龙卷暴风",
     "rel_img": "images/skins/01_demon_slayer/18_典韦_妓夫太郎.png",
+    "rel_detail": "details/skins/01_demon_slayer/18_典韦_妓夫太郎.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/18_典韦_妓夫太郎.jpg",
     "file_size_bytes": 2773647,
     "file_size_formatted": "2.65 MB"
@@ -1877,6 +1954,7 @@ window.ARTWORKS_DATA = [
     "desc": "赵云身披日之呼吸金色烈阳羽织，枪尖赤红赫热，太阳神火席卷八荒",
     "vfx": "龙胆长枪缠绕火之神神乐太阳金焰，大招天翔之龙化为九天降临的烈火红龙",
     "rel_img": "images/skins/01_demon_slayer/19_赵云_灶门炭治郎（火之神神乐）.png",
+    "rel_detail": "details/skins/01_demon_slayer/19_赵云_灶门炭治郎（火之神神乐）.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/19_赵云_灶门炭治郎（火之神神乐）.jpg",
     "file_size_bytes": 2848763,
     "file_size_formatted": "2.72 MB"
@@ -1897,6 +1975,7 @@ window.ARTWORKS_DATA = [
     "desc": "苏烈化身泪流念珠的岩柱，巨大魁梧身躯，手持带链巨斧与玄铁流星锤，金钟罩顶",
     "vfx": "降魔铁杵化为阔头链锤与阔斧，大招撼地引发山崩地裂金刚经文护体",
     "rel_img": "images/skins/01_demon_slayer/20_苏烈_悲鸣屿行冥.png",
+    "rel_detail": "details/skins/01_demon_slayer/20_苏烈_悲鸣屿行冥.webp",
     "rel_thumb": "thumbnails/skins/01_demon_slayer/20_苏烈_悲鸣屿行冥.jpg",
     "file_size_bytes": 2744292,
     "file_size_formatted": "2.62 MB"
@@ -1917,6 +1996,7 @@ window.ARTWORKS_DATA = [
     "desc": "诸葛亮黑眼罩苍蓝六眼白发，高专黑色制服，无下限咒力环绕，虚式茈紫光冲霄",
     "vfx": "被动法球为术式顺转「苍」与术式反转「赫」，大招元气弹轰出湮灭虚式「茈」",
     "rel_img": "images/skins/02_jujutsu_kaisen/01_诸葛亮_五条悟.png",
+    "rel_detail": "details/skins/02_jujutsu_kaisen/01_诸葛亮_五条悟.webp",
     "rel_thumb": "thumbnails/skins/02_jujutsu_kaisen/01_诸葛亮_五条悟.jpg",
     "file_size_bytes": 2752802,
     "file_size_formatted": "2.63 MB"
@@ -1937,6 +2017,7 @@ window.ARTWORKS_DATA = [
     "desc": "裴擒虎身着高专红色兜帽制服，拳头发散空间撕裂的漆黑红光黑闪，霸道凶悍",
     "vfx": "人形态拳拳带黑色电弧「黑闪」，虎形态切换为两面宿傩妖纹狂暴魔神形态",
     "rel_img": "images/skins/02_jujutsu_kaisen/02_裴擒虎_虎杖悠仁.png",
+    "rel_detail": "details/skins/02_jujutsu_kaisen/02_裴擒虎_虎杖悠仁.webp",
     "rel_thumb": "thumbnails/skins/02_jujutsu_kaisen/02_裴擒虎_虎杖悠仁.jpg",
     "file_size_bytes": 2578221,
     "file_size_formatted": "2.46 MB"
@@ -1957,6 +2038,7 @@ window.ARTWORKS_DATA = [
     "desc": "百里玄策结手印式神，脚下墨影涌动，黑白玉犬环绕身旁，眼神冷峻决绝",
     "vfx": "飞钩为影之阴影锁链，召唤黑白玉犬扑咬突袭，大招召唤鵺之落雷狂轰",
     "rel_img": "images/skins/02_jujutsu_kaisen/03_百里玄策_伏黑惠.png",
+    "rel_detail": "details/skins/02_jujutsu_kaisen/03_百里玄策_伏黑惠.webp",
     "rel_thumb": "thumbnails/skins/02_jujutsu_kaisen/03_百里玄策_伏黑惠.jpg",
     "file_size_bytes": 2641407,
     "file_size_formatted": "2.52 MB"
@@ -1977,6 +2059,7 @@ window.ARTWORKS_DATA = [
     "desc": "铠魔铠解放化身宿傩纹身肌肉魔躯，伏魔神龛牛头骨楼在背后若隐若现，凶威滔天",
     "vfx": "大招变身四眼四臂诅咒之王，刀光撕裂出空间斩击「解」与「捌」，烈焰「开」",
     "rel_img": "images/skins/02_jujutsu_kaisen/04_铠_两面宿傩.png",
+    "rel_detail": "details/skins/02_jujutsu_kaisen/04_铠_两面宿傩.webp",
     "rel_thumb": "thumbnails/skins/02_jujutsu_kaisen/04_铠_两面宿傩.jpg",
     "file_size_bytes": 2663131,
     "file_size_formatted": "2.54 MB"
@@ -1997,6 +2080,7 @@ window.ARTWORKS_DATA = [
     "desc": "曜身穿白色高专制服，手持缠绕浓烈漆黑咒力的武士刀，巨大里香巨爪在身后咆哮",
     "vfx": "背后特级过咒怨灵祈本里香巨大魔影护体，纯黑咒力剑光横扫千军，复制术式",
     "rel_img": "images/skins/02_jujutsu_kaisen/05_曜_乙骨忧太.png",
+    "rel_detail": "details/skins/02_jujutsu_kaisen/05_曜_乙骨忧太.webp",
     "rel_thumb": "thumbnails/skins/02_jujutsu_kaisen/05_曜_乙骨忧太.jpg",
     "file_size_bytes": 2675693,
     "file_size_formatted": "2.55 MB"
@@ -2017,6 +2101,7 @@ window.ARTWORKS_DATA = [
     "desc": "韩信身着调查兵团绿披风自由之翼，手持双持折刃超硬质刀，空中高速螺旋斩击",
     "vfx": "立体机动装置瓦斯极速喷射喷气，双刀旋风斩击在敌阵拉出刺目光刃陀螺",
     "rel_img": "images/skins/03_attack_on_titan/01_韩信_利威尔·阿克曼.png",
+    "rel_detail": "details/skins/03_attack_on_titan/01_韩信_利威尔·阿克曼.webp",
     "rel_thumb": "thumbnails/skins/03_attack_on_titan/01_韩信_利威尔·阿克曼.jpg",
     "file_size_bytes": 2685170,
     "file_size_formatted": "2.56 MB"
@@ -2037,6 +2122,7 @@ window.ARTWORKS_DATA = [
     "desc": "苏烈化身绿瞳精灵耳进击巨人，硬质化铠甲结晶拳套，雷光直击苍穹，震撼非凡",
     "vfx": "金雷撕裂夜空，变身进击的巨人形态，硬质化结晶巨拳砸地引发百米岩石地鸣",
     "rel_img": "images/skins/03_attack_on_titan/02_苏烈_艾伦·耶格尔.png",
+    "rel_detail": "details/skins/03_attack_on_titan/02_苏烈_艾伦·耶格尔.webp",
     "rel_thumb": "thumbnails/skins/03_attack_on_titan/02_苏烈_艾伦·耶格尔.jpg",
     "file_size_bytes": 2839420,
     "file_size_formatted": "2.71 MB"
@@ -2057,6 +2143,7 @@ window.ARTWORKS_DATA = [
     "desc": "镜系着标志性红围巾，双持立体机动超硬质刀与雷枪，眼神坚毅冷艳，身法如影",
     "vfx": "红围巾在镜像空间飘扬，雷枪爆破轰鸣，立体机动装置在多重镜面间穿梭割裂",
     "rel_img": "images/skins/03_attack_on_titan/03_镜_三笠·阿克曼.png",
+    "rel_detail": "details/skins/03_attack_on_titan/03_镜_三笠·阿克曼.webp",
     "rel_thumb": "thumbnails/skins/03_attack_on_titan/03_镜_三笠·阿克曼.jpg",
     "file_size_bytes": 2732551,
     "file_size_formatted": "2.61 MB"
@@ -2077,6 +2164,7 @@ window.ARTWORKS_DATA = [
     "desc": "廉颇化身全副骨铠的铠之巨人，金色短发，坚不可摧的白金铠甲，无可撼动的重装铁壁",
     "vfx": "全身金黄色肌肉重铠硬质化装甲，冲撞如同重装火车头破壁，大地龟裂",
     "rel_img": "images/skins/03_attack_on_titan/04_廉颇_莱纳·布朗.png",
+    "rel_detail": "details/skins/03_attack_on_titan/04_廉颇_莱纳·布朗.webp",
     "rel_thumb": "thumbnails/skins/03_attack_on_titan/04_廉颇_莱纳·布朗.jpg",
     "file_size_bytes": 2790748,
     "file_size_formatted": "2.66 MB"
@@ -2097,6 +2185,7 @@ window.ARTWORKS_DATA = [
     "desc": "沈梦溪身背兵团瓦斯炸药罐，大招召唤六十米超大型巨人蒸气虚影，核爆毁天灭地",
     "vfx": "大招投掷出炽热超大型巨人头颅炸弹，爆炸化为冲天核爆蒸气蘑菇云与热风狂潮",
     "rel_img": "images/skins/03_attack_on_titan/05_沈梦溪_阿尔敏·阿诺德.png",
+    "rel_detail": "details/skins/03_attack_on_titan/05_沈梦溪_阿尔敏·阿诺德.webp",
     "rel_thumb": "thumbnails/skins/03_attack_on_titan/05_沈梦溪_阿尔敏·阿诺德.jpg",
     "file_size_bytes": 2738298,
     "file_size_formatted": "2.61 MB"
@@ -2117,6 +2206,7 @@ window.ARTWORKS_DATA = [
     "desc": "宫本手持草薙剑，紫色须佐能乎肋骨与巨臂环绕，天照黑炎与千鸟雷光交织",
     "vfx": "草薙剑千鸟雷光闪烁，六勾玉轮回眼与永恒万花筒，半身紫色须佐能乎弓箭贯穿",
     "rel_img": "images/skins/04_naruto/01_宫本武藏_宇智波佐助.png",
+    "rel_detail": "details/skins/04_naruto/01_宫本武藏_宇智波佐助.webp",
     "rel_thumb": "thumbnails/skins/04_naruto/01_宫本武藏_宇智波佐助.jpg",
     "file_size_bytes": 2790519,
     "file_size_formatted": "2.66 MB"
@@ -2137,6 +2227,7 @@ window.ARTWORKS_DATA = [
     "desc": "赵云身披九尾查克拉金色火焰外衣，手持查克拉长枪，六道仙人锡杖纹饰，金光万丈",
     "vfx": "金灿九尾查克拉模式，大招天翔之龙化为金色九尾查克拉九喇嘛巨兽扑击，风遁螺旋丸轰鸣",
     "rel_img": "images/skins/04_naruto/02_赵云_漩涡鸣人.png",
+    "rel_detail": "details/skins/04_naruto/02_赵云_漩涡鸣人.webp",
     "rel_thumb": "thumbnails/skins/04_naruto/02_赵云_漩涡鸣人.jpg",
     "file_size_bytes": 2667528,
     "file_size_formatted": "2.54 MB"
@@ -2157,6 +2248,7 @@ window.ARTWORKS_DATA = [
     "desc": "兰陵王银发斜刘海，面罩护额，左眼三勾玉万花筒神威写轮眼，雷切蓝光耀目",
     "vfx": "隐身化作神威空间扭曲漩涡，现身右臂暴起刺目千鸟雷切电弧，忍犬追踪",
     "rel_img": "images/skins/04_naruto/03_兰陵王_旗木卡卡西.png",
+    "rel_detail": "details/skins/04_naruto/03_兰陵王_旗木卡卡西.webp",
     "rel_thumb": "thumbnails/skins/04_naruto/03_兰陵王_旗木卡卡西.jpg",
     "file_size_bytes": 2577209,
     "file_size_formatted": "2.46 MB"
@@ -2177,6 +2269,7 @@ window.ARTWORKS_DATA = [
     "desc": "诸葛亮身穿黑底红云晓组织风衣，万花筒写轮眼，血红乌鸦群漫天飞舞，须佐能乎十拳剑",
     "vfx": "被动法球为红色写轮眼与八尺琼勾玉，身化万千乌鸦穿梭，大招十拳剑封印葫芦",
     "rel_img": "images/skins/04_naruto/04_诸葛亮_宇智波鼬.png",
+    "rel_detail": "details/skins/04_naruto/04_诸葛亮_宇智波鼬.webp",
     "rel_thumb": "thumbnails/skins/04_naruto/04_诸葛亮_宇智波鼬.jpg",
     "file_size_bytes": 2587655,
     "file_size_formatted": "2.47 MB"
@@ -2197,6 +2290,7 @@ window.ARTWORKS_DATA = [
     "desc": "韩信身穿四代目火影御神袍，手持特制三叉苦无，金发飘扬，黄色闪光所向披靡",
     "vfx": "位移在原地留下特制三叉苦无飞雷神术式，极速瞬移金芒闪烁，螺旋丸连环轰击",
     "rel_img": "images/skins/04_naruto/05_韩信_波风水门.png",
+    "rel_detail": "details/skins/04_naruto/05_韩信_波风水门.webp",
     "rel_thumb": "thumbnails/skins/04_naruto/05_韩信_波风水门.jpg",
     "file_size_bytes": 2551269,
     "file_size_formatted": "2.43 MB"
@@ -2217,6 +2311,7 @@ window.ARTWORKS_DATA = [
     "desc": "达摩化身白发白云飘带的五档尼卡路飞，大笑姿态，黑色霸王色闪电缠绕金刚巨拳",
     "vfx": "尼卡心跳咚咚鼓声，大招轰出宛若岛屿般巨大的黑雷霸气「橡胶猿神枪」破天动地",
     "rel_img": "images/skins/05_one_piece/01_达摩_蒙奇·D·路飞.png",
+    "rel_detail": "details/skins/05_one_piece/01_达摩_蒙奇·D·路飞.webp",
     "rel_thumb": "thumbnails/skins/05_one_piece/01_达摩_蒙奇·D·路飞.jpg",
     "file_size_bytes": 2876866,
     "file_size_formatted": "2.74 MB"
@@ -2237,6 +2332,7 @@ window.ARTWORKS_DATA = [
     "desc": "宫本口衔和道一文字，双持阎魔与三代鬼彻，绿发头巾，霸气黑雷缠绕三刃",
     "vfx": "三刀流缠绕阎魔霸王色黑红闪电，大招鬼气九刀流阿修罗虚影降临，刀断山河",
     "rel_img": "images/skins/05_one_piece/02_宫本武藏_罗罗诺亚·索隆.png",
+    "rel_detail": "details/skins/05_one_piece/02_宫本武藏_罗罗诺亚·索隆.webp",
     "rel_thumb": "thumbnails/skins/05_one_piece/02_宫本武藏_罗罗诺亚·索隆.jpg",
     "file_size_bytes": 2903072,
     "file_size_formatted": "2.77 MB"
@@ -2257,6 +2353,7 @@ window.ARTWORKS_DATA = [
     "desc": "曹操身披黑风衣红发独臂，腰悬格里芬，霸王色霸气震慑全场，天穹裂开两半",
     "vfx": "格里芬名剑斩出毁天灭地的红色霸王色半月斩「神避」，红黑闪电劈开天空云层",
     "rel_img": "images/skins/05_one_piece/03_曹操_香克斯.png",
+    "rel_detail": "details/skins/05_one_piece/03_曹操_香克斯.webp",
     "rel_thumb": "thumbnails/skins/05_one_piece/03_曹操_香克斯.jpg",
     "file_size_bytes": 2707460,
     "file_size_formatted": "2.58 MB"
@@ -2277,6 +2374,7 @@ window.ARTWORKS_DATA = [
     "desc": "貂蝉身着九蛇旗袍，蛇耳环，高贵冷艳的女帝容颜，粉红霸气心波缭绕步步生香",
     "vfx": "甜甜甘风粉红心形光束石化敌军，大招展开巨大粉红爱心神殿，俘虏之箭漫天穿透",
     "rel_img": "images/skins/05_one_piece/04_貂蝉_波雅·汉库克.png",
+    "rel_detail": "details/skins/05_one_piece/04_貂蝉_波雅·汉库克.webp",
     "rel_thumb": "thumbnails/skins/05_one_piece/04_貂蝉_波雅·汉库克.jpg",
     "file_size_bytes": 2650126,
     "file_size_formatted": "2.53 MB"
@@ -2297,6 +2395,7 @@ window.ARTWORKS_DATA = [
     "desc": "马可波罗身着黑西装金发遮单眼，双腿燃烧苍蓝超高热魔神火炎，空中月步残影连连",
     "vfx": "双枪开火化为空中月步极速连续飞踢，大招漫天旋转绽放苍白高热魔神风脚烈焰风暴",
     "rel_img": "images/skins/05_one_piece/05_马可波罗_文斯莫克·山治.png",
+    "rel_detail": "details/skins/05_one_piece/05_马可波罗_文斯莫克·山治.webp",
     "rel_thumb": "thumbnails/skins/05_one_piece/05_马可波罗_文斯莫克·山治.jpg",
     "file_size_bytes": 2867371,
     "file_size_formatted": "2.73 MB"
@@ -2317,6 +2416,7 @@ window.ARTWORKS_DATA = [
     "desc": "李信橘发黑死霸装，手持修长纯黑天锁斩月，狂暴黑红死神灵压形成冲天风暴",
     "vfx": "光信形态斩出金色月牙，狂信形态黑红虚化灵压天冲，大招双刀真·月牙十字冲破虚空",
     "rel_img": "images/skins/06_bleach/01_李信_黑崎一护.png",
+    "rel_detail": "details/skins/06_bleach/01_李信_黑崎一护.webp",
     "rel_thumb": "thumbnails/skins/06_bleach/01_李信_黑崎一护.jpg",
     "file_size_bytes": 2560364,
     "file_size_formatted": "2.44 MB"
@@ -2337,6 +2437,7 @@ window.ARTWORKS_DATA = [
     "desc": "嬴政身穿队长羽织与银白风花纱，贵族风仪，手捏刀柄入地，千本樱景严漫天樱刃如海",
     "vfx": "大招自地面升起数千把巨大斩魄刀，化作亿万片粉白樱花刀刃狂雨倾泻而下，终景·白帝剑",
     "rel_img": "images/skins/06_bleach/02_嬴政_朽木白哉.png",
+    "rel_detail": "details/skins/06_bleach/02_嬴政_朽木白哉.webp",
     "rel_thumb": "thumbnails/skins/06_bleach/02_嬴政_朽木白哉.jpg",
     "file_size_bytes": 2806450,
     "file_size_formatted": "2.68 MB"
@@ -2357,6 +2458,7 @@ window.ARTWORKS_DATA = [
     "desc": "王昭君化身白发冰柱队长，背后冰之双翼与冰龙盘旋，冰华绽放，极度严寒冻结万物",
     "vfx": "冰霜巨龙咆哮盘旋，十二片大红莲冰花在背后盛放，大招全屏极寒冰天百花葬",
     "rel_img": "images/skins/06_bleach/03_王昭君_日番谷冬狮郎.png",
+    "rel_detail": "details/skins/06_bleach/03_王昭君_日番谷冬狮郎.webp",
     "rel_thumb": "thumbnails/skins/06_bleach/03_王昭君_日番谷冬狮郎.jpg",
     "file_size_bytes": 2925901,
     "file_size_formatted": "2.79 MB"
@@ -2377,6 +2479,7 @@ window.ARTWORKS_DATA = [
     "desc": "司空震白袍抹发大背头，胸口镶嵌璀璨崩玉，白蝶神圣双翼展开，睥睨众生神威盖世",
     "vfx": "大招化身崩玉融合六翼白蝶形态，雷电化作漆黑「九十六号黑棺」与断空神壁",
     "rel_img": "images/skins/06_bleach/04_司空震_蓝染惣右介.png",
+    "rel_detail": "details/skins/06_bleach/04_司空震_蓝染惣右介.webp",
     "rel_thumb": "thumbnails/skins/06_bleach/04_司空震_蓝染惣右介.jpg",
     "file_size_bytes": 2683786,
     "file_size_formatted": "2.56 MB"
@@ -2397,6 +2500,7 @@ window.ARTWORKS_DATA = [
     "desc": "兰陵王惨白骨面泪痕，漆黑蝠翼遮天蔽日，手握墨绿高浓缩灵压雷电之枪，虚无冷酷",
     "vfx": "二段归刃漆黑蝙蝠双翼展开，隐身潜伏墨绿虚空，现身掷出毁灭天地之「雷霆之枪」",
     "rel_img": "images/skins/06_bleach/05_兰陵王_乌尔奇奥拉.png",
+    "rel_detail": "details/skins/06_bleach/05_兰陵王_乌尔奇奥拉.webp",
     "rel_thumb": "thumbnails/skins/06_bleach/05_兰陵王_乌尔奇奥拉.jpg",
     "file_size_bytes": 2376333,
     "file_size_formatted": "2.27 MB"

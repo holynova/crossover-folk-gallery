@@ -18,6 +18,40 @@ document.addEventListener("DOMContentLoaded", () => {
   let spotlightIndex = 0;
   let inspectIndex = 0;
 
+  // Progressive Image Controller (hn-image-loading-optimizer)
+  function createProgressiveController(view) {
+    let revision = 0;
+    return {
+      invalidate() { revision += 1; },
+      async show({ thumbnail, detail, original, alt = "" }) {
+        if (!view) return;
+        const req = ++revision;
+        view.alt = alt;
+        if (thumbnail) view.src = thumbnail;
+        const candidate = detail || original;
+        if (!candidate || candidate === thumbnail) return;
+        try {
+          const offscreen = new Image();
+          await new Promise((resolve, reject) => {
+            const cleanup = () => { offscreen.onload = null; offscreen.onerror = null; };
+            offscreen.onload = () => { cleanup(); resolve(); };
+            offscreen.onerror = () => { cleanup(); reject(new Error("Image failed: " + candidate)); };
+            offscreen.src = candidate;
+            if (offscreen.complete && offscreen.naturalWidth > 0) { cleanup(); resolve(); }
+          });
+          if (typeof offscreen.decode === "function") {
+            await offscreen.decode();
+          }
+          if (req === revision) {
+            view.src = offscreen.src;
+          }
+        } catch (e) {
+          // Keep thumbnail visible on failure without breaking UI
+        }
+      }
+    };
+  }
+
   // DOM Elements - General
   const resultCountEl = document.getElementById("resultCount");
   const filterDescEl = document.getElementById("filterDesc");
@@ -307,15 +341,23 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    // Progressive Image Loading Controllers (hn-image-loading-optimizer)
+    if (!window._modalProgressive) {
+      window._modalProgressive = createProgressiveController(modalImg);
+      window._spotlightProgressive = createProgressiveController(spotlightImg);
+      window._inspectProgressive = createProgressiveController(inspectImg);
+    }
+
     gridEl.innerHTML = filteredItems.map((item, idx) => {
       const isPortrait = item.category === "folk_art";
       const isGlorious = (item.badge || "").includes("典藏");
+      const isTopFold = idx < 4;
 
       return `
         <article class="art-card ${isPortrait ? 'portrait' : ''}" data-index="${idx}">
           <div class="art-card-img-wrapper" onclick="openLightbox(${idx})">
             <span class="card-badge ${isGlorious ? 'badge-glorious' : ''}">${item.badge || '限定'}</span>
-            <img class="art-card-img" src="${item.rel_thumb}" loading="lazy" alt="${item.title}" />
+            <img class="art-card-img" src="${item.rel_thumb}" loading="${isTopFold ? 'eager' : 'lazy'}" ${isTopFold ? 'fetchpriority="high"' : ''} decoding="async" alt="${item.title}" />
             <div class="card-quick-actions" onclick="event.stopPropagation()">
               <button type="button" class="btn-card-action" title="全屏预览" onclick="openLightbox(${idx})">↗</button>
               <a class="btn-card-action" href="${item.rel_img}" download="${item.title}.png" title="下载原图">↓</a>
@@ -346,8 +388,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const item = filteredItems[spotlightIndex] || filteredItems[0];
     if (!item) return;
 
-    spotlightImg.src = item.rel_img;
-    spotlightImg.alt = item.title;
+    if (window._spotlightProgressive) {
+      window._spotlightProgressive.show({
+        thumbnail: item.rel_thumb,
+        detail: item.rel_detail || item.rel_img,
+        original: item.rel_img,
+        alt: item.title
+      });
+    } else {
+      spotlightImg.src = item.rel_detail || item.rel_img;
+      spotlightImg.alt = item.title;
+    }
     spotlightKicker.innerText = `${item.category_name || 'Crossover'} · ${item.subcategory_name || ''}`;
     spotlightTitle.innerText = item.title;
 
@@ -369,7 +420,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Filmstrip
     spotlightFilmstrip.innerHTML = filteredItems.map((it, idx) => `
       <div class="filmstrip-item ${idx === spotlightIndex ? 'active' : ''}" onclick="selectSpotlight(${idx})">
-        <img src="${it.rel_thumb}" loading="lazy" alt="${it.title}" />
+        <img src="${it.rel_thumb}" loading="lazy" decoding="async" alt="${it.title}" />
       </div>
     `).join("");
 
@@ -397,8 +448,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const item = filteredItems[inspectIndex] || filteredItems[0];
     if (!item) return;
 
-    inspectImg.src = item.rel_img;
-    inspectImg.alt = item.title;
+    if (window._inspectProgressive) {
+      window._inspectProgressive.show({
+        thumbnail: item.rel_thumb,
+        detail: item.rel_detail || item.rel_img,
+        original: item.rel_img,
+        alt: item.title
+      });
+    } else {
+      inspectImg.src = item.rel_detail || item.rel_img;
+      inspectImg.alt = item.title;
+    }
     inspectDlLink.href = item.rel_img;
     inspectDlLink.download = `${item.title}.png`;
 
@@ -456,6 +516,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   function closeLightbox() {
+    if (window._modalProgressive) window._modalProgressive.invalidate();
     modal.classList.remove("active");
     document.body.style.overflow = "";
   }
@@ -464,8 +525,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const item = filteredItems[currentModalIndex];
     if (!item) return;
 
-    modalImg.src = item.rel_img;
-    modalImg.alt = item.title;
+    if (window._modalProgressive) {
+      window._modalProgressive.show({
+        thumbnail: item.rel_thumb,
+        detail: item.rel_detail || item.rel_img,
+        original: item.rel_img,
+        alt: item.title
+      });
+    } else {
+      modalImg.src = item.rel_detail || item.rel_img;
+      modalImg.alt = item.title;
+    }
     modalTitle.innerText = item.title;
     
     let subInfo = (item.category_name || '') + " · " + (item.subcategory_name || '');
