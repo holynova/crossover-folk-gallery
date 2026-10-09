@@ -119,7 +119,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Subcategories Configuration (No emoji spam, clean editorial naming)
   const SUBCATEGORIES = {
-    all: [
+    classic_skins: [
+      { id: "all", label: "全部经典神作 (30/30)" },
+      { id: "classic_dragon_ball", label: "七龙珠 (5/5)" },
+      { id: "classic_slam_dunk", label: "灌篮高手 (5/5)" },
+      { id: "classic_yu_yu_hakusho", label: "幽游白书 (5/5)" },
+      { id: "classic_saint_seiya", label: "圣斗士星矢 (5/5)" },
+      { id: "classic_kenshin", label: "浪客剑心 (5/5)" },
+      { id: "classic_inuyasha", label: "犬夜叉 (5/5)" }
+    ],
+      all: [
       { id: "all", label: "全部所有" },
       { id: "fusion_skins", label: `💎 英雄深度联动 (${data.filter(item => item.category === "fusion_skins").length}/45)` },
       { id: "v2_test_skins", label: "真机首测" },
