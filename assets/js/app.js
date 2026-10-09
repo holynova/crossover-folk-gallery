@@ -119,14 +119,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Subcategories Configuration (No emoji spam, clean editorial naming)
   const SUBCATEGORIES = {
-    classic_skins: [
-      { id: "all", label: "全部经典神作 (30/30)" },
-      { id: "classic_dragon_ball", label: "七龙珠 (5/5)" },
-      { id: "classic_slam_dunk", label: "灌篮高手 (5/5)" },
-      { id: "classic_yu_yu_hakusho", label: "幽游白书 (5/5)" },
-      { id: "classic_saint_seiya", label: "圣斗士星矢 (5/5)" },
-      { id: "classic_kenshin", label: "浪客剑心 (5/5)" },
-      { id: "classic_inuyasha", label: "犬夜叉 (5/5)" }
+                                                          classic_skins: [
+      { id: "all", label: "全部经典联动" },
+      { id: "classic_dragon_ball", label: "七龙珠" },
+      { id: "classic_slam_dunk", label: "灌篮高手" },
+      { id: "classic_yu_yu_hakusho", label: "幽游白书" },
+      { id: "classic_saint_seiya", label: "圣斗士星矢" },
+      { id: "classic_kenshin", label: "浪客剑心" },
+      { id: "classic_inuyasha", label: "犬夜叉" },
+      { id: "classic_fma", label: "钢之炼金术师" },
+      { id: "classic_hxh", label: "全职猎人" },
+      { id: "classic_gintama", label: "银魂" },
+      { id: "classic_jojo", label: "JOJO" },
+      { id: "classic_eva", label: "新世纪福音战士" }
     ],
       all: [
       { id: "all", label: "全部所有" },
