@@ -1,0 +1,710 @@
+{
+  "conditions": {
+    "baselineCommit": "6380a07",
+    "samplesPerDevice": 3,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "cpuSlowdown": 4,
+    "observationMsAfterDOMContentLoaded": 6000,
+    "telemetry": "blocked using Playwright routing; cache disabled for these measurements",
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "dpr": 2
+    },
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "dpr": 1
+    }
+  },
+  "results": {
+    "mobile": {
+      "before": {
+        "samples": [
+          {
+            "run": 0,
+            "cold": {
+              "lcp": 5028,
+              "cls": 0.08320269777615749,
+              "fcp": 480,
+              "dom": 1004,
+              "cards": 155,
+              "imageRequests": 7,
+              "imageTransferBytes": 1024734,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/01_%E4%B8%83%E9%BE%99%E7%8F%A0_%E8%BE%BE%E6%91%A9_%E5%AD%99%E6%82%9F%E7%A9%BA.jpg",
+                  "bytes": 144446,
+                  "duration": 4378.600000023842
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/02_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%AE%AB%E6%9C%AC%E6%AD%A6%E8%97%8F_%E7%89%B9%E5%85%B0%E5%85%8B%E6%96%AF.jpg",
+                  "bytes": 144603,
+                  "duration": 4416.899999976158
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/03_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%A1%B9%E7%BE%BD_%E8%B4%9D%E5%90%89%E5%A1%94.jpg",
+                  "bytes": 127284,
+                  "duration": 3907
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/04_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%B2%81%E7%8F%AD%E4%B8%83%E5%8F%B7_%E5%85%8B%E6%9E%97.jpg",
+                  "bytes": 155096,
+                  "duration": 4631.399999976158
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/05_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%BC%97%E5%88%A9%E8%90%A8_%E5%8F%B8%E7%A9%BA%E9%9C%87.jpg",
+                  "bytes": 132044,
+                  "duration": 4075.7999999523163
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/06_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E5%AD%99%E7%AD%96_%E6%A8%B1%E6%9C%A8%E8%8A%B1%E9%81%93.jpg",
+                  "bytes": 176037,
+                  "duration": 4960.699999928474
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/07_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E6%9D%8E%E7%99%BD_%E6%B5%81%E5%B7%9D%E6%9E%AB.jpg",
+                  "bytes": 145224,
+                  "duration": 5943
+                }
+              ]
+            },
+            "detailMs": 14475
+          },
+          {
+            "run": 1,
+            "cold": {
+              "lcp": 5036,
+              "cls": 0.08320269777615749,
+              "fcp": 472,
+              "dom": 1004,
+              "cards": 155,
+              "imageRequests": 7,
+              "imageTransferBytes": 1024734,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/01_%E4%B8%83%E9%BE%99%E7%8F%A0_%E8%BE%BE%E6%91%A9_%E5%AD%99%E6%82%9F%E7%A9%BA.jpg",
+                  "bytes": 144446,
+                  "duration": 4378.899999976158
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/03_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%A1%B9%E7%BE%BD_%E8%B4%9D%E5%90%89%E5%A1%94.jpg",
+                  "bytes": 127284,
+                  "duration": 3937.100000023842
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/02_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%AE%AB%E6%9C%AC%E6%AD%A6%E8%97%8F_%E7%89%B9%E5%85%B0%E5%85%8B%E6%96%AF.jpg",
+                  "bytes": 144603,
+                  "duration": 4387
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/04_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%B2%81%E7%8F%AD%E4%B8%83%E5%8F%B7_%E5%85%8B%E6%9E%97.jpg",
+                  "bytes": 155096,
+                  "duration": 4625.200000047684
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/05_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%BC%97%E5%88%A9%E8%90%A8_%E5%8F%B8%E7%A9%BA%E9%9C%87.jpg",
+                  "bytes": 132044,
+                  "duration": 4076.2999999523163
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/06_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E5%AD%99%E7%AD%96_%E6%A8%B1%E6%9C%A8%E8%8A%B1%E9%81%93.jpg",
+                  "bytes": 176037,
+                  "duration": 4955
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/07_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E6%9D%8E%E7%99%BD_%E6%B5%81%E5%B7%9D%E6%9E%AB.jpg",
+                  "bytes": 145224,
+                  "duration": 5952.600000023842
+                }
+              ]
+            },
+            "detailMs": 14481
+          },
+          {
+            "run": 2,
+            "cold": {
+              "lcp": 5068,
+              "cls": 0.08320269777615749,
+              "fcp": 516,
+              "dom": 1004,
+              "cards": 155,
+              "imageRequests": 7,
+              "imageTransferBytes": 1024734,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/01_%E4%B8%83%E9%BE%99%E7%8F%A0_%E8%BE%BE%E6%91%A9_%E5%AD%99%E6%82%9F%E7%A9%BA.jpg",
+                  "bytes": 144446,
+                  "duration": 4377.800000071526
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/03_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%A1%B9%E7%BE%BD_%E8%B4%9D%E5%90%89%E5%A1%94.jpg",
+                  "bytes": 127284,
+                  "duration": 3934.600000023842
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/02_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%AE%AB%E6%9C%AC%E6%AD%A6%E8%97%8F_%E7%89%B9%E5%85%B0%E5%85%8B%E6%96%AF.jpg",
+                  "bytes": 144603,
+                  "duration": 4385.700000047684
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/04_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%B2%81%E7%8F%AD%E4%B8%83%E5%8F%B7_%E5%85%8B%E6%9E%97.jpg",
+                  "bytes": 155096,
+                  "duration": 4621.699999928474
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/05_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%BC%97%E5%88%A9%E8%90%A8_%E5%8F%B8%E7%A9%BA%E9%9C%87.jpg",
+                  "bytes": 132044,
+                  "duration": 4074.100000023842
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/06_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E5%AD%99%E7%AD%96_%E6%A8%B1%E6%9C%A8%E8%8A%B1%E9%81%93.jpg",
+                  "bytes": 176037,
+                  "duration": 4953.100000023842
+                },
+                {
+                  "url": "http://localhost:8088/thumbnails/classic_skins/07_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E6%9D%8E%E7%99%BD_%E6%B5%81%E5%B7%9D%E6%9E%AB.jpg",
+                  "bytes": 145224,
+                  "duration": 5950.300000071526
+                }
+              ]
+            },
+            "detailMs": 14478
+          }
+        ],
+        "median": {
+          "lcp": 5036,
+          "fcp": 480,
+          "cls": 0.08320269777615749,
+          "dom": 1004,
+          "cards": 155,
+          "imageRequests": 7,
+          "imageTransferBytes": 1024734,
+          "detailMs": 14478
+        }
+      },
+      "after": {
+        "samples": [
+          {
+            "run": 0,
+            "cold": {
+              "lcp": 2272,
+              "cls": 0,
+              "fcp": 472,
+              "dom": 147,
+              "cards": 12,
+              "imageRequests": 4,
+              "imageTransferBytes": 287608,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-01.large.ac7abbfc754b32a2.webp",
+                  "bytes": 71542,
+                  "duration": 1468.6999999284744
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-02.large.b81953eda4121889.webp",
+                  "bytes": 73706,
+                  "duration": 1539
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-03.large.dab7a02ec7c55b38.webp",
+                  "bytes": 62390,
+                  "duration": 1402.5
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-04.large.8aa52d6b02032bd0.webp",
+                  "bytes": 79970,
+                  "duration": 1575.7000000476837
+                }
+              ]
+            },
+            "detailMs": 1378
+          },
+          {
+            "run": 1,
+            "cold": {
+              "lcp": 2296,
+              "cls": 0,
+              "fcp": 512,
+              "dom": 147,
+              "cards": 12,
+              "imageRequests": 4,
+              "imageTransferBytes": 287608,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-01.large.ac7abbfc754b32a2.webp",
+                  "bytes": 71542,
+                  "duration": 1471.9000000953674
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-03.large.dab7a02ec7c55b38.webp",
+                  "bytes": 62390,
+                  "duration": 1410.8999999761581
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-02.large.b81953eda4121889.webp",
+                  "bytes": 73706,
+                  "duration": 1546.7999999523163
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-04.large.8aa52d6b02032bd0.webp",
+                  "bytes": 79970,
+                  "duration": 1576.5
+                }
+              ]
+            },
+            "detailMs": 1399
+          },
+          {
+            "run": 2,
+            "cold": {
+              "lcp": 2264,
+              "cls": 0,
+              "fcp": 480,
+              "dom": 147,
+              "cards": 12,
+              "imageRequests": 4,
+              "imageTransferBytes": 287608,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-01.large.ac7abbfc754b32a2.webp",
+                  "bytes": 71542,
+                  "duration": 1457
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-02.large.b81953eda4121889.webp",
+                  "bytes": 73706,
+                  "duration": 1531.6000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-03.large.dab7a02ec7c55b38.webp",
+                  "bytes": 62390,
+                  "duration": 1403.1000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-04.large.8aa52d6b02032bd0.webp",
+                  "bytes": 79970,
+                  "duration": 1568.2000000476837
+                }
+              ]
+            },
+            "detailMs": 1386
+          }
+        ],
+        "median": {
+          "lcp": 2272,
+          "fcp": 480,
+          "cls": 0,
+          "dom": 147,
+          "cards": 12,
+          "imageRequests": 4,
+          "imageTransferBytes": 287608,
+          "detailMs": 1386
+        }
+      }
+    },
+    "desktop": {
+      "before": {
+        "samples": [
+          {
+            "run": 0,
+            "cold": {
+              "lcp": 4564,
+              "cls": 0.08456666666666666,
+              "fcp": 512,
+              "dom": 1004,
+              "cards": 155,
+              "imageRequests": 6,
+              "imageTransferBytes": 879510,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/01_%E4%B8%83%E9%BE%99%E7%8F%A0_%E8%BE%BE%E6%91%A9_%E5%AD%99%E6%82%9F%E7%A9%BA.jpg",
+                  "bytes": 144446,
+                  "duration": 4338.600000023842
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/03_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%A1%B9%E7%BE%BD_%E8%B4%9D%E5%90%89%E5%A1%94.jpg",
+                  "bytes": 127284,
+                  "duration": 3896.0999999046326
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/02_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%AE%AB%E6%9C%AC%E6%AD%A6%E8%97%8F_%E7%89%B9%E5%85%B0%E5%85%8B%E6%96%AF.jpg",
+                  "bytes": 144603,
+                  "duration": 4376.199999928474
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/05_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%BC%97%E5%88%A9%E8%90%A8_%E5%8F%B8%E7%A9%BA%E9%9C%87.jpg",
+                  "bytes": 132044,
+                  "duration": 4099.699999928474
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/04_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%B2%81%E7%8F%AD%E4%B8%83%E5%8F%B7_%E5%85%8B%E6%9E%97.jpg",
+                  "bytes": 155096,
+                  "duration": 4708
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/06_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E5%AD%99%E7%AD%96_%E6%A8%B1%E6%9C%A8%E8%8A%B1%E9%81%93.jpg",
+                  "bytes": 176037,
+                  "duration": 5323.100000023842
+                }
+              ]
+            },
+            "detailMs": 25022
+          },
+          {
+            "run": 1,
+            "cold": {
+              "lcp": 4568,
+              "cls": 0.08456666666666666,
+              "fcp": 484,
+              "dom": 1004,
+              "cards": 155,
+              "imageRequests": 6,
+              "imageTransferBytes": 879510,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/01_%E4%B8%83%E9%BE%99%E7%8F%A0_%E8%BE%BE%E6%91%A9_%E5%AD%99%E6%82%9F%E7%A9%BA.jpg",
+                  "bytes": 144446,
+                  "duration": 4387.200000047684
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/03_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%A1%B9%E7%BE%BD_%E8%B4%9D%E5%90%89%E5%A1%94.jpg",
+                  "bytes": 127284,
+                  "duration": 3913.7000000476837
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/02_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%AE%AB%E6%9C%AC%E6%AD%A6%E8%97%8F_%E7%89%B9%E5%85%B0%E5%85%8B%E6%96%AF.jpg",
+                  "bytes": 144603,
+                  "duration": 4371.100000023842
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/04_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%B2%81%E7%8F%AD%E4%B8%83%E5%8F%B7_%E5%85%8B%E6%9E%97.jpg",
+                  "bytes": 155096,
+                  "duration": 4683.200000047684
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/05_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%BC%97%E5%88%A9%E8%90%A8_%E5%8F%B8%E7%A9%BA%E9%9C%87.jpg",
+                  "bytes": 132044,
+                  "duration": 4075.5
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/06_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E5%AD%99%E7%AD%96_%E6%A8%B1%E6%9C%A8%E8%8A%B1%E9%81%93.jpg",
+                  "bytes": 176037,
+                  "duration": 5304.600000023842
+                }
+              ]
+            },
+            "detailMs": 25013
+          },
+          {
+            "run": 2,
+            "cold": {
+              "lcp": 4588,
+              "cls": 0.08456666666666666,
+              "fcp": 504,
+              "dom": 1004,
+              "cards": 155,
+              "imageRequests": 6,
+              "imageTransferBytes": 879510,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/01_%E4%B8%83%E9%BE%99%E7%8F%A0_%E8%BE%BE%E6%91%A9_%E5%AD%99%E6%82%9F%E7%A9%BA.jpg",
+                  "bytes": 144446,
+                  "duration": 4376.399999976158
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/03_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%A1%B9%E7%BE%BD_%E8%B4%9D%E5%90%89%E5%A1%94.jpg",
+                  "bytes": 127284,
+                  "duration": 3912.7000000476837
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/02_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%AE%AB%E6%9C%AC%E6%AD%A6%E8%97%8F_%E7%89%B9%E5%85%B0%E5%85%8B%E6%96%AF.jpg",
+                  "bytes": 144603,
+                  "duration": 4384.100000023842
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/05_%E4%B8%83%E9%BE%99%E7%8F%A0_%E5%BC%97%E5%88%A9%E8%90%A8_%E5%8F%B8%E7%A9%BA%E9%9C%87.jpg",
+                  "bytes": 132044,
+                  "duration": 4078
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/04_%E4%B8%83%E9%BE%99%E7%8F%A0_%E9%B2%81%E7%8F%AD%E4%B8%83%E5%8F%B7_%E5%85%8B%E6%9E%97.jpg",
+                  "bytes": 155096,
+                  "duration": 4686
+                },
+                {
+                  "url": "http://localhost:8088/output/performance/baseline/thumbnails/classic_skins/06_%E7%81%8C%E7%AF%AE%E9%AB%98%E6%89%8B_%E5%AD%99%E7%AD%96_%E6%A8%B1%E6%9C%A8%E8%8A%B1%E9%81%93.jpg",
+                  "bytes": 176037,
+                  "duration": 5316.100000023842
+                }
+              ]
+            },
+            "detailMs": 25025
+          }
+        ],
+        "median": {
+          "lcp": 4568,
+          "fcp": 504,
+          "cls": 0.08456666666666666,
+          "dom": 1004,
+          "cards": 155,
+          "imageRequests": 6,
+          "imageTransferBytes": 879510,
+          "detailMs": 25022
+        }
+      },
+      "after": {
+        "samples": [
+          {
+            "run": 0,
+            "cold": {
+              "lcp": 1676,
+              "cls": 0,
+              "fcp": 492,
+              "dom": 147,
+              "cards": 12,
+              "imageRequests": 12,
+              "imageTransferBytes": 332306,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-01.small.ed00184214b20210.webp",
+                  "bytes": 26436,
+                  "duration": 862.4000000953674
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-03.small.690cfb2a3b634b8c.webp",
+                  "bytes": 21886,
+                  "duration": 780.5
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-02.small.e0fd22f199fc5227.webp",
+                  "bytes": 25856,
+                  "duration": 893.6000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-04.small.d0a43674e8dd4fe8.webp",
+                  "bytes": 30176,
+                  "duration": 935
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-05.small.11f7328082878268.webp",
+                  "bytes": 22842,
+                  "duration": 843.2999999523163
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-06.small.e80003de1ff6a6cf.webp",
+                  "bytes": 34322,
+                  "duration": 979.1999999284744
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-07.small.33badd16c123446d.webp",
+                  "bytes": 27814,
+                  "duration": 1683.5
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-09.small.12ff89e6d994d797.webp",
+                  "bytes": 28772,
+                  "duration": 1556.0999999046326
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-08.small.de539beca5eaf58b.webp",
+                  "bytes": 28120,
+                  "duration": 1735
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-12.small.0c36f8fe76b8ed05.webp",
+                  "bytes": 24652,
+                  "duration": 1795.4000000953674
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-10.small.1c7a870add76391f.webp",
+                  "bytes": 32740,
+                  "duration": 1817.3000000715256
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-11.small.abfc8ad7b102fdfd.webp",
+                  "bytes": 28690,
+                  "duration": 1824.9000000953674
+                }
+              ]
+            },
+            "detailMs": 1251
+          },
+          {
+            "run": 1,
+            "cold": {
+              "lcp": 1704,
+              "cls": 0,
+              "fcp": 488,
+              "dom": 147,
+              "cards": 12,
+              "imageRequests": 12,
+              "imageTransferBytes": 332306,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-01.small.ed00184214b20210.webp",
+                  "bytes": 26436,
+                  "duration": 870.5999999046326
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-03.small.690cfb2a3b634b8c.webp",
+                  "bytes": 21886,
+                  "duration": 786.5
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-02.small.e0fd22f199fc5227.webp",
+                  "bytes": 25856,
+                  "duration": 898.6000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-05.small.11f7328082878268.webp",
+                  "bytes": 22842,
+                  "duration": 847.2000000476837
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-04.small.d0a43674e8dd4fe8.webp",
+                  "bytes": 30176,
+                  "duration": 938.5
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-06.small.e80003de1ff6a6cf.webp",
+                  "bytes": 34322,
+                  "duration": 982.5
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-07.small.33badd16c123446d.webp",
+                  "bytes": 27814,
+                  "duration": 1515.2000000476837
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-08.small.de539beca5eaf58b.webp",
+                  "bytes": 28120,
+                  "duration": 1731.2000000476837
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-09.small.12ff89e6d994d797.webp",
+                  "bytes": 28772,
+                  "duration": 1739.1000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-10.small.1c7a870add76391f.webp",
+                  "bytes": 32740,
+                  "duration": 1821.1000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-12.small.0c36f8fe76b8ed05.webp",
+                  "bytes": 24652,
+                  "duration": 1806.1999999284744
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-11.small.abfc8ad7b102fdfd.webp",
+                  "bytes": 28690,
+                  "duration": 1829.1999999284744
+                }
+              ]
+            },
+            "detailMs": 1252
+          },
+          {
+            "run": 2,
+            "cold": {
+              "lcp": 1704,
+              "cls": 0,
+              "fcp": 504,
+              "dom": 147,
+              "cards": 12,
+              "imageRequests": 12,
+              "imageTransferBytes": 332306,
+              "originalRequests": 0,
+              "resources": [
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-01.small.ed00184214b20210.webp",
+                  "bytes": 26436,
+                  "duration": 864.1000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-02.small.e0fd22f199fc5227.webp",
+                  "bytes": 25856,
+                  "duration": 893.1000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-03.small.690cfb2a3b634b8c.webp",
+                  "bytes": 21886,
+                  "duration": 780.6000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-04.small.d0a43674e8dd4fe8.webp",
+                  "bytes": 30176,
+                  "duration": 937
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-05.small.11f7328082878268.webp",
+                  "bytes": 22842,
+                  "duration": 846.6000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-06.small.e80003de1ff6a6cf.webp",
+                  "bytes": 34322,
+                  "duration": 982.9000000953674
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-07.small.33badd16c123446d.webp",
+                  "bytes": 27814,
+                  "duration": 1515.3000000715256
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-08.small.de539beca5eaf58b.webp",
+                  "bytes": 28120,
+                  "duration": 1716.4000000953674
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-09.small.12ff89e6d994d797.webp",
+                  "bytes": 28772,
+                  "duration": 1739.6000000238419
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-12.small.0c36f8fe76b8ed05.webp",
+                  "bytes": 24652,
+                  "duration": 1799.8999999761581
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-10.small.1c7a870add76391f.webp",
+                  "bytes": 32740,
+                  "duration": 1822
+                },
+                {
+                  "url": "http://localhost:8088/media/gallery/classic-11.small.abfc8ad7b102fdfd.webp",
+                  "bytes": 28690,
+                  "duration": 1830.1000000238419
+                }
+              ]
+            },
+            "detailMs": 1260
+          }
+        ],
+        "median": {
+          "lcp": 1704,
+          "fcp": 492,
+          "cls": 0,
+          "dom": 147,
+          "cards": 12,
+          "imageRequests": 12,
+          "imageTransferBytes": 332306,
+          "detailMs": 1252
+        }
+      }
+    }
+  }
+}
