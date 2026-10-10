@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Subcategories Configuration (No emoji spam, clean editorial naming)
   const SUBCATEGORIES = {
-                                                                                          classic_skins: [
-      { id: "all", label: "全部经典联动" },
+                                                                                                                                                                              classic_skins: [
+      { id: "all", label: "全部经典与游戏联动" },
       { id: "classic_dragon_ball", label: "七龙珠" },
       { id: "classic_slam_dunk", label: "灌篮高手" },
       { id: "classic_yu_yu_hakusho", label: "幽游白书" },
@@ -131,10 +131,18 @@ document.addEventListener("DOMContentLoaded", () => {
       { id: "classic_hxh", label: "全职猎人" },
       { id: "classic_gintama", label: "银魂" },
       { id: "classic_jojo", label: "JOJO" },
-      { id: "classic_eva", label: "新世纪福音战士" },
-      { id: "classic_conan", label: "名侦探柯南" },
+      { id: "classic_eva", label: "EVA" },
+      { id: "classic_conan", label: "柯南" },
       { id: "classic_opm", label: "一拳超人" },
-      { id: "classic_yugioh", label: "游戏王" }
+      { id: "classic_yugioh", label: "游戏王" },
+      { id: "classic_wukong", label: "黑神话：悟空" },
+      { id: "classic_elden_ring", label: "艾尔登法环" },
+      { id: "classic_witcher", label: "巫师3" },
+      { id: "classic_genshin", label: "原神" },
+      { id: "classic_ff7", label: "最终幻想7" },
+      { id: "classic_cyberpunk", label: "赛博朋克2077" },
+      { id: "classic_dmc", label: "鬼泣" },
+      { id: "classic_arcane", label: "双城之战" }
     ],
       all: [
       { id: "all", label: "全部所有" },
