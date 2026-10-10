@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Subcategories Configuration (No emoji spam, clean editorial naming)
   const SUBCATEGORIES = {
-                                                          classic_skins: [
+                                                                                          classic_skins: [
       { id: "all", label: "全部经典联动" },
       { id: "classic_dragon_ball", label: "七龙珠" },
       { id: "classic_slam_dunk", label: "灌篮高手" },
@@ -131,7 +131,10 @@ document.addEventListener("DOMContentLoaded", () => {
       { id: "classic_hxh", label: "全职猎人" },
       { id: "classic_gintama", label: "银魂" },
       { id: "classic_jojo", label: "JOJO" },
-      { id: "classic_eva", label: "新世纪福音战士" }
+      { id: "classic_eva", label: "新世纪福音战士" },
+      { id: "classic_conan", label: "名侦探柯南" },
+      { id: "classic_opm", label: "一拳超人" },
+      { id: "classic_yugioh", label: "游戏王" }
     ],
       all: [
       { id: "all", label: "全部所有" },
