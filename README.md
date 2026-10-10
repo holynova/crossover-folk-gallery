@@ -1,23 +1,14 @@
-# 跨界盛典 · Crossover & Folk Art Gallery
+# 王者荣耀 × 动漫
 
-AI生成的动漫联名皮肤概念与江南水乡农民画画廊，支持筛选、灯箱和图片下载。
+简单的联名英雄图片展示网站。45 张 AI 概念图，按六个联名主题分类：鬼灭之刃（20 张），咒术回战、进击的巨人、火影忍者、海贼王、死神（各 5 张）。
 
-An AI-generated concept gallery with anime crossover skins, folk art, filters and downloads.
+[在线浏览](https://crossover-folk-gallery.xiaosang.cc/) · [源码](https://github.com/holynova/crossover-folk-gallery)
 
-[在线体验](https://crossover-folk-gallery.xiaosang.cc/) · [源码](https://github.com/holynova/crossover-folk-gallery)
+![图集页面](./assets/readme/screenshot.png)
 
-![跨界盛典 · Crossover & Folk Art Gallery：真实页面截图](./assets/readme/screenshot.png)
+点击主题筛选，点击图片查看大图。大图支持上一张、下一张、方向键切换和 Esc 关闭。浏览时加载缩略图，打开大图后再加载 WebP 高清图。
 
-## 可以做什么
-
-- 缩略图用于浏览，灯箱加载高清原图。
-- 支持搜索、单图下载与当前筛选结果打包。
-
-## 浏览与下载
-
-发布版 v3.1.0，共104幅：45款深度联动皮肤、6款测试版本、45款存档皮肤与8幅水乡农民画。切换分类或搜索，再打开灯箱查看原图；可单张下载或在浏览器打包当前筛选结果。预打包资源位于 `downloads/`；超过Cloudflare静态文件限制的压缩包通过GitHub原始文件地址下载。
-
-这是AI生成的非官方概念展示，不代表真实上线的联名皮肤。相关角色与商标归各自权利人。
+AI 创作，非官方联名概念，不代表真实上线的皮肤。相关角色与商标归各自权利人。
 
 ## 本地运行
 
@@ -25,15 +16,21 @@ An AI-generated concept gallery with anime crossover skins, folk art, filters an
 python3 -m http.server 8080
 ```
 
-打开 http://localhost:8080/。使用本地HTTP服务即可，无需安装前端框架。
+打开 http://localhost:8080/。纯 HTML、CSS 和 JavaScript，无构建依赖。
 
-<img src="./assets/readme/qr.png" width="144" alt="扫码打开https://crossover-folk-gallery.xiaosang.cc/">
+## 内容与结构
+
+- `assets/js/data.js`：45 张图片的主题、英雄、角色与图片路径。
+- `thumbnails/fusion_skins/`：浏览缩略图。
+- `details/fusion_skins/`：高清展示图。
+
+本次简化移除了农民画、测试版和旧版立绘入口，以及搜索、参数说明、打包下载、展示模式切换。历史原始资源保留在仓库中，不进入公开站点。
 
 ## 发布
 
-```bash
-npx --yes wrangler@4.128.0 deploy --dry-run --config wrangler.jsonc
-npx --yes wrangler@4.128.0 deploy --config wrangler.jsonc
-```
+从 `main` 在本地手动发布到 Cloudflare Workers：
 
-从 `main` 同一提交在本地手动发布到Cloudflare Workers。正式地址：[https://crossover-folk-gallery.xiaosang.cc/](https://crossover-folk-gallery.xiaosang.cc/)。 `.assetsignore` 限定公开播放器/站点资源，排除合成工程、开发文件与未供页面使用的大体积音频/字体。
+```bash
+npx wrangler deploy --dry-run --config wrangler.jsonc
+npx wrangler deploy --config wrangler.jsonc
+```

@@ -28,3 +28,17 @@ downloads/anime_pt2_naruto_op_bleach_15.zip
 
 .DS_Store
 **/.DS_Store
+output/
+.playwright-cli/
+scripts/
+images/
+downloads/
+thumbnails/skins/
+thumbnails/folk_art/
+thumbnails/test_v2/
+thumbnails/test_v3/
+details/skins/
+details/folk_art/
+details/test_v2/
+details/test_v3/
+assets/js/jszip.min.js
