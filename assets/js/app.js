@@ -14,7 +14,7 @@
 
   function selectTheme(theme) {
     filtered = theme === themes[0] ? artworks : artworks.filter(item => item.theme === theme);
-    navigation.querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button.textContent === theme)));
+    navigation.value = theme;
     document.getElementById('themeTitle').textContent = theme;
     document.getElementById('resultCount').textContent = `${filtered.length} 张`;
     gallery.replaceChildren(...filtered.map((item, itemIndex) => {
@@ -85,13 +85,12 @@
     showImage();
   }
   for (const theme of themes) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'theme';
-    button.textContent = theme;
-    button.addEventListener('click', () => selectTheme(theme));
-    navigation.append(button);
+    const option = document.createElement('option');
+    option.value = theme;
+    option.textContent = theme;
+    navigation.append(option);
   }
+  navigation.addEventListener('change', () => selectTheme(navigation.value));
   document.getElementById('closeViewer').addEventListener('click', () => viewer.close());
   document.getElementById('prevImage').addEventListener('click', () => move(-1));
   document.getElementById('nextImage').addEventListener('click', () => move(1));

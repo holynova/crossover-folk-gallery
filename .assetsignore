@@ -31,7 +31,11 @@ downloads/anime_pt2_naruto_op_bleach_15.zip
 output/
 .playwright-cli/
 scripts/
-images/
+images/fusion_skins/
+images/skins/
+images/folk_art/
+images/test_v2/
+images/test_v3/
 downloads/
 thumbnails/skins/
 thumbnails/folk_art/
