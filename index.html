@@ -11,10 +11,11 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://crossover-folk-gallery.xiaosang.cc/media/gallery/classic-01.large.ac7abbfc754b32a2.webp">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./assets/css/styles.css?v=gallery-2">
+  <link rel="stylesheet" href="./assets/css/styles.css?v=gallery-3">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="e01c9f78-4607-4e60-b01c-77c8190b12b4"></script>
-  <script defer src="./assets/js/data.js?v=gallery-2"></script>
-  <script defer src="./assets/js/app.js?v=gallery-2"></script>
+  <script defer src="./assets/js/data.js?v=gallery-3"></script>
+  <script defer src="./assets/js/downloads.js?v=gallery-3"></script>
+  <script defer src="./assets/js/app.js?v=gallery-3"></script>
 </head>
 <body>
   <header class="page-header">
@@ -22,13 +23,43 @@
     <p>动漫与游戏联名概念图</p>
   </header>
   <main id="main">
-    <div class="themes"><label for="themes">联名主题</label><select id="themes" aria-controls="gallery"></select></div>
-    <div class="gallery-heading"><h2 id="themeTitle">全部主题</h2><span id="resultCount" role="status" aria-live="polite"></span></div>
+    <nav class="themes" id="themes" aria-label="联名主题">
+      <button type="button" class="theme-tag" data-theme="全部主题" aria-pressed="true" aria-controls="gallery">全部主题</button>
+      <button type="button" class="theme-tag" data-theme="七龙珠" aria-pressed="false" aria-controls="gallery">七龙珠</button>
+      <button type="button" class="theme-tag" data-theme="灌篮高手" aria-pressed="false" aria-controls="gallery">灌篮高手</button>
+      <button type="button" class="theme-tag" data-theme="幽游白书" aria-pressed="false" aria-controls="gallery">幽游白书</button>
+      <button type="button" class="theme-tag" data-theme="圣斗士星矢" aria-pressed="false" aria-controls="gallery">圣斗士星矢</button>
+      <button type="button" class="theme-tag" data-theme="浪客剑心" aria-pressed="false" aria-controls="gallery">浪客剑心</button>
+      <button type="button" class="theme-tag" data-theme="犬夜叉" aria-pressed="false" aria-controls="gallery">犬夜叉</button>
+      <button type="button" class="theme-tag" data-theme="钢之炼金术师" aria-pressed="false" aria-controls="gallery">钢之炼金术师</button>
+      <button type="button" class="theme-tag" data-theme="全职猎人" aria-pressed="false" aria-controls="gallery">全职猎人</button>
+      <button type="button" class="theme-tag" data-theme="银魂" aria-pressed="false" aria-controls="gallery">银魂</button>
+      <button type="button" class="theme-tag" data-theme="JOJO的奇妙冒险" aria-pressed="false" aria-controls="gallery">JOJO的奇妙冒险</button>
+      <button type="button" class="theme-tag" data-theme="新世纪福音战士" aria-pressed="false" aria-controls="gallery">新世纪福音战士</button>
+      <button type="button" class="theme-tag" data-theme="名侦探柯南" aria-pressed="false" aria-controls="gallery">名侦探柯南</button>
+      <button type="button" class="theme-tag" data-theme="一拳超人" aria-pressed="false" aria-controls="gallery">一拳超人</button>
+      <button type="button" class="theme-tag" data-theme="游戏王" aria-pressed="false" aria-controls="gallery">游戏王</button>
+      <button type="button" class="theme-tag" data-theme="黑神话：悟空" aria-pressed="false" aria-controls="gallery">黑神话：悟空</button>
+      <button type="button" class="theme-tag" data-theme="艾尔登法环" aria-pressed="false" aria-controls="gallery">艾尔登法环</button>
+      <button type="button" class="theme-tag" data-theme="巫师3：狂猎" aria-pressed="false" aria-controls="gallery">巫师3：狂猎</button>
+      <button type="button" class="theme-tag" data-theme="原神" aria-pressed="false" aria-controls="gallery">原神</button>
+      <button type="button" class="theme-tag" data-theme="最终幻想7" aria-pressed="false" aria-controls="gallery">最终幻想7</button>
+      <button type="button" class="theme-tag" data-theme="赛博朋克2077" aria-pressed="false" aria-controls="gallery">赛博朋克2077</button>
+      <button type="button" class="theme-tag" data-theme="鬼泣" aria-pressed="false" aria-controls="gallery">鬼泣</button>
+      <button type="button" class="theme-tag" data-theme="双城之战" aria-pressed="false" aria-controls="gallery">双城之战</button>
+      <button type="button" class="theme-tag" data-theme="鬼灭之刃" aria-pressed="false" aria-controls="gallery">鬼灭之刃</button>
+      <button type="button" class="theme-tag" data-theme="咒术回战" aria-pressed="false" aria-controls="gallery">咒术回战</button>
+      <button type="button" class="theme-tag" data-theme="进击的巨人" aria-pressed="false" aria-controls="gallery">进击的巨人</button>
+      <button type="button" class="theme-tag" data-theme="火影忍者" aria-pressed="false" aria-controls="gallery">火影忍者</button>
+      <button type="button" class="theme-tag" data-theme="海贼王" aria-pressed="false" aria-controls="gallery">海贼王</button>
+      <button type="button" class="theme-tag" data-theme="死神" aria-pressed="false" aria-controls="gallery">死神</button>
+    </nav>
+    <div class="gallery-heading"><div class="gallery-summary"><h2 id="themeTitle">全部主题</h2><span id="resultCount" role="status" aria-live="polite">155 张</span></div><a id="themeDownload" class="download-link" hidden>下载本主题原图</a></div>
     <div class="gallery" id="gallery"></div>
     <button type="button" id="loadMore" class="load-more" aria-controls="gallery" hidden>加载更多图片</button>
     <noscript><p>请启用 JavaScript，以浏览主题分类和图片。</p></noscript>
   </main>
-  <footer><span>AI 创作 · 非官方联名概念 · v3.2.0</span><a href="https://github.com/holynova/crossover-folk-gallery" target="_blank" rel="noopener noreferrer">GitHub</a></footer>
+  <footer><span>AI 创作 · 非官方联名概念 · v3.3.0</span><a href="https://github.com/holynova/crossover-folk-gallery" target="_blank" rel="noopener noreferrer">GitHub</a></footer>
   <dialog id="viewer" aria-label="图片大图" aria-describedby="viewerCaption">
     <div class="viewer-toolbar"><p id="viewerCaption"></p><button id="closeViewer" aria-label="关闭大图">关闭 <span aria-hidden="true">×</span></button></div>
     <div class="viewer-stage"><img id="viewerImage" alt=""><p id="imageStatus" role="status" hidden></p></div>

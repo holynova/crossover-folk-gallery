@@ -44,3 +44,11 @@ Chromium，桌面 1440×1000 / DPR 1，手机 390×844 / DPR 2；网络 150ms �
 ## 回归验证
 
 155 张原图哈希、465 个 WebP 格式与尺寸已核对；重复运行转换不会生成重复资源。浏览器验证主题分类、滚动至末尾、快速翻页、关闭重开、大图失败保留预览、键盘焦点恢复，以及无 observer/decode 的回退。详细结果见 [scripts/browser-checks.json](./scripts/browser-checks.json)。验证输出不进入发布产物。
+
+## v3.3.0：平铺分类与主题原图下载
+
+同样的设备/限速条件，三次测试中位数：手机 LCP 1.74s，已完成图片传输 142 KiB，CLS 0；桌面 LCP 1.62s，图片传输 240 KiB，CLS 0。高清升级手机 1.39s、桌面 1.24s。分类区高度发生变化，首屏可见图片数不同，因此不把这些字节变化当作纯压缩收益。采样见 [scripts/v33-performance-samples.json](./scripts/v33-performance-samples.json)。
+
+29 个等宽按钮包含“全部主题”与 28 个联名主题。生成 28 个原图 ZIP，由 GitHub Release 提供；页面初始、分类切换和看大图均不请求 ZIP 或 PNG，点击下载时才请求一个主题包。ZIP 包含原图与 SHA-256 清单，构建时逐包 CRC 验证。
+
+大图优先复用列表中已经显示的响应式缩略图，减少额外请求；只以低优先级预取前后相邻的小缩略图。保留分批渲染、Observer 回退、高清解码升级、取消旧请求与缓存限制。桌面与 320/390px 手机布局、全部主题下载链接、实际 ZIP 下载、快速翻页与焦点恢复检查见 [scripts/v33-browser-checks.json](./scripts/v33-browser-checks.json)。

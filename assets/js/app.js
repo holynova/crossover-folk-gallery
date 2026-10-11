@@ -93,7 +93,16 @@
     selectedTheme = theme;
     filtered = theme === themes[0] ? artworks : artworks.filter(item => item.theme === theme);
     rendered = 0;
-    navigation.value = theme;
+    navigation.querySelectorAll('.theme-tag').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.theme === theme)));
+    const pack = window.THEME_DOWNLOADS?.[theme];
+    const download = document.getElementById('themeDownload');
+    download.hidden = !pack;
+    if (pack) {
+      download.href = pack.url;
+      download.download = pack.filename;
+      download.textContent = `原图打包 · ${(pack.bytes / 1048576).toFixed(1)} MB`;
+      download.setAttribute('aria-label', `下载${theme}的${pack.count}张原图 ZIP`);
+    } else download.removeAttribute('href');
     document.getElementById('themeTitle').textContent = theme;
     document.getElementById('resultCount').textContent = `${filtered.length} 张`;
     gallery.replaceChildren();
@@ -127,7 +136,15 @@
     const token = ++revision;
     request?.abort();
     const item = filtered[index];
-    image.src = item.thumbnail;
+    const visiblePreview = gallery.querySelectorAll('.image-button img')[index];
+    image.src = visiblePreview?.currentSrc || item.thumbnail;
+    for (const neighbour of [filtered[index - 1], filtered[index + 1]]) {
+      if (!neighbour) continue;
+      const preview = new Image();
+      preview.decoding = 'async';
+      preview.fetchPriority = 'low';
+      preview.src = neighbour.thumbnail;
+    }
     image.alt = caption(item);
     document.getElementById('viewerCaption').textContent = `${item.theme} · ${caption(item)}`;
     document.getElementById('position').textContent = `${index + 1} / ${filtered.length}`;
@@ -176,13 +193,10 @@
     index = next;
     showImage();
   }
-  for (const theme of themes) {
-    const option = document.createElement('option');
-    option.value = theme;
-    option.textContent = theme;
-    navigation.append(option);
-  }
-  navigation.addEventListener('change', () => selectTheme(navigation.value));
+  navigation.addEventListener('click', event => {
+    const button = event.target.closest('.theme-tag');
+    if (button) selectTheme(button.dataset.theme);
+  });
   more.addEventListener('click', appendBatch);
   document.getElementById('closeViewer').addEventListener('click', () => viewer.close());
   document.getElementById('prevImage').addEventListener('click', () => move(-1));

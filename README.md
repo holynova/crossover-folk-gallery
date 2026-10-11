@@ -1,6 +1,6 @@
 # 王者荣耀 · 联名英雄图集
 
-155 张 AI 概念图，按 28 个动漫与游戏联名主题分类。选择主题，点击图片看大图；支持方向键切换和 Esc 关闭。
+155 张 AI 概念图，按 28 个动漫与游戏联名主题分类。点击等宽主题标签筛选，点击图片看大图；支持方向键切换和 Esc 关闭。
 
 [在线浏览](https://crossover-folk-gallery.xiaosang.cc/) · [源码](https://github.com/holynova/crossover-folk-gallery)
 
@@ -18,14 +18,17 @@ python3 -m http.server 8080
 
 打开 http://localhost:8080/。纯 HTML、CSS 和 JavaScript，无框架依赖。
 
+每个主题可下载原始 PNG 的 ZIP（共 28 个主题包）。预生成文件通过 GitHub Release 提供，点击后才下载。
+
 ## 图片与性能
 
-v3.2.0 使用 480/960px WebP 响应式缩略图，点击后加载保留原尺寸的高清 WebP。列表每批 12 张，滚动追加；浏览器不支持自动追加时可点击“加载更多图片”。快速翻页取消旧请求，最多保留 3 张已解码大图，关闭后释放。
+v3.3.0 使用 480/960px WebP 响应式缩略图，点击后加载保留原尺寸的高清 WebP。列表每批 12 张，滚动追加；浏览器不支持自动追加时可点击“加载更多图片”。快速翻页取消旧请求，最多保留 3 张已解码大图，关闭后释放。
 
 原始 PNG 保留在仓库，未上传至站点。带指纹的图片长期缓存，源码变更会生成新路径。性能对比见 [PERFORMANCE.md](./PERFORMANCE.md)。
 
 ```bash
 node scripts/optimize-gallery.mjs
+python3 scripts/build-theme-packages.py
 node scripts/build-site.mjs
 ```
 

@@ -1,0 +1,285 @@
+{
+  "mobile": {
+    "samples": [
+      {
+        "run": 0,
+        "cold": {
+          "lcp": 1720,
+          "cls": 0,
+          "fcp": 504,
+          "dom": 148,
+          "cards": 12,
+          "imageRequests": 2,
+          "imageTransferBytes": 145248,
+          "originalRequests": 0,
+          "resources": [
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-01.large.ac7abbfc754b32a2.webp",
+              "bytes": 71542,
+              "duration": 848
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-02.large.b81953eda4121889.webp",
+              "bytes": 73706,
+              "duration": 863.8999999761581
+            }
+          ]
+        },
+        "detailMs": 1396
+      },
+      {
+        "run": 1,
+        "cold": {
+          "lcp": 1740,
+          "cls": 0,
+          "fcp": 524,
+          "dom": 148,
+          "cards": 12,
+          "imageRequests": 2,
+          "imageTransferBytes": 145248,
+          "originalRequests": 0,
+          "resources": [
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-01.large.ac7abbfc754b32a2.webp",
+              "bytes": 71542,
+              "duration": 848.8000000715256
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-02.large.b81953eda4121889.webp",
+              "bytes": 73706,
+              "duration": 869
+            }
+          ]
+        },
+        "detailMs": 1375
+      },
+      {
+        "run": 2,
+        "cold": {
+          "lcp": 1748,
+          "cls": 0,
+          "fcp": 512,
+          "dom": 148,
+          "cards": 12,
+          "imageRequests": 2,
+          "imageTransferBytes": 145248,
+          "originalRequests": 0,
+          "resources": [
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-01.large.ac7abbfc754b32a2.webp",
+              "bytes": 71542,
+              "duration": 849.5
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-02.large.b81953eda4121889.webp",
+              "bytes": 73706,
+              "duration": 867.2999999523163
+            }
+          ]
+        },
+        "detailMs": 1385
+      }
+    ],
+    "median": {
+      "lcp": 1740,
+      "cls": 0,
+      "imageTransferBytes": 145248,
+      "cards": 12,
+      "detailMs": 1385
+    }
+  },
+  "desktop": {
+    "samples": [
+      {
+        "run": 0,
+        "cold": {
+          "lcp": 1616,
+          "cls": 0,
+          "fcp": 516,
+          "dom": 148,
+          "cards": 12,
+          "imageRequests": 9,
+          "imageTransferBytes": 246224,
+          "originalRequests": 0,
+          "resources": [
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-01.small.ed00184214b20210.webp",
+              "bytes": 26436,
+              "duration": 727.6000000238419
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-02.small.e0fd22f199fc5227.webp",
+              "bytes": 25856,
+              "duration": 735.7999999523163
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-03.small.690cfb2a3b634b8c.webp",
+              "bytes": 21886,
+              "duration": 622.7000000476837
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-04.small.d0a43674e8dd4fe8.webp",
+              "bytes": 30176,
+              "duration": 947.2999999523163
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-05.small.11f7328082878268.webp",
+              "bytes": 22842,
+              "duration": 857.1999999284744
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-06.small.e80003de1ff6a6cf.webp",
+              "bytes": 34322,
+              "duration": 962.3999999761581
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-08.small.de539beca5eaf58b.webp",
+              "bytes": 28120,
+              "duration": 1383.3999999761581
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-07.small.33badd16c123446d.webp",
+              "bytes": 27814,
+              "duration": 1391.1000000238419
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-09.small.12ff89e6d994d797.webp",
+              "bytes": 28772,
+              "duration": 1449.3999999761581
+            }
+          ]
+        },
+        "detailMs": 1235
+      },
+      {
+        "run": 1,
+        "cold": {
+          "lcp": 1620,
+          "cls": 0,
+          "fcp": 504,
+          "dom": 148,
+          "cards": 12,
+          "imageRequests": 9,
+          "imageTransferBytes": 246224,
+          "originalRequests": 0,
+          "resources": [
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-01.small.ed00184214b20210.webp",
+              "bytes": 26436,
+              "duration": 727.7000000476837
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-03.small.690cfb2a3b634b8c.webp",
+              "bytes": 21886,
+              "duration": 615.3999999761581
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-02.small.e0fd22f199fc5227.webp",
+              "bytes": 25856,
+              "duration": 735.1999999284744
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-04.small.d0a43674e8dd4fe8.webp",
+              "bytes": 30176,
+              "duration": 932.6000000238419
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-05.small.11f7328082878268.webp",
+              "bytes": 22842,
+              "duration": 856.8000000715256
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-06.small.e80003de1ff6a6cf.webp",
+              "bytes": 34322,
+              "duration": 955.5999999046326
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-07.small.33badd16c123446d.webp",
+              "bytes": 27814,
+              "duration": 1390.5
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-08.small.de539beca5eaf58b.webp",
+              "bytes": 28120,
+              "duration": 1396.6000000238419
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-09.small.12ff89e6d994d797.webp",
+              "bytes": 28772,
+              "duration": 1450.3000000715256
+            }
+          ]
+        },
+        "detailMs": 1236
+      },
+      {
+        "run": 2,
+        "cold": {
+          "lcp": 1620,
+          "cls": 0,
+          "fcp": 520,
+          "dom": 148,
+          "cards": 12,
+          "imageRequests": 9,
+          "imageTransferBytes": 246224,
+          "originalRequests": 0,
+          "resources": [
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-01.small.ed00184214b20210.webp",
+              "bytes": 26436,
+              "duration": 726.8000000715256
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-02.small.e0fd22f199fc5227.webp",
+              "bytes": 25856,
+              "duration": 735.4000000953674
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-03.small.690cfb2a3b634b8c.webp",
+              "bytes": 21886,
+              "duration": 622.5
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-05.small.11f7328082878268.webp",
+              "bytes": 22842,
+              "duration": 849.2999999523163
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-04.small.d0a43674e8dd4fe8.webp",
+              "bytes": 30176,
+              "duration": 932.1000000238419
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-06.small.e80003de1ff6a6cf.webp",
+              "bytes": 34322,
+              "duration": 953.8999999761581
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-07.small.33badd16c123446d.webp",
+              "bytes": 27814,
+              "duration": 1381.2999999523163
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-08.small.de539beca5eaf58b.webp",
+              "bytes": 28120,
+              "duration": 1388.6999999284744
+            },
+            {
+              "url": "http://localhost:8088/dist/media/gallery/classic-09.small.12ff89e6d994d797.webp",
+              "bytes": 28772,
+              "duration": 1442.1999999284744
+            }
+          ]
+        },
+        "detailMs": 1403
+      }
+    ],
+    "median": {
+      "lcp": 1620,
+      "cls": 0,
+      "imageTransferBytes": 246224,
+      "cards": 12,
+      "detailMs": 1236
+    }
+  }
+}
