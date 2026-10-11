@@ -43,7 +43,17 @@ slugs={
   "进击的巨人": "attack-on-titan",
   "火影忍者": "naruto",
   "海贼王": "one-piece",
-  "死神": "bleach"
+  "死神": "bleach",
+  "魔神英雄传": "mashin-hero-wataru",
+  "光能使者": "madou-king-granzort",
+  "宝可梦": "pokemon",
+  "数码宝贝": "digimon",
+  "迪士尼传奇": "disney-legends",
+  "皮克斯经典": "pixar-classics",
+  "Fate圣杯战争": "fate-stay-night",
+  "刀剑神域": "sword-art-online",
+  "叛逆的鲁路修": "code-geass",
+  "家庭教师": "katekyo-hitman-reborn"
 }
 for theme,group in themes.items():
     name=re.sub(r'[\\/:*?"<>|]','_',theme)

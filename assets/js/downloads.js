@@ -153,6 +153,76 @@ window.THEME_DOWNLOADS = {
     "sha256": "62fbb2c76b4c14f0207598407858c522d12a15fce95602a15e98879e02defb8c",
     "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-arcane-originals.zip"
   },
+  "魔神英雄传": {
+    "count": 5,
+    "bytes": 13340393,
+    "filename": "wzry-mashin-hero-wataru-originals.zip",
+    "sha256": "e36f6d734b25846ef84011f199e4fb3c68589bae079b38fb6662dd769185f1fd",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-mashin-hero-wataru-originals.zip"
+  },
+  "光能使者": {
+    "count": 5,
+    "bytes": 13198921,
+    "filename": "wzry-madou-king-granzort-originals.zip",
+    "sha256": "c623aee158e1edbcb1d8a8c18cdf21754b6ef99c2f329d82b178b1a376f41d70",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-madou-king-granzort-originals.zip"
+  },
+  "宝可梦": {
+    "count": 5,
+    "bytes": 13299272,
+    "filename": "wzry-pokemon-originals.zip",
+    "sha256": "8f15b859ab777ead13a3ee3b9f0eea8f245308ccf95e0e1810cc9ff251047d94",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-pokemon-originals.zip"
+  },
+  "数码宝贝": {
+    "count": 5,
+    "bytes": 13684671,
+    "filename": "wzry-digimon-originals.zip",
+    "sha256": "4952e4e2b72c1b8c93af3144aac37fc5c34024cc02c444a1eb31bb0f6a0420ab",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-digimon-originals.zip"
+  },
+  "迪士尼传奇": {
+    "count": 5,
+    "bytes": 12662921,
+    "filename": "wzry-disney-legends-originals.zip",
+    "sha256": "bc93e82c81c12314c5d24dcff3be9c698dcdce44111ea912d88f9cfebcbbb033",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-disney-legends-originals.zip"
+  },
+  "皮克斯经典": {
+    "count": 5,
+    "bytes": 12904140,
+    "filename": "wzry-pixar-classics-originals.zip",
+    "sha256": "becdcf383175687a5242ffcf94fe8b63d038e7205701edb727e4e8186600483a",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-pixar-classics-originals.zip"
+  },
+  "Fate圣杯战争": {
+    "count": 5,
+    "bytes": 12549981,
+    "filename": "wzry-fate-stay-night-originals.zip",
+    "sha256": "b90b6a82351839a8b2595899d9acbc9a1137312d378bdb7e6055663233500a42",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-fate-stay-night-originals.zip"
+  },
+  "刀剑神域": {
+    "count": 5,
+    "bytes": 12742619,
+    "filename": "wzry-sword-art-online-originals.zip",
+    "sha256": "44f94c5596776ba0fe37b669e3bbddd5d5969aca2839fa68f04b02fce824c20d",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-sword-art-online-originals.zip"
+  },
+  "叛逆的鲁路修": {
+    "count": 5,
+    "bytes": 12878492,
+    "filename": "wzry-code-geass-originals.zip",
+    "sha256": "9f7d2ac637f8962df5247ffa07a67e25ac217cfcab46d310faa314f8d7229feb",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-code-geass-originals.zip"
+  },
+  "家庭教师": {
+    "count": 5,
+    "bytes": 12678372,
+    "filename": "wzry-katekyo-hitman-reborn-originals.zip",
+    "sha256": "8db3360cbb6926782935aef8e94e468a1089273c4edf81dc7b16319c1fcaa1cf",
+    "url": "https://github.com/holynova/crossover-folk-gallery/releases/download/v3.3.0/wzry-katekyo-hitman-reborn-originals.zip"
+  },
   "鬼灭之刃": {
     "count": 20,
     "bytes": 53805077,

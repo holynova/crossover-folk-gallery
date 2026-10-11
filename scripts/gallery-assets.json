@@ -2439,6 +2439,1106 @@
       }
     },
     {
+      "id": "classic-111",
+      "original": "images/classic_skins/23_01_魔神英雄传_哪吒_战部渡.png",
+      "sourceHash": "071220babbebc9984086d6de90f0bfb4c84eba4b1de57a37f75cfb6f776bd691",
+      "originalBytes": 2722126,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-111.small.c2b95620c4e2c637.webp",
+          "bytes": 38632
+        },
+        "large": {
+          "path": "media/gallery/classic-111.large.4faed4b879046b27.webp",
+          "bytes": 116696
+        },
+        "detail": {
+          "path": "media/gallery/classic-111.detail.67c00902e5ec6aa9.webp",
+          "bytes": 341124
+        }
+      }
+    },
+    {
+      "id": "classic-112",
+      "original": "images/classic_skins/23_02_魔神英雄传_狂铁_龙神丸.png",
+      "sourceHash": "3120e76c0d84e2c21d6f089d1a1f3ae8a26ada69c025097745de80135c07389b",
+      "originalBytes": 2555606,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-112.small.1fc1f33928a0b6d5.webp",
+          "bytes": 35784
+        },
+        "large": {
+          "path": "media/gallery/classic-112.large.f7baf405cf4d4a34.webp",
+          "bytes": 103904
+        },
+        "detail": {
+          "path": "media/gallery/classic-112.detail.43b2d72d5094d993.webp",
+          "bytes": 289662
+        }
+      }
+    },
+    {
+      "id": "classic-113",
+      "original": "images/classic_skins/23_03_魔神英雄传_鲁班七号_火美子.png",
+      "sourceHash": "1c11f55fbf644c86b9680042cb9a6e5895ea06048b9c928c02a17c10b627ce90",
+      "originalBytes": 2603472,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-113.small.7b68cc00381af706.webp",
+          "bytes": 39566
+        },
+        "large": {
+          "path": "media/gallery/classic-113.large.c823e408bf261c37.webp",
+          "bytes": 110910
+        },
+        "detail": {
+          "path": "media/gallery/classic-113.detail.e4be0761957fd5e4.webp",
+          "bytes": 294630
+        }
+      }
+    },
+    {
+      "id": "classic-114",
+      "original": "images/classic_skins/23_04_魔神英雄传_夏洛特_虎王.png",
+      "sourceHash": "51e390ae841c0da70a809a60d7065ca9abafecb9893623a8063c37eb230f62ab",
+      "originalBytes": 2651175,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-114.small.2cf827fd2eb1114e.webp",
+          "bytes": 34684
+        },
+        "large": {
+          "path": "media/gallery/classic-114.large.aeb9c5e9d8a50169.webp",
+          "bytes": 104966
+        },
+        "detail": {
+          "path": "media/gallery/classic-114.detail.af0617829e28e97d.webp",
+          "bytes": 304686
+        }
+      }
+    },
+    {
+      "id": "classic-115",
+      "original": "images/classic_skins/23_05_魔神英雄传_关羽_剑王龙神.png",
+      "sourceHash": "3fbf08147b407cea259c6cc9952e3768e763d07bd9df67ea33eb59d0edfe4ddb",
+      "originalBytes": 2805673,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-115.small.7694cb54b4b864c3.webp",
+          "bytes": 38210
+        },
+        "large": {
+          "path": "media/gallery/classic-115.large.74e15b95e7ff7587.webp",
+          "bytes": 116460
+        },
+        "detail": {
+          "path": "media/gallery/classic-115.detail.4131f83eecee2e26.webp",
+          "bytes": 342648
+        }
+      }
+    },
+    {
+      "id": "classic-116",
+      "original": "images/classic_skins/24_01_光能使者_赵怀真_遥大地.png",
+      "sourceHash": "cfe493c0af1a8078ec497ce37d6a42514d00fdb1cf6d61d11c36a81e13e73bf1",
+      "originalBytes": 2662546,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-116.small.340954b6207cc70a.webp",
+          "bytes": 32902
+        },
+        "large": {
+          "path": "media/gallery/classic-116.large.d50b5e085e0011c6.webp",
+          "bytes": 99610
+        },
+        "detail": {
+          "path": "media/gallery/classic-116.detail.5b29ad88af57ef28.webp",
+          "bytes": 295682
+        }
+      }
+    },
+    {
+      "id": "classic-117",
+      "original": "images/classic_skins/24_02_光能使者_盘古_地神号.png",
+      "sourceHash": "fa08f1ed38539e031d5b00ad720b0f457e0571a670be1da1a354f237553ef9b4",
+      "originalBytes": 2885300,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-117.small.4f74d5021bd8bd96.webp",
+          "bytes": 37574
+        },
+        "large": {
+          "path": "media/gallery/classic-117.large.fa4559b88476ebca.webp",
+          "bytes": 115700
+        },
+        "detail": {
+          "path": "media/gallery/classic-117.detail.95c43c74a4ac53f6.webp",
+          "bytes": 351010
+        }
+      }
+    },
+    {
+      "id": "classic-118",
+      "original": "images/classic_skins/24_03_光能使者_弈星_修罗风神.png",
+      "sourceHash": "6aae84d0fb7680435ebdaf037de529f8891ad7817ce4ff03c9438e45cd2c23c1",
+      "originalBytes": 2624453,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-118.small.9047d6590b73a35d.webp",
+          "bytes": 35120
+        },
+        "large": {
+          "path": "media/gallery/classic-118.large.a1f03b0d380b0dc8.webp",
+          "bytes": 104454
+        },
+        "detail": {
+          "path": "media/gallery/classic-118.detail.991a5678776e9ce3.webp",
+          "bytes": 302920
+        }
+      }
+    },
+    {
+      "id": "classic-119",
+      "original": "images/classic_skins/24_04_光能使者_亚连_水神号.png",
+      "sourceHash": "4128e758efa5f9ca6bab98bf0364e579d5283dc389c48418e443d12515bea44d",
+      "originalBytes": 2579284,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-119.small.f05993ce58f3f523.webp",
+          "bytes": 32458
+        },
+        "large": {
+          "path": "media/gallery/classic-119.large.8a906ae15dc236f6.webp",
+          "bytes": 96286
+        },
+        "detail": {
+          "path": "media/gallery/classic-119.detail.21a078fabb815373.webp",
+          "bytes": 279300
+        }
+      }
+    },
+    {
+      "id": "classic-120",
+      "original": "images/classic_skins/24_05_光能使者_桑启_咕哩咕哩.png",
+      "sourceHash": "a698f1a9db0de17ed7bd3a674593b28e9c076c9a92d532a7168be94ebd6c4853",
+      "originalBytes": 2445096,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-120.small.56a2635a27861b30.webp",
+          "bytes": 33330
+        },
+        "large": {
+          "path": "media/gallery/classic-120.large.0da8bf8b510c3f7b.webp",
+          "bytes": 92804
+        },
+        "detail": {
+          "path": "media/gallery/classic-120.detail.11a3ae1af810e51f.webp",
+          "bytes": 251424
+        }
+      }
+    },
+    {
+      "id": "classic-121",
+      "original": "images/classic_skins/25_01_宝可梦_哪吒_小智.png",
+      "sourceHash": "04e24a6fa1a12f8497dd6882302e489443defeef05bf798ed7c7563bcbe57e3c",
+      "originalBytes": 2601447,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-121.small.6fb711eedf766cd6.webp",
+          "bytes": 39356
+        },
+        "large": {
+          "path": "media/gallery/classic-121.large.2b15f929fca5f067.webp",
+          "bytes": 112054
+        },
+        "detail": {
+          "path": "media/gallery/classic-121.detail.394f0985a2e1d36a.webp",
+          "bytes": 296048
+        }
+      }
+    },
+    {
+      "id": "classic-122",
+      "original": "images/classic_skins/25_02_宝可梦_澜_甲贺忍蛙.png",
+      "sourceHash": "394214aae4c05c45e1899dba6636c02a9650d9ca660d673631f2e9f290aa2bc4",
+      "originalBytes": 2610175,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-122.small.c326fea9e5af1d7b.webp",
+          "bytes": 32222
+        },
+        "large": {
+          "path": "media/gallery/classic-122.large.2618e82fb5324307.webp",
+          "bytes": 94950
+        },
+        "detail": {
+          "path": "media/gallery/classic-122.detail.ac33c54df6de2a78.webp",
+          "bytes": 272578
+        }
+      }
+    },
+    {
+      "id": "classic-123",
+      "original": "images/classic_skins/25_03_宝可梦_孙策_水箭龟.png",
+      "sourceHash": "aa7fbd36dd030becc409932b51a81599430183a99036ac3d84a8fe121ebf8fb3",
+      "originalBytes": 2712902,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-123.small.3ddfd0be07997ed8.webp",
+          "bytes": 35340
+        },
+        "large": {
+          "path": "media/gallery/classic-123.large.a3e91b2abe01836c.webp",
+          "bytes": 106588
+        },
+        "detail": {
+          "path": "media/gallery/classic-123.detail.aa79b198d2f892f9.webp",
+          "bytes": 311328
+        }
+      }
+    },
+    {
+      "id": "classic-124",
+      "original": "images/classic_skins/25_04_宝可梦_艾琳_仙子伊布.png",
+      "sourceHash": "353cca8ef7acc6deeacc8a5152b904d153ff1e28ad0756ea0c1d967192254748",
+      "originalBytes": 2680456,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-124.small.a0aa18a191efb146.webp",
+          "bytes": 36586
+        },
+        "large": {
+          "path": "media/gallery/classic-124.large.bf5207ebab34819b.webp",
+          "bytes": 107036
+        },
+        "detail": {
+          "path": "media/gallery/classic-124.detail.1b9ccc7aa91372ad.webp",
+          "bytes": 297472
+        }
+      }
+    },
+    {
+      "id": "classic-125",
+      "original": "images/classic_skins/25_05_宝可梦_盘古_喷火龙.png",
+      "sourceHash": "349859164c0477c5ed87c5872ccc240aa33271b832638b195a79b50fcf550773",
+      "originalBytes": 2692176,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-125.small.63e83e53d7ed902f.webp",
+          "bytes": 35206
+        },
+        "large": {
+          "path": "media/gallery/classic-125.large.f35300638fd51b53.webp",
+          "bytes": 105026
+        },
+        "detail": {
+          "path": "media/gallery/classic-125.detail.b1bc18187ef8630e.webp",
+          "bytes": 305550
+        }
+      }
+    },
+    {
+      "id": "classic-126",
+      "original": "images/classic_skins/26_01_数码宝贝_孙悟空_战斗暴龙兽.png",
+      "sourceHash": "48dc16c00c99ba8380d61fb667b6ab996431ff7b1cb17a90ecd76a9f16e5fee3",
+      "originalBytes": 2856457,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-126.small.a618da35a3c47aaf.webp",
+          "bytes": 40110
+        },
+        "large": {
+          "path": "media/gallery/classic-126.large.cefeb276549af2f9.webp",
+          "bytes": 122272
+        },
+        "detail": {
+          "path": "media/gallery/classic-126.detail.356eb097af715029.webp",
+          "bytes": 358228
+        }
+      }
+    },
+    {
+      "id": "classic-127",
+      "original": "images/classic_skins/26_02_数码宝贝_裴擒虎_钢铁加鲁鲁.png",
+      "sourceHash": "bee8cfc5778a25c57c2d93f17e9d0f99db6f9fb6d6bc114b536803211264d6b3",
+      "originalBytes": 2829247,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-127.small.dbda5beb2c2a73a4.webp",
+          "bytes": 37864
+        },
+        "large": {
+          "path": "media/gallery/classic-127.large.a49ae46983d203ba.webp",
+          "bytes": 115638
+        },
+        "detail": {
+          "path": "media/gallery/classic-127.detail.01a87cb16522f817.webp",
+          "bytes": 347768
+        }
+      }
+    },
+    {
+      "id": "classic-128",
+      "original": "images/classic_skins/26_03_数码宝贝_艾琳_天女兽.png",
+      "sourceHash": "a74a5fac155aaf69a4863af3f2fc43691c333570f70f21a5ac27464e6901be50",
+      "originalBytes": 2733079,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-128.small.38dd59c6a2c24c15.webp",
+          "bytes": 33904
+        },
+        "large": {
+          "path": "media/gallery/classic-128.large.b4d5ffcc0a63749f.webp",
+          "bytes": 103268
+        },
+        "detail": {
+          "path": "media/gallery/classic-128.detail.796dc494e0247cac.webp",
+          "bytes": 307384
+        }
+      }
+    },
+    {
+      "id": "classic-129",
+      "original": "images/classic_skins/26_04_数码宝贝_后羿_神圣天使兽.png",
+      "sourceHash": "35c2be093130a139118161f539768a8a7f12aff16ce575e658f77f0fcaf0d4d1",
+      "originalBytes": 2777551,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-129.small.26779afc6ea8fceb.webp",
+          "bytes": 37804
+        },
+        "large": {
+          "path": "media/gallery/classic-129.large.31c6abd0c411b99e.webp",
+          "bytes": 113630
+        },
+        "detail": {
+          "path": "media/gallery/classic-129.detail.ef0be72b55e8e944.webp",
+          "bytes": 329602
+        }
+      }
+    },
+    {
+      "id": "classic-130",
+      "original": "images/classic_skins/26_05_数码宝贝_哪吒_太一.png",
+      "sourceHash": "9122def135ef525647ceac95bc4b39959d02fafd232516fb0896c3634893dfcb",
+      "originalBytes": 2486059,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-130.small.38c1fb554856a8cc.webp",
+          "bytes": 33176
+        },
+        "large": {
+          "path": "media/gallery/classic-130.large.84675a1981707f0a.webp",
+          "bytes": 99136
+        },
+        "detail": {
+          "path": "media/gallery/classic-130.detail.d358c4c2a8536935.webp",
+          "bytes": 281850
+        }
+      }
+    },
+    {
+      "id": "classic-131",
+      "original": "images/classic_skins/27_01_迪士尼传奇_花木兰_木兰.png",
+      "sourceHash": "c06540500a3099a475497d0231c803b0b091c3ef9447431eea147ddc6a99be7c",
+      "originalBytes": 2535187,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-131.small.9f2069df663bacc5.webp",
+          "bytes": 32118
+        },
+        "large": {
+          "path": "media/gallery/classic-131.large.64357f9eb7d684b4.webp",
+          "bytes": 91562
+        },
+        "detail": {
+          "path": "media/gallery/classic-131.detail.3bf221de2fe1099b.webp",
+          "bytes": 262600
+        }
+      }
+    },
+    {
+      "id": "classic-132",
+      "original": "images/classic_skins/27_02_迪士尼传奇_朵莉亚_爱丽儿.png",
+      "sourceHash": "71352c959112a1bdc4da212094a6b0effb5f0b72c73a490abc5d140214d3ed20",
+      "originalBytes": 2546804,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-132.small.d9a75aae54922d9e.webp",
+          "bytes": 35942
+        },
+        "large": {
+          "path": "media/gallery/classic-132.large.2c80ec2e9cdaa09e.webp",
+          "bytes": 103326
+        },
+        "detail": {
+          "path": "media/gallery/classic-132.detail.8f9f51ff20cc1ad4.webp",
+          "bytes": 279942
+        }
+      }
+    },
+    {
+      "id": "classic-133",
+      "original": "images/classic_skins/27_03_迪士尼传奇_艾琳_艾莎.png",
+      "sourceHash": "53cc0e09f3235e9effba1db4ee497da71f967e02f519254c80f4b991b857398a",
+      "originalBytes": 2686742,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-133.small.0a3d4bdb2ce9ce3e.webp",
+          "bytes": 33990
+        },
+        "large": {
+          "path": "media/gallery/classic-133.large.759906e2d0ec99f4.webp",
+          "bytes": 105604
+        },
+        "detail": {
+          "path": "media/gallery/classic-133.detail.a9c81b1f32ff1922.webp",
+          "bytes": 310478
+        }
+      }
+    },
+    {
+      "id": "classic-134",
+      "original": "images/classic_skins/27_04_迪士尼传奇_西施_仙度瑞拉.png",
+      "sourceHash": "e9fed2f8becc6cfb50b0f34a1c951556cf695be6a0a8f645cc12fc74677eb7cc",
+      "originalBytes": 2433347,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-134.small.f914484e417337bc.webp",
+          "bytes": 29754
+        },
+        "large": {
+          "path": "media/gallery/classic-134.large.6d556a496306272a.webp",
+          "bytes": 88528
+        },
+        "detail": {
+          "path": "media/gallery/classic-134.detail.1d551b137c2a561a.webp",
+          "bytes": 246442
+        }
+      }
+    },
+    {
+      "id": "classic-135",
+      "original": "images/classic_skins/27_05_迪士尼传奇_亚连_阿拉丁.png",
+      "sourceHash": "56fd4812325e3985a0b9cc05694381e4b1cf7422dbe51e4726521c60aac9b45c",
+      "originalBytes": 2458518,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-135.small.78e5dfe287655a13.webp",
+          "bytes": 33672
+        },
+        "large": {
+          "path": "media/gallery/classic-135.large.4a503fae01c03f0c.webp",
+          "bytes": 97534
+        },
+        "detail": {
+          "path": "media/gallery/classic-135.detail.2efc9a51f402df58.webp",
+          "bytes": 268242
+        }
+      }
+    },
+    {
+      "id": "classic-136",
+      "original": "images/classic_skins/28_01_皮克斯经典_百里守约_巴斯光年.png",
+      "sourceHash": "94adfd74d74e7374673c2ed251b2a55e804f34ce7533eb698d9dba210d2ed816",
+      "originalBytes": 2536664,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-136.small.1459cda7c454b8d9.webp",
+          "bytes": 33536
+        },
+        "large": {
+          "path": "media/gallery/classic-136.large.e2935907a0a14e03.webp",
+          "bytes": 96072
+        },
+        "detail": {
+          "path": "media/gallery/classic-136.detail.b2f2f1645c41c49f.webp",
+          "bytes": 267490
+        }
+      }
+    },
+    {
+      "id": "classic-137",
+      "original": "images/classic_skins/28_02_皮克斯经典_马超_胡迪.png",
+      "sourceHash": "e07f8e4abd2fa42835d330624ede3759a6ecefa05dfccb15e9127d7fe03cb1f4",
+      "originalBytes": 2374144,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-137.small.3ae7f1ff09940e57.webp",
+          "bytes": 32956
+        },
+        "large": {
+          "path": "media/gallery/classic-137.large.1768122c2f0ca731.webp",
+          "bytes": 91578
+        },
+        "detail": {
+          "path": "media/gallery/classic-137.detail.5cd1cc15909c8df1.webp",
+          "bytes": 249288
+        }
+      }
+    },
+    {
+      "id": "classic-138",
+      "original": "images/classic_skins/28_03_皮克斯经典_孙策_辛巴.png",
+      "sourceHash": "8b34c1693f690c4509e6361d31e0a0566e8370d385a1a1168c3d322011137978",
+      "originalBytes": 2690932,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-138.small.7fe216133f345804.webp",
+          "bytes": 36006
+        },
+        "large": {
+          "path": "media/gallery/classic-138.large.ea4adae9128c29dc.webp",
+          "bytes": 108652
+        },
+        "detail": {
+          "path": "media/gallery/classic-138.detail.d71eed6ee272ac52.webp",
+          "bytes": 307872
+        }
+      }
+    },
+    {
+      "id": "classic-139",
+      "original": "images/classic_skins/28_04_皮克斯经典_鲁班七号_史迪奇.png",
+      "sourceHash": "b6d9555d0cde16f605c55de83ea167a1ff31da56f066abe010a61285de0e28c5",
+      "originalBytes": 2549210,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-139.small.814e63ae3f48ece1.webp",
+          "bytes": 34658
+        },
+        "large": {
+          "path": "media/gallery/classic-139.large.86a793e57d464e50.webp",
+          "bytes": 100554
+        },
+        "detail": {
+          "path": "media/gallery/classic-139.detail.041bc910f02f73eb.webp",
+          "bytes": 281570
+        }
+      }
+    },
+    {
+      "id": "classic-140",
+      "original": "images/classic_skins/28_05_皮克斯经典_钟馗_苏利文.png",
+      "sourceHash": "c96f2b8ffac1051b5c42986fd559ca4b2f0a5ccaabd97577428a1e00861d2e0e",
+      "originalBytes": 2750849,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-140.small.efc4cb9d3991b16d.webp",
+          "bytes": 39260
+        },
+        "large": {
+          "path": "media/gallery/classic-140.large.c6901f0f7001570f.webp",
+          "bytes": 116392
+        },
+        "detail": {
+          "path": "media/gallery/classic-140.detail.92f73e174f91cdfd.webp",
+          "bytes": 334792
+        }
+      }
+    },
+    {
+      "id": "classic-141",
+      "original": "images/classic_skins/29_01_Fate圣杯战争_夏洛特_Saber.png",
+      "sourceHash": "32c9219dcc9731fc3d10358d23d80a7c2cd66ff7dca295b4ff684511e0f7c456",
+      "originalBytes": 2363780,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-141.small.1ae52a8a06054630.webp",
+          "bytes": 29522
+        },
+        "large": {
+          "path": "media/gallery/classic-141.large.a3f166b19e46108d.webp",
+          "bytes": 84850
+        },
+        "detail": {
+          "path": "media/gallery/classic-141.detail.3aeba12cd5dd09f1.webp",
+          "bytes": 230094
+        }
+      }
+    },
+    {
+      "id": "classic-142",
+      "original": "images/classic_skins/29_02_Fate圣杯战争_百里守约_卫宫.png",
+      "sourceHash": "ec827e23bae06ecde80349b402e3ccdbf4d11aa336f915a5037dfa34e621d4dd",
+      "originalBytes": 2367243,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-142.small.b0a704509e4b704f.webp",
+          "bytes": 28116
+        },
+        "large": {
+          "path": "media/gallery/classic-142.large.4838bdc7c209acde.webp",
+          "bytes": 83040
+        },
+        "detail": {
+          "path": "media/gallery/classic-142.detail.e9776716ee7586aa.webp",
+          "bytes": 236696
+        }
+      }
+    },
+    {
+      "id": "classic-143",
+      "original": "images/classic_skins/29_03_Fate圣杯战争_李信_吉尔伽美什.png",
+      "sourceHash": "9b65aa025bc014ff770051014f55cf7043c9ca3a76700727a48e69751d0b631d",
+      "originalBytes": 2630377,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-143.small.f431c8df9ef39031.webp",
+          "bytes": 37374
+        },
+        "large": {
+          "path": "media/gallery/classic-143.large.07ca0e7fdfb6832d.webp",
+          "bytes": 111974
+        },
+        "detail": {
+          "path": "media/gallery/classic-143.detail.63dd8d88fe1a6730.webp",
+          "bytes": 320314
+        }
+      }
+    },
+    {
+      "id": "classic-144",
+      "original": "images/classic_skins/29_04_Fate圣杯战争_貂蝉_远坂凛.png",
+      "sourceHash": "633477e6962a4f98c5066a0accf237317fb36bd189434f05a5734cda9aa982e5",
+      "originalBytes": 2438891,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-144.small.af5de6bc12eb7909.webp",
+          "bytes": 32270
+        },
+        "large": {
+          "path": "media/gallery/classic-144.large.bfbdc7704d402c83.webp",
+          "bytes": 92552
+        },
+        "detail": {
+          "path": "media/gallery/classic-144.detail.46db192e9180f995.webp",
+          "bytes": 262218
+        }
+      }
+    },
+    {
+      "id": "classic-145",
+      "original": "images/classic_skins/29_05_Fate圣杯战争_关羽_征服王.png",
+      "sourceHash": "25b461f858ee1420294bb2c0c8b30e32535b0913b786ccb3aa043726ff906394",
+      "originalBytes": 2747319,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-145.small.8c8a0c4e14aac347.webp",
+          "bytes": 36816
+        },
+        "large": {
+          "path": "media/gallery/classic-145.large.8b2d6195021e6432.webp",
+          "bytes": 110838
+        },
+        "detail": {
+          "path": "media/gallery/classic-145.detail.f825533023811d37.webp",
+          "bytes": 312518
+        }
+      }
+    },
+    {
+      "id": "classic-146",
+      "original": "images/classic_skins/30_01_刀剑神域_亚连_桐人.png",
+      "sourceHash": "a6150f396bdacd809867363ef8ed120ac930ffe22c795318e35250d1d2fb55d6",
+      "originalBytes": 2541346,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-146.small.47a5e0ddb19ada6f.webp",
+          "bytes": 35200
+        },
+        "large": {
+          "path": "media/gallery/classic-146.large.86865cee2108c154.webp",
+          "bytes": 102334
+        },
+        "detail": {
+          "path": "media/gallery/classic-146.detail.03d3f1e11a21dd5d.webp",
+          "bytes": 284340
+        }
+      }
+    },
+    {
+      "id": "classic-147",
+      "original": "images/classic_skins/30_02_刀剑神域_夏洛特_亚丝娜.png",
+      "sourceHash": "91d6ccc8a23e4a04fb07f76ba8c921bcccfcc802d296bd615662d88939968672",
+      "originalBytes": 2512534,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-147.small.a9cfeb48dc8aca8e.webp",
+          "bytes": 34526
+        },
+        "large": {
+          "path": "media/gallery/classic-147.large.e41eafd9045c590e.webp",
+          "bytes": 99194
+        },
+        "detail": {
+          "path": "media/gallery/classic-147.detail.bfcbf07b5348a012.webp",
+          "bytes": 275630
+        }
+      }
+    },
+    {
+      "id": "classic-148",
+      "original": "images/classic_skins/30_03_刀剑神域_百里守约_诗乃.png",
+      "sourceHash": "b8c7c2b068ebe27b462def041b6ea0ca548d8305977852c4176c4d779362a6c4",
+      "originalBytes": 2505578,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-148.small.fc77f047aa49cfa5.webp",
+          "bytes": 31198
+        },
+        "large": {
+          "path": "media/gallery/classic-148.large.a48fdf64a7f9cdbb.webp",
+          "bytes": 91364
+        },
+        "detail": {
+          "path": "media/gallery/classic-148.detail.51a91dd45e71cc46.webp",
+          "bytes": 261304
+        }
+      }
+    },
+    {
+      "id": "classic-149",
+      "original": "images/classic_skins/30_04_刀剑神域_花木兰_爱丽丝.png",
+      "sourceHash": "fe9a3c74efb264b145d4e6b05d214a19278604fee371c5ed9cda8aa126b35a90",
+      "originalBytes": 2626573,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-149.small.64a67236796d8f2d.webp",
+          "bytes": 37556
+        },
+        "large": {
+          "path": "media/gallery/classic-149.large.4adf3139e12ce52e.webp",
+          "bytes": 110890
+        },
+        "detail": {
+          "path": "media/gallery/classic-149.detail.f6beaac3902c983c.webp",
+          "bytes": 316230
+        }
+      }
+    },
+    {
+      "id": "classic-150",
+      "original": "images/classic_skins/30_05_刀剑神域_暃_尤吉欧.png",
+      "sourceHash": "5b6dac01ce0e61fb687ce719941dc0cb1d8de725e5d33e46aa1547466feb4fb3",
+      "originalBytes": 2554364,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-150.small.7d6d8d1eb621367c.webp",
+          "bytes": 35442
+        },
+        "large": {
+          "path": "media/gallery/classic-150.large.6406b0c2fd497752.webp",
+          "bytes": 103560
+        },
+        "detail": {
+          "path": "media/gallery/classic-150.detail.99886dc76f54b183.webp",
+          "bytes": 281342
+        }
+      }
+    },
+    {
+      "id": "classic-151",
+      "original": "images/classic_skins/31_01_叛逆的鲁路修_暃_Zero.png",
+      "sourceHash": "2fec6f88e3996fd11ed6ee86f5b67284e3f1df1c1f3ec850f38eb59a705984c1",
+      "originalBytes": 2441898,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-151.small.828c0fb8b1316f15.webp",
+          "bytes": 29968
+        },
+        "large": {
+          "path": "media/gallery/classic-151.large.1bc48ac8239beadc.webp",
+          "bytes": 88382
+        },
+        "detail": {
+          "path": "media/gallery/classic-151.detail.e1754a929d21df40.webp",
+          "bytes": 258222
+        }
+      }
+    },
+    {
+      "id": "classic-152",
+      "original": "images/classic_skins/31_02_叛逆的鲁路修_马超_朱雀.png",
+      "sourceHash": "eac734235fd3894e2298d2c051477c0ee8b753d322c28bb5c454729557e91ed7",
+      "originalBytes": 2612093,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-152.small.b8d665156ae0a136.webp",
+          "bytes": 37902
+        },
+        "large": {
+          "path": "media/gallery/classic-152.large.09f815446e1c316e.webp",
+          "bytes": 111480
+        },
+        "detail": {
+          "path": "media/gallery/classic-152.detail.9d29139bcd2eed1c.webp",
+          "bytes": 309144
+        }
+      }
+    },
+    {
+      "id": "classic-153",
+      "original": "images/classic_skins/31_03_叛逆的鲁路修_镜_CC.png",
+      "sourceHash": "184ed0f2d03480a9b7c2b794ca45cd64cfa675b521b120e4ccf73bb307b83fe2",
+      "originalBytes": 2395375,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-153.small.320cd117e9e8e8ed.webp",
+          "bytes": 28890
+        },
+        "large": {
+          "path": "media/gallery/classic-153.large.5a1f9bff6248d53d.webp",
+          "bytes": 84486
+        },
+        "detail": {
+          "path": "media/gallery/classic-153.detail.50032714d252e98c.webp",
+          "bytes": 247492
+        }
+      }
+    },
+    {
+      "id": "classic-154",
+      "original": "images/classic_skins/31_04_叛逆的鲁路修_花木兰_卡莲.png",
+      "sourceHash": "f60e6451869df6f411bd3b6240429b51d92e41883ea78f2771ec84bbe2429b40",
+      "originalBytes": 2591418,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-154.small.bcce425e1c06233d.webp",
+          "bytes": 33656
+        },
+        "large": {
+          "path": "media/gallery/classic-154.large.9d7a7f1031833fda.webp",
+          "bytes": 100740
+        },
+        "detail": {
+          "path": "media/gallery/classic-154.detail.9dae89a4f527ebf3.webp",
+          "bytes": 288130
+        }
+      }
+    },
+    {
+      "id": "classic-155",
+      "original": "images/classic_skins/31_05_叛逆的鲁路修_蒙恬_俾斯麦.png",
+      "sourceHash": "9d8f14b567bc90e682c025c272666d6bf5ba06e93c2e5b71c0315d1e2af9db99",
+      "originalBytes": 2835358,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-155.small.9319c5e08807ddaa.webp",
+          "bytes": 38448
+        },
+        "large": {
+          "path": "media/gallery/classic-155.large.738b3a2e33bf50f4.webp",
+          "bytes": 118028
+        },
+        "detail": {
+          "path": "media/gallery/classic-155.detail.ee25479c7e968184.webp",
+          "bytes": 351808
+        }
+      }
+    },
+    {
+      "id": "classic-156",
+      "original": "images/classic_skins/32_01_家庭教师_赵怀真_纲吉.png",
+      "sourceHash": "2d665c139eec01988e540bc67edee5e9656d8ba801b179e14cf0fbb58afaf9ea",
+      "originalBytes": 2578080,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-156.small.b3f2fa1cd95f0e18.webp",
+          "bytes": 33574
+        },
+        "large": {
+          "path": "media/gallery/classic-156.large.82f7241b89df3db6.webp",
+          "bytes": 99512
+        },
+        "detail": {
+          "path": "media/gallery/classic-156.detail.b69b560175722431.webp",
+          "bytes": 281666
+        }
+      }
+    },
+    {
+      "id": "classic-157",
+      "original": "images/classic_skins/32_02_家庭教师_亚连_山本武.png",
+      "sourceHash": "9a81393611f93b49faf28775c16cfe500a0bc3672a65cf3074fda104c8c4d88e",
+      "originalBytes": 2558880,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-157.small.1f950dec1b1da822.webp",
+          "bytes": 33124
+        },
+        "large": {
+          "path": "media/gallery/classic-157.large.4ad33ca8d955100a.webp",
+          "bytes": 97728
+        },
+        "detail": {
+          "path": "media/gallery/classic-157.detail.551f9d8fc00d276a.webp",
+          "bytes": 281248
+        }
+      }
+    },
+    {
+      "id": "classic-158",
+      "original": "images/classic_skins/32_03_家庭教师_澜_云雀恭弥.png",
+      "sourceHash": "31e17803f4c62f87fa796841c3bbb747a9d0464a6bea215b70a8a5b378b5fb1e",
+      "originalBytes": 2474394,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-158.small.e8d56227bc806706.webp",
+          "bytes": 31398
+        },
+        "large": {
+          "path": "media/gallery/classic-158.large.1d0b66047b8ea5cd.webp",
+          "bytes": 91216
+        },
+        "detail": {
+          "path": "media/gallery/classic-158.detail.2b0190f551e4afd7.webp",
+          "bytes": 258890
+        }
+      }
+    },
+    {
+      "id": "classic-159",
+      "original": "images/classic_skins/32_04_家庭教师_百里玄策_六道骸.png",
+      "sourceHash": "50d94717b9b17544c3a5535e96631e75f3a63907308311d729c470d5998bd511",
+      "originalBytes": 2483036,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-159.small.d19619ec52e6cc0f.webp",
+          "bytes": 34116
+        },
+        "large": {
+          "path": "media/gallery/classic-159.large.ad5ec901cff372cb.webp",
+          "bytes": 97620
+        },
+        "detail": {
+          "path": "media/gallery/classic-159.detail.58183b76defb11c9.webp",
+          "bytes": 269472
+        }
+      }
+    },
+    {
+      "id": "classic-160",
+      "original": "images/classic_skins/32_05_家庭教师_鲁班大师_里包恩.png",
+      "sourceHash": "e37b13d32fe78529ec0b693b3ba47e4592b97704e23f4c50f8d50b9b1015c377",
+      "originalBytes": 2581731,
+      "width": 1672,
+      "height": 941,
+      "variants": {
+        "small": {
+          "path": "media/gallery/classic-160.small.72d0ee63705d9c66.webp",
+          "bytes": 35606
+        },
+        "large": {
+          "path": "media/gallery/classic-160.large.2f40fbcd8d98cccd.webp",
+          "bytes": 102434
+        },
+        "detail": {
+          "path": "media/gallery/classic-160.detail.5b774d3944b503b6.webp",
+          "bytes": 286784
+        }
+      }
+    },
+    {
       "id": "fusion-01",
       "original": "images/fusion_skins/01_鬼灭之刃_宫本武藏_灶门炭治郎.png",
       "sourceHash": "f59ff8afce1c9efe0f2f2af03dc318b4a2992f9e3a9a0da9621796e48cc0523b",
