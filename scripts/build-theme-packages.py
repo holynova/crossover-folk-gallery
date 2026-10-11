@@ -15,9 +15,39 @@ output.mkdir(parents=True,exist_ok=True)
 themes={}
 for item in items:themes.setdefault(item['theme'],[]).append(item)
 metadata={}
+slugs={
+  "七龙珠": "dragon-ball",
+  "灌篮高手": "slam-dunk",
+  "幽游白书": "yu-yu-hakusho",
+  "圣斗士星矢": "saint-seiya",
+  "浪客剑心": "rurouni-kenshin",
+  "犬夜叉": "inuyasha",
+  "钢之炼金术师": "fullmetal-alchemist",
+  "全职猎人": "hunter-x-hunter",
+  "银魂": "gintama",
+  "JOJO的奇妙冒险": "jojo",
+  "新世纪福音战士": "evangelion",
+  "名侦探柯南": "detective-conan",
+  "一拳超人": "one-punch-man",
+  "游戏王": "yu-gi-oh",
+  "黑神话：悟空": "black-myth-wukong",
+  "艾尔登法环": "elden-ring",
+  "巫师3：狂猎": "witcher-3",
+  "原神": "genshin-impact",
+  "最终幻想7": "final-fantasy-vii",
+  "赛博朋克2077": "cyberpunk-2077",
+  "鬼泣": "devil-may-cry",
+  "双城之战": "arcane",
+  "鬼灭之刃": "demon-slayer",
+  "咒术回战": "jujutsu-kaisen",
+  "进击的巨人": "attack-on-titan",
+  "火影忍者": "naruto",
+  "海贼王": "one-piece",
+  "死神": "bleach"
+}
 for theme,group in themes.items():
     name=re.sub(r'[\\/:*?"<>|]','_',theme)
-    filename=f'{name}-王者荣耀联名原图.zip'
+    filename=f'wzry-{slugs.get(theme,group[0]["id"])}-originals.zip'
     archive=output/filename
     manifest=[]
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_STORED) as z:
