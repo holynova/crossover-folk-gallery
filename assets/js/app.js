@@ -39,7 +39,7 @@
       button.className = 'image-button';
       button.setAttribute('aria-label', `查看${caption(item)}大图`);
       const thumbnail = document.createElement('img');
-      thumbnail.alt = `${item.theme} · ${caption(item)}`;
+      thumbnail.alt = `${item.theme} — ${caption(item)}`;
       thumbnail.width = item.width;
       thumbnail.height = item.height;
       thumbnail.loading = itemIndex < eagerCount ? 'eager' : 'lazy';
@@ -100,8 +100,10 @@
     if (pack) {
       download.href = pack.url;
       download.download = pack.filename;
-      download.textContent = `原图打包 · ${(pack.bytes / 1048576).toFixed(1)} MB`;
-      download.setAttribute('aria-label', `下载${theme}的${pack.count}张原图 ZIP`);
+      const bundle = typeof pack.includes === 'string' && pack.includes !== theme;
+      download.textContent = bundle ? `合集打包（${(pack.bytes / 1048576).toFixed(1)} MB）` : `原图打包（${(pack.bytes / 1048576).toFixed(1)} MB）`;
+      download.setAttribute('aria-label', bundle ? `下载${pack.includes}的合集原图 ZIP，共 ${pack.count} 张` : `下载${theme}的${pack.count}张原图 ZIP`);
+      download.title = bundle ? `${pack.includes}双主题合集，共 ${pack.count} 张原图` : '';
     } else download.removeAttribute('href');
     document.getElementById('themeTitle').textContent = theme;
     document.getElementById('resultCount').textContent = `${filtered.length} 张`;
@@ -146,8 +148,11 @@
       preview.src = neighbour.thumbnail;
     }
     image.alt = caption(item);
-    document.getElementById('viewerCaption').textContent = `${item.theme} · ${caption(item)}`;
+    document.getElementById('viewerCaption').textContent = `${item.theme} — ${caption(item)}`;
     document.getElementById('position').textContent = `${index + 1} / ${filtered.length}`;
+    const saveImage = document.getElementById('saveImage');
+    saveImage.href = item.image;
+    saveImage.download = item.image.split('/').pop();
     document.getElementById('prevImage').disabled = index === 0;
     document.getElementById('nextImage').disabled = index === filtered.length - 1;
     if (decodedImages.has(item.image)) {
@@ -197,6 +202,13 @@
     const button = event.target.closest('.theme-tag');
     if (button) selectTheme(button.dataset.theme);
   });
+  function updateThemesFade() {
+    const atEnd = navigation.scrollLeft + navigation.clientWidth >= navigation.scrollWidth - 1;
+    navigation.classList.toggle('is-at-end', atEnd);
+  }
+  navigation.addEventListener('scroll', updateThemesFade, { passive: true });
+  window.addEventListener('resize', updateThemesFade);
+  updateThemesFade();
   more.addEventListener('click', appendBatch);
   document.getElementById('closeViewer').addEventListener('click', () => viewer.close());
   document.getElementById('prevImage').addEventListener('click', () => move(-1));

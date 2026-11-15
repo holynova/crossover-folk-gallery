@@ -1,12 +1,12 @@
-# 王者荣耀 · 联名英雄图集
+# 王者荣耀联名英雄图集
 
-155 张 AI 概念图，按 28 个动漫与游戏联名主题分类。点击等宽主题标签筛选，点击图片看大图；支持方向键切换和 Esc 关闭。
+205 张 AI 概念图，按 38 个动漫与游戏联名主题分类。点击等宽主题标签筛选，点击图片看大图；支持方向键切换和 Esc 关闭。
 
-[在线浏览](https://crossover-folk-gallery.xiaosang.cc/) · [源码](https://github.com/holynova/crossover-folk-gallery)
+[在线浏览](https://crossover-folk-gallery.xiaosang.cc/) / [源码](https://github.com/holynova/crossover-folk-gallery)
 
 ![图集页面](./assets/readme/screenshot.png)
 
-A minimal gallery of 155 AI-generated Honor of Kings crossover concepts across 28 anime and game themes. Browse by theme and open any image in the fullscreen viewer.
+A minimal gallery of 205 AI-generated Honor of Kings crossover concepts across 38 anime and game themes. Browse by theme and open any image in the fullscreen viewer.
 
 AI 创作，非官方联名概念，不代表真实上线的皮肤。角色与商标归各自权利人。
 
@@ -18,7 +18,7 @@ python3 -m http.server 8080
 
 打开 http://localhost:8080/。纯 HTML、CSS 和 JavaScript，无框架依赖。
 
-每个主题可下载原始 PNG 的 ZIP（共 28 个主题包）。预生成文件通过 GitHub Release 提供，点击后才下载。
+每个主题可下载原始 PNG 的 ZIP（共 38 个主题包，其中 10 个暂用双主题合集包，待分包上传 Release 后替换）。预生成文件通过 GitHub Release 提供，点击后才下载。
 
 ## 图片与性能
 
