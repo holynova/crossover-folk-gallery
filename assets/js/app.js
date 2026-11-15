@@ -202,6 +202,13 @@
     const button = event.target.closest('.theme-tag');
     if (button) selectTheme(button.dataset.theme);
   });
+  function updateThemesFade() {
+    const atEnd = navigation.scrollLeft + navigation.clientWidth >= navigation.scrollWidth - 1;
+    navigation.classList.toggle('is-at-end', atEnd);
+  }
+  navigation.addEventListener('scroll', updateThemesFade, { passive: true });
+  window.addEventListener('resize', updateThemesFade);
+  updateThemesFade();
   more.addEventListener('click', appendBatch);
   document.getElementById('closeViewer').addEventListener('click', () => viewer.close());
   document.getElementById('prevImage').addEventListener('click', () => move(-1));
