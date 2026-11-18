@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">王者荣耀联名英雄图集 — 205 张 AI 概念图，38 个联名主题</title>
+  <desc id="desc">暗底金字标题：王者荣耀联名英雄图集；右侧是两张交错的英雄卡片，中间一个金色叉号徽章，象征跨界联动。</desc>
+
+  <rect width="1200" height="360" rx="26" fill="#0c0a09"/>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="56" y="62" font-size="19" letter-spacing="3" fill="#d4a017">HONOR OF KINGS × ANIME &amp; GAMES</text>
+    <text x="56" y="128" font-size="56" font-weight="700" fill="#fafaf9">王者荣耀联名英雄图集</text>
+    <text x="56" y="168" font-size="23" fill="#e7e5e4">205 张 AI 概念图 × 38 个动漫与游戏联名主题</text>
+    <text x="56" y="204" font-size="19" fill="#a8a29e">每张都是一次英雄 × 角色的跨界联动，附游戏内展示界面。</text>
+    <g id="chips" font-size="18" fill="#e7e5e4" text-anchor="middle">
+      <g><rect x="56" y="238" width="132" height="36" rx="18" fill="#1c1917" stroke="#44403c" stroke-width="1.5"/><text x="122" y="262">205 张概念图</text></g>
+      <g><rect x="200" y="238" width="108" height="36" rx="18" fill="#1c1917" stroke="#44403c" stroke-width="1.5"/><text x="254" y="262">38 个主题</text></g>
+      <g><rect x="320" y="238" width="108" height="36" rx="18" fill="#1c1917" stroke="#44403c" stroke-width="1.5"/><text x="374" y="262">66 位英雄</text></g>
+      <g><rect x="440" y="238" width="156" height="36" rx="18" fill="#1c1917" stroke="#44403c" stroke-width="1.5"/><text x="518" y="262">原图 ZIP 下载</text></g>
+    </g>
+  </g>
+
+  <g id="crossover-motif">
+    <g id="card-a" transform="rotate(-6 895 175)">
+      <rect x="820" y="70" width="150" height="210" rx="12" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/>
+      <circle cx="895" cy="130" r="26" fill="#dbeafe"/>
+      <polygon points="895,170 875,240 895,228 915,240" fill="#dbeafe"/>
+      <rect x="892" y="150" width="6" height="70" fill="#dbeafe"/>
+    </g>
+    <g id="card-b" transform="rotate(6 1035 185)">
+      <rect x="960" y="80" width="150" height="210" rx="12" fill="#7f1d1d" stroke="#ef4444" stroke-width="2"/>
+      <polygon points="1035,120 1047,148 1077,148 1053,166 1062,196 1035,178 1008,196 1017,166 993,148 1023,148" fill="#fca5a5"/>
+      <rect x="993" y="220" width="84" height="10" rx="5" fill="#fca5a5" opacity="0.7"/>
+      <rect x="1003" y="240" width="64" height="10" rx="5" fill="#fca5a5" opacity="0.5"/>
+    </g>
+    <g id="x-badge" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+      <rect x="927" y="147" width="56" height="56" rx="14" fill="#d4a017"/>
+      <text x="955" y="189" font-size="36" font-weight="700" fill="#0c0a09" text-anchor="middle">×</text>
+    </g>
+  </g>
+</svg>
